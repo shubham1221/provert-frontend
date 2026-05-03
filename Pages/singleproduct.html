@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single-Product</title>
+    <link rel="Stylesheet" href="/Style/commonheaderfooter.css" />
+    <link rel="stylesheet" href="/Style/singleproduct.css" />
+
+  </head>
+  <body class="inner-page">
+  <!-- Header  -->
+      <header class="navbar">
+  <div class="nav-inner">
+    <ul class="nav-left" id="navMenu">
+      <li><a href="/Index.html" class="nav-link">Home</a></li>
+      <li class="dropdown">
+        <a href="/Pages/product.html" class="nav-link dropdown-toggle">
+          Products & Services
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron">
+            <path d="m6 9 6 6 6-6"/>
+          </svg>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="dd-heading">Our Products</li>
+          <li><a href="/Pages/singleproduct.html?id=1">Environmental Test Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=2">Salt Spray Test Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=3">UV Weathering Test Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=4">Thermal Shock Test Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=5">Humidity Test Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=6">Hot Air Oven</a></li>
+          <li><a href="/Pages/singleproduct.html?id=7">Deep Cold Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=8">High Temp Convection Oven</a></li>
+          <li><a href="/Pages/singleproduct.html?id=9">Altitude Test Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=10">Rain &amp; Spray Test Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=11">Dust Test Chamber</a></li>
+          <li><a href="/Pages/singleproduct.html?id=12">Walk-in Test Chamber</a></li>
+          <li class="dd-divider"></li>
+          <li class="dd-view-all">
+            <a href="/Pages/product.html">&#x2192; All Products</a>
+            <a href="/Pages/custom.html">Custom Solutions</a>
+            <a href="/Pages/blog.html">Blog</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="/Pages/about-us.html" class="nav-link">About Us</a></li>
+    </ul>
+ 
+    <div class="nav-center">
+      <a href="/Index.html" class="logo-link"><img src="/Assets/logo.png" alt="Provert Systems Logo" class="logo-img" /></a>
+    </div>
+ 
+    <div class="nav-right">
+
+      <a href="/Pages/contact.html" style="text-decoration: none;">
+        <button class="contact-btn">
+          Contact Us
+          <img src="/Assets/telegram-svg.png" alt="" class="Contact-svg">
+        </button>
+      </a>
+ 
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero_container">
+    <div id="single-product-container"></div>
+</section>
+ <!-- Faq -->
+      <section class="faq-section">
+         <!-- Header -->
+         <div class="faq-header">
+            <div class="faq-badge">
+               <img src="/Assets/gear.png" alt="" class="feature-svg">
+               FAQS
+            </div>
+            <div class="faq-title">
+               <span class="faq-title-light">Frequently asked</span>
+               <span class="faq-title-bold">questions</span>
+            </div>
+         </div>
+         <!-- Main Content -->
+         <div class="faq-container">
+            <!-- Left Image -->
+            <div class="faq-image-container">
+               <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&h=500&fit=crop" alt="Industrial City" class="faq-image">
+            </div>
+            <!-- Right Accordion -->
+            <div class="faq-accordion">
+               <!-- FAQ Item 1 -->
+               <div class="faq-item">
+                  <div class="faq-question">
+                     <span class="faq-question-text">What industries do you serve?</span>
+                     <div class="faq-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                     </div>
+                  </div>
+                  <div class="faq-answer">
+                     <p class="faq-answer-text">We serve a wide range of industries including manufacturing, pharmaceuticals, electronics, automotive, aerospace, and many more. Our solutions are customized to meet the specific needs of each industry.</p>
+                  </div>
+               </div>
+               <!-- FAQ Item 2 (Active) -->
+               <div class="faq-item active">
+                  <div class="faq-question">
+                     <span class="faq-question-text">How do you ensure product quality?</span>
+                     <div class="faq-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                     </div>
+                  </div>
+                  <div class="faq-answer">
+                     <p class="faq-answer-text">We implement rigorous quality control measures at every stage of production, ensuring consistency and high standards. Our team conducts comprehensive testing and inspection to guarantee the highest quality products for our customers.</p>
+                  </div>
+               </div>
+               <!-- FAQ Item 3 -->
+               <div class="faq-item">
+                  <div class="faq-question">
+                     <span class="faq-question-text">What sustainability practices do you follow?</span>
+                     <div class="faq-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                     </div>
+                  </div>
+                  <div class="faq-answer">
+                     <p class="faq-answer-text">We are committed to environmental sustainability through energy-efficient manufacturing processes, recycling programs, and responsible waste management. We continuously work to reduce our carbon footprint.</p>
+                  </div>
+               </div>
+               <!-- FAQ Item 4 -->
+               <div class="faq-item">
+                  <div class="faq-question">
+                     <span class="faq-question-text">Do you offer customized solutions?</span>
+                     <div class="faq-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                     </div>
+                  </div>
+                  <div class="faq-answer">
+                     <p class="faq-answer-text">Yes, we offer fully customized solutions tailored to your specific requirements. Our team works closely with clients to understand their needs and deliver bespoke products and services.</p>
+                  </div>
+               </div>
+               <!-- FAQ Item 5 -->
+               <div class="faq-item">
+                  <div class="faq-question">
+                     <span class="faq-question-text">How do you handle safety in the workplace?</span>
+                     <div class="faq-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                     </div>
+                  </div>
+                  <div class="faq-answer">
+                     <p class="faq-answer-text">Safety is our top priority. We follow strict safety protocols, provide regular training to our staff, and maintain a comprehensive safety management system to ensure a secure working environment.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+<!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- LEFT SECTION -->
+        <div class="footer-left">
+          <img
+            src="/Assets/white-logo.png"
+            alt="Provert Systems Logo"
+            class="footer-logo"
+          />
+
+          <p class="footer-description">
+            Provert Systems & Solutions, established in 2012, specializes in
+            environmental simulation test chambers and laboratory equipment. Our
+            range includes environmental test chambers, salt spray, UV
+            weathering, thermal shock, humidity, hot air ovens, deep cool,
+            altitude, rain, dust, and walk-in chambers.
+          </p>
+
+          <div class="social-icons">
+            <a href="#" class="social-link" title="Email">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="WhatsApp">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="Instagram">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="Twitter">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-6.768m2.46-2.46L20 4"
+                />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="LinkedIn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="YouTube">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 58.38 58.38 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 58.38 58.38 0 0 1-15 0 2 2 0 0 1-2-2z"
+                />
+                <path d="m9.75 15.02 5.75-3.02-5.75-3z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- MIDDLE LEFT - COMPANY SECTION -->
+        <div class="footer-links-section">
+          <h4 class="footer-heading">Our Company</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Who are we</a></li>
+            <li><a href="#" class="footer-link">Our Services</a></li>
+            <li><a href="#" class="footer-link">Newsletters</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="#" class="footer-link">Download Brochure</a></li>
+          </ul>
+        </div>
+
+        <!-- MIDDLE RIGHT - PRODUCTS SECTION -->
+        <div class="footer-links-section">
+          <h4 class="footer-heading">Products & Services</h4>
+          <ul class="footer-links">
+            <li><a href="/Pages/singleproduct.html?id=1" class="footer-link">Environmental Test Chamber</a></li>
+            <li><a href="/Pages/singleproduct.html?id=2" class="footer-link">Salt Spray Test Chamber</a></li>
+            <li><a href="/Pages/singleproduct.html?id=4" class="footer-link">Thermal Shock Test Chamber</a></li>
+            <li><a href="/Pages/product.html" class="footer-link">View All Products</a></li>
+          </ul>
+        </div>
+
+        <!-- RIGHT SECTION - CONTACT -->
+        <div class="footer-contact-section">
+          <h4 class="footer-heading">Reach Us</h4>
+          <div class="address-box">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="location-icon"
+            >
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span class="address-text"
+              >Kh.no. 48/68 Village Khayala Khayala Industrial Area, New
+              Delhi-110018, Delhi, India</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER BOTTOM -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+      <p class="copyright-text">&copy; 2025 <strong>Provert Systems &amp; Solutions Pvt. Ltd.</strong> All rights reserved.</p>
+      <div class="footer-policies">
+        <a href="#" class="policy-link">Privacy Policy</a>
+        <a href="#" class="policy-link">Refund &amp; Return Policy</a>
+        <a href="#" class="policy-link">Cookie Settings</a>
+        <a href="#" class="policy-link">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </div>
+    </footer>
+
+    <script src="/Script.js"></script>
+    <script src="/products-data.js"></script>
+<script>
+function loadSingleProduct() {
+    var container = document.getElementById('single-product-container');
+    var params = new URLSearchParams(window.location.search);
+    var productId = parseInt(params.get('id'));
+    var p = PRODUCTS.find(function(item) { return item.id === productId; });
+
+    if (!p) {
+        container.innerHTML = '<p style="padding:80px;text-align:center;color:#888;font-size:16px;">Product not found. <a href="/Pages/product.html" style="color:#116e4a;font-weight:700;">Back to Products</a></p>';
+        return;
+    }
+
+    var thumbnails = p.images.slice(0, 3).map(function(src, i) {
+        return '<button class="sp-thumb' + (i === 0 ? ' active' : '') + '" onclick="switchImage(\'' + src + '\', this)"><img src="' + src + '" alt="' + p.name + '"></button>';
+    }).join('');
+
+    var keySpecs = p.specs.slice(0, 4).map(function(s) {
+        return '<div class="sp-key-spec"><span class="sp-key-spec-label">' + s.name + '</span><span class="sp-key-spec-value">' + s.value + '</span></div>';
+    }).join('');
+
+    var specsRows = p.specs.map(function(s) {
+        return '<tr><td class="sp-spec-name">' + s.name + '</td><td class="sp-spec-value">' + s.value + '</td></tr>';
+    }).join('');
+
+    var related = PRODUCTS.filter(function(prod) { return prod.id !== p.id; }).slice(0, 3).map(function(prod) {
+        var shortDesc = prod.shortDescription.length > 80 ? prod.shortDescription.substring(0, 80) + '...' : prod.shortDescription;
+        return '<a href="/Pages/singleproduct.html?id=' + prod.id + '" class="sp-related-card"><div class="sp-related-img"><img src="' + prod.image + '" alt="' + prod.name + '"></div><div class="sp-related-info"><h4>' + prod.name + '</h4><p>' + shortDesc + '</p></div></a>';
+    }).join('');
+
+    container.innerHTML =
+        '<div class="sp-breadcrumb">' +
+            '<a href="/Index.html">Home</a>' +
+            '<svg class="sp-breadcrumb-sep" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>' +
+            '<a href="/Pages/product.html">Products</a>' +
+            '<svg class="sp-breadcrumb-sep" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>' +
+            '<span>' + p.name + '</span>' +
+        '</div>' +
+
+        '<div class="sp-layout">' +
+            '<div class="sp-gallery">' +
+                '<div class="sp-main-img"><img id="main-img" src="' + p.images[0] + '" alt="' + p.name + '"></div>' +
+                '<div class="sp-thumbs">' + thumbnails + '</div>' +
+            '</div>' +
+
+            '<div class="sp-details">' +
+                '<div class="sp-badge">Environmental Test Equipment</div>' +
+                '<h1 class="sp-name">' + p.name + '</h1>' +
+                '<p class="sp-short-desc">' + p.shortDescription + '</p>' +
+
+                '<div class="sp-key-specs">' + keySpecs + '</div>' +
+
+                '<div class="sp-actions">' +
+                    '<button class="sp-btn-primary" onclick="openQuoteForm(\'' + p.name.replace(/'/g, "\\'") + '\')">' +
+                        'Get Latest Quote' +
+                        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>' +
+                    '</button>' +
+                    '<button class="sp-btn-secondary">' +
+                        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>' +
+                        'Product Brochure' +
+                    '</button>' +
+                '</div>' +
+
+                '<div class="sp-contact-strip">' +
+                    '<div class="sp-contact-item">' +
+                        '<div class="sp-contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>' +
+                        '<div class="sp-contact-item-text"><span>Call Us</span><strong>+91-11-4567-8900</strong></div>' +
+                    '</div>' +
+                    '<div class="sp-contact-item">' +
+                        '<div class="sp-contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></div>' +
+                        '<div class="sp-contact-item-text"><span>Email Us</span><strong>info@provertsystems.com</strong></div>' +
+                    '</div>' +
+                '</div>' +
+            '</div>' +
+        '</div>' +
+
+        '<div class="sp-tabs-section">' +
+            '<div class="sp-tabs">' +
+                '<button class="sp-tab active" onclick="switchTab(\'desc\', this)">Description</button>' +
+                '<button class="sp-tab" onclick="switchTab(\'specs\', this)">Specifications</button>' +
+            '</div>' +
+            '<div class="sp-tab-content" id="sp-tab-desc"><div class="sp-description">' + p.description + '</div></div>' +
+            '<div class="sp-tab-content hidden" id="sp-tab-specs"><table class="sp-specs-table">' + specsRows + '</table></div>' +
+        '</div>' +
+
+        '<div class="sp-related-section">' +
+            '<h3 class="sp-related-title">Related Products</h3>' +
+            '<div class="sp-related-grid">' + related + '</div>' +
+        '</div>';
+
+    document.title = p.name + ' - Provert Systems';
+}
+
+window.switchImage = function(src, btn) {
+    document.getElementById('main-img').src = src;
+    document.querySelectorAll('.sp-thumb').forEach(function(t) { t.classList.remove('active'); });
+    btn.classList.add('active');
+};
+
+window.switchTab = function(tab, btn) {
+    document.querySelectorAll('.sp-tab-content').forEach(function(t) { t.classList.add('hidden'); });
+    document.querySelectorAll('.sp-tab').forEach(function(t) { t.classList.remove('active'); });
+    document.getElementById('sp-tab-' + tab).classList.remove('hidden');
+    btn.classList.add('active');
+};
+
+function openQuoteForm(productName) {
+    window.location.href = '/Pages/contact.html?product=' + encodeURIComponent(productName);
+}
+
+document.addEventListener('DOMContentLoaded', loadSingleProduct);
+</script>
+  </body>
+</html>

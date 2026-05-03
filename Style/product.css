@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+/* ===== BANNER ===== */
+.Banner {
+    width: 100%;
+    min-height: 300px;
+    background-image: url(/Assets/Banner.bg.jpg.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Banner-Txt {
+    width: 100%;
+    min-height: 300px;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.19) 0.02%, #000000 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.Banner-inner-Txt {
+    color: #fff;
+    margin: 100px 0 0 27px;
+    font-size: 22px;
+    line-height: 44px;
+}
+
+.inner-Txt {
+    color: #fff;
+    margin: 5px 0 0 26px;
+}
+
+.inner-Txt ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    color: rgba(17, 110, 74, 1);
+}
+
+/* ===== HERO SECTION ===== */
+.hero_section {
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+/* ===== PRODUCT SEARCH BAR ===== */
+.product-search-bar {
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-search-wrap {
+    position: relative;
+    max-width: 560px;
+}
+
+.product-search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;
+}
+
+.product-search-input {
+    width: 100%;
+    height: 52px;
+    padding: 0 44px 0 48px;
+    border: 2px solid #e8e8e8;
+    border-radius: 14px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #1a1a1a;
+    background: #fff;
+    outline: none;
+    transition: border-color 0.25s, box-shadow 0.25s;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+.product-search-input:focus {
+    border-color: #116e4a;
+    box-shadow: 0 0 0 4px rgba(17,110,74,0.08);
+}
+
+.product-search-input::placeholder { color: #aaa; }
+
+.product-search-clear {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: none;
+    background: #e8e8e8;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    transition: background 0.2s;
+    padding: 0;
+}
+
+.product-search-clear:hover { background: #d0d0d0; }
+
+.product-search-count {
+    font-size: 13px;
+    color: #888;
+    margin: 0;
+    padding-left: 4px;
+}
+
+.product-no-results {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 15px;
+    color: #888;
+    grid-column: 1 / -1;
+}
+
+.product-no-results button {
+    color: #116e4a;
+    font-weight: 700;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 4px;
+}
+
+/* ===================================================
+   PRODUCTS WRAPPER — just handles width & centering
+   =================================================== */
+.products_container {
+    width: 90%;
+    margin: 60px auto 0 auto;
+}
+
+/* ===================================================
+   PRODUCTS GRID — applied to the JS-populated div
+   — Base: 1 column (mobile)
+   — Grows to 2, 3, then 4 at wider breakpoints
+   =================================================== */
+#products-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    width: 100%;
+}
+
+/* ===== PRODUCT CARD ===== */
+.product {
+    width: 100%;
+    min-height: 420px;
+    border: 1px solid #e0e0e0;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background: #fff;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.product:hover {
+    box-shadow: 0 8px 30px rgba(17, 110, 74, 0.12);
+    transform: translateY(-4px);
+}
+
+/* ===== IMAGE WRAPPER ===== */
+.img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: #f5f5f5;
+    flex-shrink: 0;
+}
+
+.img img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+
+/* ===== PRODUCT DETAILS ===== */
+.product-details {
+    width: 88%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 0 10px 0;
+}
+
+.product-details h3 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    color: #1a1a1a;
+}
+
+.product-details p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: rgba(74, 74, 74, 1);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ===== LEARN MORE BUTTON ===== */
+.Learn_more {
+    width: 88%;
+    height: 38px;
+    border-radius: 12px;
+    color: rgba(23, 139, 94, 1);
+    border: 1px solid rgba(23, 139, 94, 1);
+    background: rgba(108, 207, 176, 0.15);
+    margin-top: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.Learn_more:hover {
+    background-color: rgba(23, 139, 94, 1);
+    color: #fff;
+}
+
+/* ===== LOADING / ERROR STATE ===== */
+#products-container > p {
+    text-align: center;
+    padding: 60px;
+    color: #888;
+    font-size: 16px;
+    grid-column: 1 / -1;
+}
+
+/* ============================================================
+   RESPONSIVE BREAKPOINTS — mobile-first
+   Grid is controlled on #products-container, not the wrapper
+   ============================================================ */
+
+/* 2 columns — 480px and up */
+@media screen and (min-width: 480px) {
+    #products-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .Banner-inner-Txt {
+        font-size: 22px;
+        line-height: 44px;
+    }
+}
+
+/* 2 columns — 768px tablet */
+@media screen and (min-width: 768px) {
+    #products-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px;
+    }
+
+    .products_container {
+        margin-top: 70px;
+    }
+
+    .Banner-inner-Txt {
+        margin: 126px 0 0 60px;
+        font-size: 26px;
+        line-height: 48px;
+    }
+
+    .inner-Txt {
+        margin: 8px 0 0 70px;
+    }
+}
+
+/* 3 columns — 992px medium desktop */
+@media screen and (min-width: 992px) {
+    #products-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .products_container {
+        margin-top: 80px;
+    }
+
+    .Banner-inner-Txt {
+        margin: 126px 0 0 150px;
+        font-size: 30px;
+        line-height: 56px;
+    }
+
+    .inner-Txt {
+        margin: 8px 0 0 160px;
+    }
+}
+
+/* 4 columns — 1200px large desktop */
+@media screen and (min-width: 1200px) {
+    #products-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .products_container {
+        margin-top: 90px;
+    }
+
+    .Banner-inner-Txt {
+        margin: 100px 0 0 250px;
+        font-size: 33px;
+        line-height: 64px;
+    }
+
+    .inner-Txt {
+        margin: 10px 0 0 270px;
+    }
+}
