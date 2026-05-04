@@ -95,6 +95,13 @@ body {
   gap: 45px;
 }
 
+/* .service-heading{
+    font-size:35px;
+    font-weight: 50;
+    color: black;
+    line-height: 1.2;
+} */
+
 /* Service Category Box */
 .service-category-box {
   border: 1px solid #e0e0e0;
