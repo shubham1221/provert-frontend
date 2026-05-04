@@ -1,746 +1,678 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="/Style/commonheaderfooter.css" />
+    <link rel="stylesheet" href="/Style/about-us.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
-  <link rel="stylesheet" href="/Style/commonheaderfooter.css">
-  <link rel="stylesheet" href="/Style/about-us.css">
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-
-<body class="inner-page">
-  <!-- Header -->
+  <body class="inner-page">
+    <!-- Header -->
     <header class="navbar">
-  <div class="nav-inner">
-    <ul class="nav-left" id="navMenu">
-      <li><a href="/index.html" class="nav-link">Home</a></li>
-      <li class="dropdown">
-        <a href="/Pages/product.html" class="nav-link dropdown-toggle">
-          Products & Services
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron">
-            <path d="m6 9 6 6 6-6"/>
-          </svg>
-        </a>
-        <ul class="dropdown-menu">
-          <li class="dd-heading">Our Products</li>
-          <li><a href="/products/?id=1">Environmental Test Chamber</a></li>
-          <li><a href="/products/?id=2">Salt Spray Test Chamber</a></li>
-          <li><a href="/products/?id=3">UV Weathering Test Chamber</a></li>
-          <li><a href="/products/?id=4">Thermal Shock Test Chamber</a></li>
-          <li><a href="/products/?id=5">Humidity Test Chamber</a></li>
-          <li><a href="/products/?id=6">Hot Air Oven</a></li>
-          <li><a href="/products/?id=7">Deep Cold Chamber</a></li>
-          <li><a href="/products/?id=8">High Temp Convection Oven</a></li>
-          <li><a href="/products/?id=9">Altitude Test Chamber</a></li>
-          <li><a href="/products/?id=10">Rain &amp; Spray Test Chamber</a></li>
-          <li><a href="/products/?id=11">Dust Test Chamber</a></li>
-          <li><a href="/products/?id=12">Walk-in Test Chamber</a></li>
-          <li class="dd-divider"></li>
-          <li class="dd-view-all">
-            <a href="/Pages/product.html">&#x2192; All Products</a>
-            <a href="/Pages/custom.html">Custom Solutions</a>
-            <a href="/Pages/blog.html">Blog</a>
+      <div class="nav-inner">
+        <ul class="nav-left" id="navMenu">
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li class="dropdown">
+            <a href="/Pages/product.html" class="nav-link dropdown-toggle">
+              Products & Services
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="nav-chevron"
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dd-heading">Our Products</li>
+              <li><a href="/products/?id=1">Environmental Test Chamber</a></li>
+              <li><a href="/products/?id=2">Salt Spray Test Chamber</a></li>
+              <li><a href="/products/?id=3">UV Weathering Test Chamber</a></li>
+              <li><a href="/products/?id=4">Thermal Shock Test Chamber</a></li>
+              <li><a href="/products/?id=5">Humidity Test Chamber</a></li>
+              <li><a href="/products/?id=6">Hot Air Oven</a></li>
+              <li><a href="/products/?id=7">Deep Cold Chamber</a></li>
+              <li><a href="/products/?id=8">High Temp Convection Oven</a></li>
+              <li><a href="/products/?id=9">Altitude Test Chamber</a></li>
+              <li>
+                <a href="/products/?id=10">Rain &amp; Spray Test Chamber</a>
+              </li>
+              <li><a href="/products/?id=11">Dust Test Chamber</a></li>
+              <li><a href="/products/?id=12">Walk-in Test Chamber</a></li>
+              <li class="dd-divider"></li>
+              <li class="dd-view-all">
+                <a href="/Pages/product.html">&#x2192; All Products</a>
+                <a href="/Pages/custom.html">Custom Solutions</a>
+                <a href="/Pages/blog.html">Blog</a>
+              </li>
+            </ul>
           </li>
+          <li><a href="/Pages/about-us.html" class="nav-link">About Us</a></li>
         </ul>
-      </li>
-      <li><a href="/Pages/about-us.html" class="nav-link">About Us</a></li>
-    </ul>
- 
-    <div class="nav-center">
-      <a href="/index.html" class="logo-link"><img src="/Assets/logov1black.png" alt="Provert Systems Logo" class="logo-img" /></a>
-    </div>
- 
-    <div class="nav-right">
 
-      <a href="/Pages/contact.html" style="text-decoration: none;">
-        <button class="contact-btn">
-          Contact Us
-          <img src="/Assets/telegram-svg.png" alt="" class="Contact-svg">
-        </button>
-      </a>
- 
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+        <div class="nav-center">
+          <a href="/index.html" class="logo-link"
+            ><img
+              src="/Assets/logov1black.png"
+              alt="Provert Systems Logo"
+              class="logo-img"
+          /></a>
+        </div>
+
+        <div class="nav-right">
+          <a href="/Pages/contact.html" style="text-decoration: none">
+            <button class="contact-btn">
+              Contact Us
+              <img src="/Assets/telegram-svg.png" alt="" class="Contact-svg" />
+            </button>
+          </a>
+
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</header>
+    </header>
 
-  <!-- Banner Section -->
-  <section class="banner">
-    <!-- gradient overlay -->
-    <div class="gradient-overlay"></div>
-    <!-- Banner Content -->
-    <div class="banner-content">
-      <h1>About <span class="highlight"> Us</span></h1>
-      <p class="breadcrumb"> Home &#8226; <a href="#about">About Us</a></p>
-    </div>
-  </section>
+    <!-- Banner Section -->
+    <section class="banner">
+      <!-- gradient overlay -->
+      <div class="gradient-overlay"></div>
+      <!-- Banner Content -->
+      <div class="banner-content">
+        <h1>About <span class="highlight"> Us</span></h1>
+        <p class="breadcrumb">Home &#8226; <a href="#about">About Us</a></p>
+      </div>
+    </section>
 
-  <!-- About Us Section -->
-   <section class="about">
+    <!-- About Us Section -->
+    <section class="about">
       <div class="about-container">
         <div class="image">
           <div class="small-img_container">
             <span class="small-img"
               ><img src="/Assets/small.jpg" alt="Small Image"
             /></span>
-            <span class="num"><h2>25</h2><h2>+</h2></span>
+            <span class="num"
+              ><h2>12</h2>
+              <h2>+</h2></span
+            >
             <span class="txt">Years of Experience</span>
           </div>
-        
-        <div class="large-img">
-          <img src="/Assets/large.jpg" alt="Large Image" />
+
+          <div class="large-img">
+            <img src="/Assets/large.jpg" alt="Large Image" />
+          </div>
         </div>
-    </div>
         <div class="txt-content">
-          <span class="title"><img src="/Assets/gear-svg.png" alt="About Us" />About Us</span>
-          <div class="innovation">Building quality through <span>industrial innovation</span></div>
+          <span class="title"
+            ><img src="/Assets/gear-svg.png" alt="About Us" />About Us</span
+          >
+          <div class="innovation">
+            Engineering Precision Through
+            <span>Advanced Environmental Testing</span>
+          </div>
           <p>
-            At the heart of our operations is a commitment to delivering superior products
-through cutting-edge technology and innovative processes.
+            At Provert Systems & Solutions, we specialize in designing and
+            manufacturing high-performance environmental test chambers that help
+            industries validate product reliability under real-world conditions.
           </p>
           <div class="feature">
             <div class="specification">
               <div class="spec-title">
                 <h4 class="specs">
-                  <img src="/Assets/strategy-icon.png" alt="gear" />Sustainable
-                  Manufacturing
+                  <img
+                    src="/Assets/strategy-icon.png"
+                    alt="gear"
+                  />Precision-Engineered Testing Systems
                 </h4>
                 <h4 class="specs">
-                  <img src="/Assets/strategy-icon.png" alt="gear" />Advanced Automation
+                  <img src="/Assets/strategy-icon.png" alt="gear" />Custom-Built
+                  Solutions
                 </h4>
                 <h4 class="specs">
-                  <img src="/Assets/strategy-icon.png" alt="gear" />Efficient Production
-                  Processes
+                  <img src="/Assets/strategy-icon.png" alt="gear" />Advanced PLC
+                  & HMI Controls
                 </h4>
                 <h4 class="specs">
-                  <img src="/Assets/strategy-icon.png" alt="gear" />Reliable Delivery
-                  Services
+                  <img src="/Assets/strategy-icon.png" alt="gear" />Reliable
+                  Performance & Durability
                 </h4>
               </div>
               <div class="btn">
                 <button>Contact Us</button
-                ><img src="/Assets/upright-white-arrow.png" alt="Contact Image" />
+                ><img
+                  src="/Assets/upright-white-arrow.png"
+                  alt="Contact Image"
+                />
               </div>
             </div>
             <div class="rating">
               <div class="feedback">
-              <span><img src="/Assets/star.png" alt="star" /></span>
-              <span><img src="/Assets/star.png" alt="star" /></span>
-              <span><img src="/Assets/star.png" alt="star" /></span>
-              <span><img src="/Assets/star.png" alt="star" /></span>
-              <span><img src="/Assets/star.png" alt="star" /></span>
-              <p>15.5K Genuine Rating</p>
-            </div>
+                <span><img src="/Assets/star.png" alt="star" /></span>
+                <span><img src="/Assets/star.png" alt="star" /></span>
+                <span><img src="/Assets/star.png" alt="star" /></span>
+                <span><img src="/Assets/star.png" alt="star" /></span>
+                <span><img src="/Assets/star.png" alt="star" /></span>
+                <p>15.5K Genuine Rating</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <!-- hero overlay -->
+      <div class="hero-overlay"></div>
+      <!-- hero content -->
 
-  <!-- HERO SECTION -->
-  <section class="hero-section">
-    <!-- hero overlay -->
-    <div class="hero-overlay"></div>
-    <!-- hero content -->
-    
-    
-    <!-- Our Approach Section -->
-   <section class="approach-header">
-     <!-- Header Left Secction -->
-    <div class="approach-header-left">
-      <div class="section-label">
-        <img src="/Assets/gear.png" alt="Gear Icon">
-        <h3>OUR APPROACH</h3>
-      </div>
+      <!-- Our Approach Section -->
+      <section class="approach-header">
+        <!-- Header Left Secction -->
+        <div class="approach-header-left">
+          <div class="section-label">
+            <img src="/Assets/gear.png" alt="Gear Icon" />
+            <h3>OUR APPROACH</h3>
+          </div>
 
-      <div class="approach-title">
-        Empowering sustainable <br />
-        <strong>growth in industry</strong>
-      </div>
-    </div>
-    <!-- Header Right Section -->
-    <div class="approach-header-right">
-      <p class="approach-description">
-        We provide a wide range of services tailored to meet the unique needs of modern industries. 
-        From precision manufacturing and advanced automation to custom product design and efficient logistics.
-      </p>
-    </div>
-  </section>
-</section>
-
-<!-- MISSION, VISSION AND VALUES SECTION -->
-  <section class="tab-container">
-    <div class="container-background">
-    <!-- Tab Headers -->
-    <div class="head-container">
-    <!-- Our Mission -->
-     <div class="our-mission">
-      <img src="/Assets/mission.png" alt="Mission Icon">
-      <h3>Our Mission</h3>
-     </div>
-      <!-- Our Vission -->
-       <div class="our-vission">
-      <img src="/Assets/vission.png" alt="Vission Icon">
-      <h3>Our Vission</h3>
-     </div>
-      <!-- Our Values -->
-        <div class="our-value">
-      <img src="/Assets/value.png" alt="Value Icon">
-      <h3>Our Value</h3>
-     </div>
-   </div>
-    <!-- Tab Content -->
-     <div class="content-container">
-      <!-- left content -->
-      <div class="left-content">
-        <h3>Our mission is to transform the factory and industry sectors through sustainable practices, innovation, and
-           advanced technology, fostering growth that benefits both business and the environment.</h3>
-           <ul class="content-list">
-             <li><img src="/Assets/strategy-icon.png" alt="Strategy Icon"><p>Sustainable Manufacturing Practices</p></li>
-             <li><img src="/Assets/strategy-icon.png" alt="Strategy Icon"><p>Advanced Technology Integration</p></li>
-             <li><img src="/Assets/strategy-icon.png" alt="Strategy Icon"><p>Community and Environmental Responsibility</p></li>
-             <li><img src="/Assets/strategy-icon.png" alt="Strategy Icon"><p>Innovation-Driven Growth</p></li>
-           </ul>
-      </div>
-      <!-- right content -->
-      <div class="right-content">
-        <img src="/Assets/mission-image.jpg" alt="Our Mission Image">
-      </div>
-     </div>
-  </div>
-  </section>
-
-  <!--  OUR HISTORY SECTION -->
-  <section class="history-header">
-    <!-- Header Left Secction -->
-    <div class="header-left">
-      <div class="section-label">
-        <img src="/Assets/gear.png" alt="Gear Icon">
-        <h3>OUR HISTORY</h3>
-      </div>
-
-      <div class="history-title">
-        Foundation of excellences <br />
-        <strong>in industry</strong>
-      </div>
-    </div>
-    <!-- Header Right Section -->
-    <div class="history-header-right">
-      <p class="history-description">
-        Built on a legacy of quality and innovation, we have established a strong
-        foundation in the industrial sector, consistently delivering reliable
-        solutions that drive progress and set industry standards.
-      </p>
-    </div>
-  </section>
-
-  <!-- Company Started Section -->
-  <section class="started-section">
-    <!-- company left section -->
-    <div class="year-box">
-      <div class="year-box-label">In 1920 - Planning</div>
-      <div class="year-list">
-        <li class="year-list-item">In 1922 - Journey Started</li>
-        <li class="year-list-item">In 1925 - Journey Progress</li>
-        <li class="year-list-item">In 1930 - Global Reach</li>
-        <li class="year-list-item">In 1940 - Industry Leadership</li>
-      </div>
-    </div>
-    <!-- company middle section -->
-    <div class="company-started">
-      <h2>Company <strong>Started</strong></h2>
-      <p>Welcome to Industry, a leading industry innovator with a rich history of excellence. With a passion for
-        precision and a commitment to quality, we have been empowering industries and driving progress.</p>
-      <ul class="list">
-        <li class="list-item"><img src="/Assets/strategy-icon.png" alt="Strategy Icon">Quality Control System</li>
-        <li class="list-item"><img src="/Assets/strategy-icon.png" alt="Strategy Icon">Building Quality Industrial</li>
-        <li class="list-item"><img src="/Assets/strategy-icon.png" alt="Strategy Icon">Environment Responsibiity</li>
-        <li class="list-item"><img src="/Assets/strategy-icon.png" alt="Strategy Icon">Building Quality Industrial</li>
-      </ul>
-    </div>
-    <!-- Company Right Section -->
-    <div class="right-section-image">
-      <img src="/Assets/started.jpg" alt="Company Started Image">
-    </div>
-  </section>
-      <!-- innovative  -->
-      <section class="innovative">
-         <!-- LEFT -->
-         <div class="innovative-left">
-            <p class="innovative-tag"> OUR MISSION AND VISION </p>
-            <h2>
-               Innovative environmental <br>
-               <span>solutions today</span>
-            </h2>
-            <div class="cards">
-               <!-- CARD 1 -->
-               <div class="card">
-                  <div class="icon">
-                     <img src="/Assets/innovative1.png" alt="Automation Solutions">
-                  </div>
-                  <h4>Automation Solutions</h4>
-                  <p>Streamlining processes through cutting-edge technology.</p>
-               </div>
-               <!-- CARD 2 -->
-               <div class="card">
-                  <div class="icon">
-                     <img src="/Assets/innovative2.png" alt="Automation Solutions">
-                  </div>
-                  <h4>Quality Control</h4>
-                  <p>Ensuring product excellence through rigorous testing.</p>
-               </div>
-               <!-- CARD 3 -->
-               <div class="card">
-                  <div class="icon">
-                     <img src="/Assets/innovative3.png" alt="Automation Solutions">
-                  </div>
-                  <h4>Process Engineering</h4>
-                  <p>Ensuring product excellence through rigorous testing.</p>
-               </div>
-               <!-- CARD 4 -->
-               <div class="card">
-                  <div class="icon">
-                     <img src="/Assets/innovative4.png" alt="Automation Solutions">
-                  </div>
-                  <h4>Product Development</h4>
-                  <p>Streamlining processes through cutting-edge technology.</p>
-               </div>
-            </div>
-            <p class="innovative-footer-text">Let’s make something great work together.</p>
-         </div>
-         <!-- RIGHT -->
-         <div class="innovative-right">
-            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" />
-         </div>
-         <!-- CENTER -->
-         <div class="center-btn">
-            <div class="circle-text">
-               <!-- <span>EXPLORE NOW • EXPLORE NOW • </span> -->
-            </div>
-            <div class="arrow">↗</div>
-         </div>
+          <div class="approach-title">
+            Enabling Reliable <br />
+            <strong>Product Testing </strong>
+          </div>
+        </div>
+        <!-- Header Right Section -->
+        <div class="approach-header-right">
+          <p class="approach-description">
+            We design and manufacture high-precision environmental test chambers
+            that help industries validate product performance under real-world
+            conditions. From temperature and humidity testing to thermal shock,
+            corrosion, and environmental simulation, our solutions ensure
+            accuracy, reliability, and compliance across every application.
+          </p>
+        </div>
       </section>
-  <!-- Our Key Features Section -->
-  <section class="features-header">
-    <!-- Header Left Secction -->
-    <div class="header-left">
-      <div class="section-label">
-        <img src="/Assets/gear.png" alt="Gear Icon">
-        <h3>OUR KEY FEATURES</h3>
+    </section>
+
+    <!-- MISSION, VISSION AND VALUES SECTION -->
+    <section class="tab-container">
+      <div class="container-background">
+        <!-- Tab Headers -->
+        <div class="head-container">
+          <!-- Our Mission -->
+          <div class="our-mission">
+            <img src="/Assets/mission.png" alt="Mission Icon" />
+            <h3>Our Mission</h3>
+          </div>
+          <!-- Our Vission -->
+          <div class="our-vission">
+            <img src="/Assets/vission.png" alt="Vission Icon" />
+            <h3>Our Vission</h3>
+          </div>
+          <!-- Our Values -->
+          <div class="our-value">
+            <img src="/Assets/value.png" alt="Value Icon" />
+            <h3>Our Value</h3>
+          </div>
+        </div>
+        <!-- Tab Content -->
+        <div class="content-container">
+          <!-- left content -->
+          <div class="left-content">
+            <h3>
+              Our mission is to deliver high-performance environmental testing
+              solutions that enable industries to ensure product reliability,
+              safety, and compliance. Through precision engineering, advanced
+              technology, and customer-focused design, we help manufacturers
+              reduce product failures, improve quality, and accelerate
+              development cycles
+            </h3>
+            <ul class="content-list">
+              <li>
+                <img src="/Assets/strategy-icon.png" alt="Strategy Icon" />
+                <p>Precision Environmental Testing Solutions</p>
+              </li>
+              <li>
+                <img src="/Assets/strategy-icon.png" alt="Strategy Icon" />
+                <p>Advanced Engineering & Automation</p>
+              </li>
+              <li>
+                <img src="/Assets/strategy-icon.png" alt="Strategy Icon" />
+                <p>Reliable Performance & Accuracy</p>
+              </li>
+              <li>
+                <img src="/Assets/strategy-icon.png" alt="Strategy Icon" />
+                <p>Continuous Innovation in Testing Technology</p>
+              </li>
+            </ul>
+          </div>
+          <!-- right content -->
+          <div class="right-content">
+            <img src="/Assets/mission-image.jpg" alt="Our Mission Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  OUR HISTORY SECTION -->
+    <section class="history-header">
+      <!-- Header Left Secction -->
+      <div class="header-left">
+        <div class="section-label">
+          <img src="/Assets/gear.png" alt="Gear Icon" />
+          <h3>OUR HISTORY</h3>
+        </div>
+
+        <div class="history-title">
+          Building a Legacy of <br />
+          <strong>Precision Engineering Since 2012</strong>
+        </div>
+      </div>
+      <!-- Header Right Section -->
+      <div class="history-header-right">
+        <p class="history-description">
+          Since our establishment in 2012, Provert Systems & Solutions has been
+          dedicated to delivering high-quality environmental testing equipment
+          for industrial and research applications. With a strong focus on
+          innovation, precision engineering, and customer satisfaction, we have
+          built a reputation for providing reliable solutions that meet evolving
+          industry standards.
+        </p>
+      </div>
+    </section>
+
+    <!-- Company Started Section -->
+    <section class="started-section">
+      <!-- company left section -->
+      <div class="year-box">
+        <div class="year-box-label">In 2012 - Company Established</div>
+        <div class="year-list">
+          <li class="year-list-item">In 2015 - Expanded Product Range</li>
+          <li class="year-list-item">
+            In 2018 - Advanced Testing Solutions Introduced
+          </li>
+          <li class="year-list-item">
+            In 2021 - Pan India Client Network Growth
+          </li>
+          <li class="year-list-item">
+            In 2024 - Custom Engineering & Automation Expansion
+          </li>
+        </div>
+      </div>
+      <!-- company middle section -->
+      <div class="company-started">
+        <h2>Our <strong>Journey</strong></h2>
+        <p>
+          From a small manufacturing setup to a trusted provider of
+          environmental test chambers, our journey has been driven by a
+          commitment to quality, innovation, and customer success. Over the
+          years, we have continuously enhanced our capabilities to deliver
+          advanced testing solutions that help industries ensure product
+          reliability and compliance
+        </p>
+        <ul class="list">
+          <li class="list-item">
+            <img src="/Assets/strategy-icon.png" alt="Strategy Icon" />
+            Precision Engineering & Quality Manufacturing
+          </li>
+          <li class="list-item">
+            <img src="/Assets/strategy-icon.png" alt="Strategy Icon" />
+            Continuous Innovation in Testing Technology
+          </li>
+          <li class="list-item">
+            <img src="/Assets/strategy-icon.png" alt="Strategy Icon" /> Strong
+            Industry Experience & Expertise
+          </li>
+          <li class="list-item">
+            <img src="/Assets/strategy-icon.png" alt="Strategy Icon" />
+            Customer-Centric Approach & Support
+          </li>
+        </ul>
+      </div>
+      <!-- Company Right Section -->
+      <div class="right-section-image">
+        <img src="/Assets/started.jpg" alt="Company Started Image" />
+      </div>
+    </section>
+
+    <!-- Our Key Features Section -->
+    <section class="features-header">
+      <!-- Header Left Secction -->
+      <div class="header-left">
+        <div class="section-label">
+          <img src="/Assets/gear.png" alt="Gear Icon" />
+          <h3>OUR KEY FEATURES</h3>
+        </div>
+
+        <div class="history-title">
+          Core strengths in <br />
+          <strong>Environmental Testing Solutions</strong>
+        </div>
+      </div>
+      <!-- Header Right Section -->
+      <div class="history-header-right">
+        <p class="history-description">
+          Our expertise lies in designing and manufacturing high-precision
+          environmental test chambers that ensure accurate, reliable, and
+          repeatable testing. We combine advanced engineering, quality
+          manufacturing, and customized solutions to meet the evolving demands
+          of modern industries.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section Grid -->
+    <div class="features-grid">
+      <!-- single features card -->
+      <div class="features-card">
+        <div class="services-icon">
+          <img src="/Assets/services-icon1.png" alt="services-icon1" />
+          <h3>Precision Testing Accuracy</h3>
+          <p>
+            Our chambers are engineered to deliver highly accurate simulation of
+            temperature, humidity, and environmental conditions, ensuring
+            reliable testing results.
+          </p>
+        </div>
+      </div>
+      <div class="features-card">
+        <div class="services-icon">
+          <img src="/Assets/services-icon3.png" alt="services-icon3" />
+          <h3>Custom-Engineered Solutions</h3>
+          <p>
+            We design and manufacture testing equipment tailored to your
+            specific application, industry standards, and performance
+            requirements.
+          </p>
+        </div>
+      </div>
+      <div class="features-card">
+        <div class="services-icon">
+          <img src="/Assets/services-icon4.png" alt="services-icon4" />
+          <h3>Advanced Control Systems</h3>
+          <p>
+            Equipped with PLC & HMI-based automation for seamless operation,
+            monitoring, and precise control of testing parameters.
+          </p>
+        </div>
       </div>
 
-      <div class="history-title">
-        Core strengths in <br />
-        <strong>industrial innovation</strong>
+      <div class="features-card">
+        <div class="services-icon">
+          <img src="/Assets/services-icon4.png" alt="services-icon4" />
+          <h3>Durable & Energy-Efficient Design</h3>
+          <p>
+            Built with high-quality materials and optimized systems to ensure
+            long-term performance and reduced operational costs.
+          </p>
+        </div>
       </div>
     </div>
-    <!-- Header Right Section -->
-    <div class="history-header-right">
-      <p class="history-description">
-        Our expertise in industrial innovation combines advanced technology, sustainable practices,
-        and a skilled workforce to deliver efficient, future-ready solutions that drive industry progress.
-      </p>
-    </div>
-  </section>
 
-  <!-- Features Section Grid -->
-  <div class="features-grid">
-    <!-- single features card -->
-    <div class="features-card">
-      <div class="services-icon">
-        <img src="/Assets/services-icon1.png" alt="services-icon1">
-        <h3>Enhanced Efficiency</h3>
-        <p>Robotics streamline complex tasks, reducing production time and minimizing downtime,
-          which leads to higher output and faster delivery.</p>
-      </div>
-    </div>
-    <div class="features-card">
-      <div class="services-icon">
-        <img src="/Assets/services-icon3.png" alt="services-icon3">
-        <h3>Enhanced Efficiency</h3>
-        <p>Robotics streamline complex tasks, reducing production time and minimizing downtime,
-          which leads to higher output and faster delivery.</p>
-      </div>
-    </div>
-    <div class="features-card">
-      <div class="services-icon">
-        <img src="/Assets/services-icon4.png" alt="services-icon4">
-        <h3>Enhanced Efficiency</h3>
-        <p>Robotics streamline complex tasks, reducing production time and minimizing downtime,
-          which leads to higher output and faster delivery.</p>
-      </div>
-    </div>
-    <!-- Features Image -->
-    <div class="features-card-image">
-        <img src="/Assets/features.jpg" alt="Features Image">
-      </div>
-  </div>
-   <!-- Our Process -->
-      <section class="custom-manufac">
-         <div class="manufac-container">
-            <!-- Left Section -->
-            <div class="manufac-left">
-               <!-- Badge -->
-               <div class="manufac-badge">
-                  <img src="/Assets/gear.png" alt="" class="feature-svg">
-                  CUSTOM MANUFACTURING
-               </div>
-               <!-- Title -->
-               <h2 class="manufac-title">
-                  <span class="manufac-title-light">Streamlined processes</span> <span class="manufac-title-bold">for optimal efficiency</span>
-               </h2>
-               <!-- Image -->
-               <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=420&h=360&fit=crop" alt="Industrial machinery with sparks" class="manufac-image">
-            </div>
-            <!-- Right Section -->
-            <div class="manufac-right">
-               <!-- Description -->
-               <p class="manufac-description">
-                  Our process is designed to maximize efficiency and quality at every stage of production. By integrating advanced technologies and best practices, we ensure seamless workflows.
-               </p>
-               <!-- Process Steps -->
-               <div class="process-steps">
-                  <!-- Step 1 -->
-                  <div class="process-step">
-                     <div class="step-number">01</div>
-                     <div class="step-content">
-                        <h3 class="step-title">Understanding Your Needs</h3>
-                        <p class="step-description">We begin by thoroughly assessing your requirements and objectives to develop a tailored approach.</p>
-                     </div>
-                  </div>
-                  <!-- Step 2 (Active) -->
-                  <div class="process-step active">
-                     <div class="step-number">02</div>
-                     <div class="step-content">
-                        <h3 class="step-title">Design and Planning</h3>
-                        <p class="step-description">Our team collaborates to create detailed project plans, ensuring all aspects of the process.</p>
-                     </div>
-                  </div>
-                  <!-- Step 3 -->
-                  <div class="process-step">
-                     <div class="step-number">03</div>
-                     <div class="step-content">
-                        <h3 class="step-title">Implementation</h3>
-                        <p class="step-description">Utilizing advanced technologies and skilled personnel, we execute the project.</p>
-                     </div>
-                  </div>
-                  </div>
-            </div>
-         </div>
-      </section>
+    <!-- Our Team Section -->
+    <section class="team-header">
+      <!-- Header Left Secction -->
+      <!-- <div class="team-header-left">
+        <div class="section-label">
+          <img src="/Assets/gear.png" alt="Gear Icon" />
+          <h3>OUR TEAM</h3>
+        </div>
 
-  <!-- Our Team Section -->
-  <section class="team-header">
-    <!-- Header Left Secction -->
-    <div class="team-header-left">
-      <div class="section-label">
-        <img src="/Assets/gear.png" alt="Gear Icon">
-        <h3>OUR TEAM</h3>
+        <div class="team-title">
+          Core strengths in <br />
+          <strong>industrial innovation</strong>
+        </div>
+      </div> -->
+      <!-- Header Right Section -->
+      <!-- <div class="btn">
+        <button>All Member</button>
+        <img src="/Assets/upright-white-arrow.png" alt="Contact Image" />
+      </div> -->
+    </section>
+
+    <!-- Team Section Grid -->
+    <div class="team-grid">
+      <!-- single team card -->
+      <!-- <div class="team-card">
+        <img src="/Assets/team1.jpg" alt="Team Member 1" />
+        <h3>Ronald Richards</h3>
+        <p>Manufacturing Executive</p>
+      </div> -->
+      <!-- <div class="team-card">
+        <img src="/Assets/team2.jpg" alt="Team Member 2" />
+        <h3>Brooklyn Simmons</h3>
+        <p>Industrial Engineer</p>
       </div>
-
-      <div class="team-title">
-        Core strengths in <br />
-        <strong>industrial innovation</strong>
+      <div class="team-card">
+        <img src="/Assets/team3.jpg" alt="Team Member 3" />
+        <h3>Cameron Williamson</h3>
+        <p>Production Supervisor</p>
       </div>
+      <div class="team-card">
+        <img src="/Assets/team4.jpg" alt="Team Member 4" />
+        <h3>Darlene Robertson</h3>
+        <p>Manufacturing Executive</p>
+      </div> -->
     </div>
-    <!-- Header Right Section -->
-    <div class="btn">
-    <button>All Member</button>
-     <img src="/Assets/upright-white-arrow.png" alt="Contact Image" />
-    </div>
-  </section>
 
-  <!-- Team Section Grid -->
-  <div class="team-grid">
-    <!-- single team card -->
-    <div class="team-card">
-      <img src="/Assets/team1.jpg" alt="Team Member 1">
-      <h3>Ronald Richards</h3>
-      <p>Manufacturing Executive</p>
-    </div>
-    <div class="team-card">
-      <img src="/Assets/team2.jpg" alt="Team Member 2">
-      <h3>Brooklyn Simmons</h3>
-      <p>Industrial Engineer</p>
-    </div>
-    <div class="team-card">
-      <img src="/Assets/team3.jpg" alt="Team Member 3">
-      <h3>Cameron Williamson</h3>
-      <p>Production Supervisor</p>
-    </div>
-    <div class="team-card">
-      <img src="/Assets/team4.jpg" alt="Team Member 4">
-      <h3>Darlene Robertson</h3>
-      <p>Manufacturing Executive</p>
-    </div>
-  </div>
-
-<!--  our-client-->
-<section class="our-client">
-         <div class="client-wrapper">
-            <div class="client-image">
-               <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop" alt="Industrial worker with machinery">
-            </div>
-            <div class="client-content">
-               <p class="feature-tag"><img src="/Assets/gear.png" alt="" class="feature-svg"> OUR CLIENT SAY</p>
-               <h2 class="feature-tag-h2">
-                  What our satisfied clients <br>
-                  <span class="
-                     feature-tag-span">are saying</span>
-               </h2>
-               <p class="feature-tag-quote">
-                  "The team's attention to detail and commitment to quality exceeded our expectations. They delivered on time, and their innovative solutions improved our production efficiency by 30%. Highly recommended!"
-               </p>
-               <div class="user-controls-wrapper">
-                  <div class="user">
-                     <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=42&h=42&fit=crop" alt="Brooklyn Simmons">
-                     <div class="user-info">
-                        <h4>Brooklyn Simmons</h4>
-                        <span>Homeowner</span>
-                     </div>
-                  </div>
-                  <div class="client-controls">
-                     <button class="prev-btn" aria-label="Previous testimonial">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M12.5 5L7.5 10L12.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                     </button>
-                     <button class="next-btn" aria-label="Next testimonial">
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M7.5 5L12.5 10L7.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                     </button>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="client-logos">
-            <div class="logo">
-               <svg viewBox="0 0 24 24">
-                  <path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/>
-               </svg>
-               <span class="client-span">Logoipsum</span>
-            </div>
-            <div class="logo">
-               <svg viewBox="0 0 24 24">
-                  <path d="M12 2c4 4 6 7 6 10a6 6 0 1 1-12 0c0-3 2-6 6-10z"/>
-               </svg>
-               <span class="client-span">Logoipsum</span>
-            </div>
-            <div class="logo">
-               <svg viewBox="0 0 24 24">
-                  <circle cx="12" cy="12" r="5"/>
-                  <path d="M12 1v3M12 20v3M1 12h3M20 12h3"/>
-               </svg>
-               <span class="client-span">Logoipsum</span>
-            </div>
-            <div class="logo">
-               <svg viewBox="0 0 24 24">
-                  <path d="M12 2l7 4v6c0 5-3.5 7.5-7 9-3.5-1.5-7-4-7-9V6l7-4z"/>
-               </svg>
-               <span class="client-span">Logoipsum</span>
-            </div>
-            <div class="logo">
-               <svg viewBox="0 0 24 24">
-                  <path d="M12 2l3 7h7l-5.5 4 2 7-6.5-4.5L5.5 20l2-7L2 9h7z"/>
-               </svg>
-               <span class="client-span">Logoipsum</span>
-            </div>
-         </div>
-</section> 
- <!-- Faq -->
-<section class="faq-section">
-         <!-- Header -->
-         <div class="faq-header">
-            <div class="faq-badge">
-               <img src="/Assets/gear.png" alt="" class="feature-svg">
-               FAQS
-            </div>
-            <div class="faq-title">
-               <span class="faq-title-light">Frequently asked</span>
-               <span class="faq-title-bold">questions</span>
-            </div>
-         </div>
-         <!-- Main Content -->
-         <div class="faq-container">
-            <!-- Left Image -->
-            <div class="faq-image-container">
-               <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&h=500&fit=crop" alt="Industrial City" class="faq-image">
-            </div>
-            <!-- Right Accordion -->
-            <div class="faq-accordion">
-               <!-- FAQ Item 1 -->
-               <div class="faq-item">
-                  <div class="faq-question">
-                     <span class="faq-question-text">What industries do you serve?</span>
-                     <div class="faq-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-                     </div>
-                  </div>
-                  <div class="faq-answer">
-                     <p class="faq-answer-text">We serve a wide range of industries including manufacturing, pharmaceuticals, electronics, automotive, aerospace, and many more. Our solutions are customized to meet the specific needs of each industry.</p>
-                  </div>
-               </div>
-               <!-- FAQ Item 2 (Active) -->
-               <div class="faq-item active">
-                  <div class="faq-question">
-                     <span class="faq-question-text">How do you ensure product quality?</span>
-                     <div class="faq-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-                     </div>
-                  </div>
-                  <div class="faq-answer">
-                     <p class="faq-answer-text">We implement rigorous quality control measures at every stage of production, ensuring consistency and high standards. Our team conducts comprehensive testing and inspection to guarantee the highest quality products for our customers.</p>
-                  </div>
-               </div>
-               <!-- FAQ Item 3 -->
-               <div class="faq-item">
-                  <div class="faq-question">
-                     <span class="faq-question-text">What sustainability practices do you follow?</span>
-                     <div class="faq-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-                     </div>
-                  </div>
-                  <div class="faq-answer">
-                     <p class="faq-answer-text">We are committed to environmental sustainability through energy-efficient manufacturing processes, recycling programs, and responsible waste management. We continuously work to reduce our carbon footprint.</p>
-                  </div>
-               </div>
-               <!-- FAQ Item 4 -->
-               <div class="faq-item">
-                  <div class="faq-question">
-                     <span class="faq-question-text">Do you offer customized solutions?</span>
-                     <div class="faq-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-                     </div>
-                  </div>
-                  <div class="faq-answer">
-                     <p class="faq-answer-text">Yes, we offer fully customized solutions tailored to your specific requirements. Our team works closely with clients to understand their needs and deliver bespoke products and services.</p>
-                  </div>
-               </div>
-               <!-- FAQ Item 5 -->
-               <div class="faq-item">
-                  <div class="faq-question">
-                     <span class="faq-question-text">How do you handle safety in the workplace?</span>
-                     <div class="faq-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-                     </div>
-                  </div>
-                  <div class="faq-answer">
-                     <p class="faq-answer-text">Safety is our top priority. We follow strict safety protocols, provide regular training to our staff, and maintain a comprehensive safety management system to ensure a secure working environment.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-</section>
-  <!-- Footer -->
+    <!-- Footer -->
     <footer class="footer">
-  <div class="footer-container">
-    
-    <!-- LEFT SECTION -->
-    <div class="footer-left">
-      <img src="/Assets/logov1black.png" alt="Provert Systems Logo" class="footer-logo">
+      <div class="footer-container">
+        <!-- LEFT SECTION -->
+        <div class="footer-left">
+          <img
+            src="/Assets/logov1black.png"
+            alt="Provert Systems Logo"
+            class="footer-logo"
+          />
 
-      <p class="footer-description">
-        Provert Systems & Solutions, established in 2012, specializes in environmental simulation test chambers and laboratory equipment. Our range includes environmental test chambers, salt spray, UV weathering, thermal shock, humidity, hot air ovens, deep cool, altitude, rain, dust, and walk-in chambers.
-      </p>
+          <p class="footer-description">
+            Provert Systems & Solutions, established in 2012, specializes in
+            environmental simulation test chambers and laboratory equipment. Our
+            range includes environmental test chambers, salt spray, UV
+            weathering, thermal shock, humidity, hot air ovens, deep cool,
+            altitude, rain, dust, and walk-in chambers.
+          </p>
 
-      <div class="social-icons">
-        <a href="#" class="social-link" title="Email">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect width="20" height="16" x="2" y="4" rx="2"/>
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
-          </svg>
-        </a>
-        <a href="#" class="social-link" title="WhatsApp">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-          </svg>
-        </a>
-        <a href="#" class="social-link" title="Instagram">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
-          </svg>
-        </a>
-        <a href="#" class="social-link" title="Twitter">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-6.768m2.46-2.46L20 4"/>
-          </svg>
-        </a>
-        <a href="#" class="social-link" title="LinkedIn">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-            <rect width="4" height="12" x="2" y="9"/>
-            <circle cx="4" cy="4" r="2"/>
-          </svg>
-        </a>
-        <a href="#" class="social-link" title="YouTube">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 58.38 58.38 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 58.38 58.38 0 0 1-15 0 2 2 0 0 1-2-2z"/>
-            <path d="m9.75 15.02 5.75-3.02-5.75-3z"/>
-          </svg>
-        </a>
+          <div class="social-icons">
+            <a href="#" class="social-link" title="Email">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="WhatsApp">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="Instagram">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="Twitter">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-6.768m2.46-2.46L20 4"
+                />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="LinkedIn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="YouTube">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 58.38 58.38 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 58.38 58.38 0 0 1-15 0 2 2 0 0 1-2-2z"
+                />
+                <path d="m9.75 15.02 5.75-3.02-5.75-3z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- MIDDLE LEFT - COMPANY SECTION -->
+        <div class="footer-links-section">
+          <h4 class="footer-heading">Our Company</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Who are we</a></li>
+            <li><a href="#" class="footer-link">Our Services</a></li>
+            <li><a href="#" class="footer-link">Newsletters</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="#" class="footer-link">Download Brochure</a></li>
+          </ul>
+        </div>
+
+        <!-- MIDDLE RIGHT - PRODUCTS SECTION -->
+        <div class="footer-links-section">
+          <h4 class="footer-heading">Products & Services</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="/products/?id=1" class="footer-link"
+                >Environmental Test Chamber</a
+              >
+            </li>
+            <li>
+              <a href="/products/?id=2" class="footer-link"
+                >Salt Spray Test Chamber</a
+              >
+            </li>
+            <li>
+              <a href="/products/?id=4" class="footer-link"
+                >Thermal Shock Test Chamber</a
+              >
+            </li>
+            <li>
+              <a href="/Pages/product.html" class="footer-link"
+                >View All Products</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- RIGHT SECTION - CONTACT -->
+        <div class="footer-contact-section">
+          <h4 class="footer-heading">Reach Us</h4>
+          <div class="address-box">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="location-icon"
+            >
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span class="address-text"
+              >Kh.no. 48/68 Village Khayala Khayala Industrial Area, New
+              Delhi-110018, Delhi, India</span
+            >
+          </div>
+        </div>
       </div>
-    </div>
 
-    <!-- MIDDLE LEFT - COMPANY SECTION -->
-     <div class="footer-links-section">
-      <h4 class="footer-heading">Our Company</h4>
-      <ul class="footer-links">
-        <li><a href="#" class="footer-link">Who are we</a></li>
-        <li><a href="#" class="footer-link">Our Services</a></li>
-        <li><a href="#" class="footer-link">Newsletters</a></li>
-        <li><a href="#" class="footer-link">Contact Us</a></li>
-        <li><a href="#" class="footer-link">Download Brochure</a></li>
-      </ul>
-    </div>
-
-    <!-- MIDDLE RIGHT - PRODUCTS SECTION -->
-    <div class="footer-links-section">
-      <h4 class="footer-heading">Products & Services</h4>
-      <ul class="footer-links">
-        <li><a href="/products/?id=1" class="footer-link">Environmental Test Chamber</a></li>
-        <li><a href="/products/?id=2" class="footer-link">Salt Spray Test Chamber</a></li>
-        <li><a href="/products/?id=4" class="footer-link">Thermal Shock Test Chamber</a></li>
-        <li><a href="/Pages/product.html" class="footer-link">View All Products</a></li>
-      </ul>
-    </div>
-  
-    <!-- RIGHT SECTION - CONTACT --> 
-    <div class="footer-contact-section">
-      <h4 class="footer-heading">Reach Us</h4>
-      <div class="address-box">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="location-icon">
-          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-          <circle cx="12" cy="10" r="3"/>
-        </svg>
-        <span class="address-text">Kh.no. 48/68 Village Khayala Khayala Industrial Area, New Delhi-110018, Delhi, India</span>
+      <!-- FOOTER BOTTOM -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+          <p class="copyright-text">
+            &copy; 2025
+            <strong>Provert Systems &amp; Solutions Pvt. Ltd.</strong> All
+            rights reserved.
+          </p>
+          <div class="footer-policies">
+            <a href="#" class="policy-link">Privacy Policy</a>
+            <a href="#" class="policy-link">Refund &amp; Return Policy</a>
+            <a href="#" class="policy-link">Cookie Settings</a>
+            <a href="#" class="policy-link">Terms &amp; Conditions</a>
+          </div>
+        </div>
       </div>
-    </div>
-
-  </div>
-
-  <!-- FOOTER BOTTOM -->
-  <div class="footer-bottom">
-    <div class="footer-bottom-inner">
-      <p class="copyright-text">&copy; 2025 <strong>Provert Systems &amp; Solutions Pvt. Ltd.</strong> All rights reserved.</p>
-      <div class="footer-policies">
-        <a href="#" class="policy-link">Privacy Policy</a>
-        <a href="#" class="policy-link">Refund &amp; Return Policy</a>
-        <a href="#" class="policy-link">Cookie Settings</a>
-        <a href="#" class="policy-link">Terms &amp; Conditions</a>
-      </div>
-    </div>
-  </div>
-</footer>
-  <script src="/script.js"></script>
-</body>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
 </html>
