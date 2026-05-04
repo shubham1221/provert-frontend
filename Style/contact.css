@@ -1,7 +1,7 @@
         /* ===== CONTACT SECTION ===== */
         .contact-hero {
             height: 450px;
-            background: url(/Assets/Contact-bg.png) center/cover no-repeat;
+            background: url(/Assets/contact-bg.png) center/cover no-repeat;
             display: flex;
             align-items: center;
             justify-content: center;

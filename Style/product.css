@@ -11,7 +11,7 @@
 .Banner {
     width: 100%;
     min-height: 300px;
-    background-image: url(/Assets/Banner.bg.jpg.jpeg);
+    background-image: url(/Assets/banner.bg.jpg.jpeg);
     background-position: center;
     background-size: cover;
 }
