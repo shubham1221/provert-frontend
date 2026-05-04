@@ -1,0 +1,38 @@
+Options -Indexes
+DirectoryIndex index.html index.php
+
+RewriteEngine On
+
+# Redirect old singleproduct URL to new /products/ URL
+# e.g. /Pages/singleproduct.html?id=2  →  /products/?id=2
+RewriteCond %{QUERY_STRING} ^id=([0-9]+)$
+RewriteRule ^Pages/singleproduct\.html$ /products/?id=%1 [R=301,L]
+
+# Redirect /Pages/singleproduct.html (no query) to /products/
+RewriteRule ^Pages/singleproduct\.html$ /products/ [R=301,L]
+
+# Serve products/index.html for /products/ requests
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^products/?$ /products/index.html [L]
+
+# Force HTTPS (uncomment when SSL is ready)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Cache static assets for 1 year
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# Prevent direct access to PHP config files
+<Files "contact.php">
+    Header set X-Content-Type-Options "nosniff"
+</Files>
