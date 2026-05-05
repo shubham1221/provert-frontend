@@ -2400,3 +2400,26 @@ h1 span {
     font-size: 26px;
   }
 }
+
+/* Force compact header sizing on home page mobile */
+@media (max-width: 768px) {
+  .navbar .nav-inner {
+    padding: 0px 0px !important;
+  }
+
+  .navbar .logo-img {
+    height: 80px !important;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar .nav-inner {
+    padding: 0px 0px !important;
+  }
+
+  .navbar .logo-img {
+    height: 70px !important;
+    width: auto;
+  }
+}

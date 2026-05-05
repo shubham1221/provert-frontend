@@ -624,7 +624,7 @@ body {
   }
 
   .nav-inner {
-    padding: 10px 15px;
+    padding: 8px 14px;
     display: flex;
     /* Removed justify-content: space-between to allow flex-grow on nav-center */
     align-items: center;
@@ -741,17 +741,26 @@ body {
   }
 
   .logo-img {
-    height: 45px;
+    height: 36px;
     width: auto;
+  }
+
+  /* Keep inner page logo consistent on mobile without changing structure */
+  .inner-page .logo-img {
+    height: 36px;
   }
 
   /* Fix for very small devices (320px - 425px) */
   @media (max-width: 480px) {
+    
     .nav-inner {
-      padding: 10px 10px;
+      padding: 0px 0px;
     }
     .logo-img {
-      height: 35px;
+      height: 30px;
+    }
+    .inner-page .logo-img {
+      height: 70px;
     }
 
     .search-box {

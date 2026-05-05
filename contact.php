@@ -44,7 +44,7 @@ if (!empty($errors)) {
 }
 
 // ── Build email ──────────────────────────────────────────────────
-$to      = 'info@provertsystems.com';
+$to      = 'provertsystems@gmail.com';
 $subject = 'New Enquiry' . ($product && $product !== 'General Enquiry' ? ' — ' . $product : '') . ' from ' . $first_name . ' ' . $last_name;
 
 $product_row = '';
@@ -142,8 +142,8 @@ $confirm_body = '<!DOCTYPE html>
     ' . ($product && $product !== 'General Enquiry' ? '<p>Your enquiry is regarding: <span class="highlight">' . $product . '</span></p>' : '') . '
     <p>If you need immediate assistance, feel free to reach us directly:</p>
     <div class="contact-box">
-      <p>📞 <strong>+91-11-4567-8900</strong></p>
-      <p>✉️ <strong>info@provertsystems.com</strong></p>
+      <p>📞 <strong>+91 88103 31899</strong></p>
+      <p>✉️ <strong>provertsystems@gmail.com</strong></p>
       <p>📍 Kh.no. 48/68, Village Khayala, New Delhi-110018</p>
     </div>
   </div>
@@ -154,7 +154,7 @@ $confirm_body = '<!DOCTYPE html>
 
 $confirm_headers  = 'MIME-Version: 1.0' . "\r\n";
 $confirm_headers .= 'Content-Type: text/html; charset=UTF-8' . "\r\n";
-$confirm_headers .= 'From: Provert Systems <info@provertsystems.com>' . "\r\n";
+$confirm_headers .= 'From: Provert Systems <provertsystems@gmail.com>' . "\r\n";
 
 // Send both emails
 $sent = mail($to, $subject, $body, $headers);
@@ -169,6 +169,6 @@ if ($sent) {
     http_response_code(500);
     echo json_encode([
         'success' => false,
-        'message' => 'Failed to send your message. Please email us directly at info@provertsystems.com or call +91-11-4567-8900.'
+        'message' => 'Failed to send your message. Please email us directly at provertsystems@gmail.com or call +91 88103 31899.'
     ]);
 }

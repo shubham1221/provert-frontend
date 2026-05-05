@@ -9,7 +9,7 @@ const PRODUCTS = [
          Built using high-grade materials and advanced control systems, these chambers help manufacturers evaluate product durability, reliability, and performance under real-world conditions.
           Whether you are testing electronic components, automotive parts, medical devices, or industrial materials, our chambers deliver consistent, accurate, and repeatable results — ensuring compliance with global testing standards.</p>
         <br>
-        <p><strong>Key Features:</strong></p>
+        <p><strong>Key Features</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Precision temperature and humidity control with high stability</li>
             <li>PLC-based programmable control with touchscreen interface</li>
@@ -19,7 +19,7 @@ const PRODUCTS = [
             <li>Advanced safety protections for uninterrupted operation</li>
             <li>Customizable chamber sizes and configurations</li>
         </ul>
-        <p><strong>Construction & Build:</strong></p>
+        <p><strong>Construction & Build</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Inner Chamber: SUS304 Stainless Steel.</li>
             <li>Outer Body: Powder-Coated Mild Steel.</li>
@@ -27,14 +27,14 @@ const PRODUCTS = [
             <li>Viewing Window: Multi-layer vacuum glass with defogging.</li>
             <li>Shelves: Adjustable stainless steel trays.</li>
         </ul>
-        <p><strong>System Components:</strong></p>
+        <p><strong>System Components</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Cascade refrigeration system (Bitzer / Danfoss compressors).</li>
             <li>External humidification system with auto water supply.</li>
             <li>Centrifugal air circulation for uniform temperature.</li>
             <li>Nichrome heating elements for rapid heating.</li>
         </ul>
-        <p><strong>Safety Features:</strong></p>
+        <p><strong>Safety Features</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Over-temperature protection.</li>
             <li>Water shortage protection.</li>
@@ -42,7 +42,7 @@ const PRODUCTS = [
             <li>Over-current & leakage protection.</li>
             <li>Humidifier dry-run protection.</li>
         </ul>
-        <p><strong>Why Choose Environmental Test Chamber (Different section should be designed):</strong></p>
+        <p><strong>Why Choose Environmental Test Chamber</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Designed for high-precision testing environments.</li>
             <li>Built with globally trusted components.</li>
@@ -50,7 +50,7 @@ const PRODUCTS = [
             <li>Remote monitoring via mobile & PC.</li>
             <li>Long operational life with low maintenance.</li>
         </ul>
-        <p><strong>Applications:</strong></p>
+        <p><strong>Applications</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Electronics & Electrical Testing.</li>
             <li> Automotive Components.</li>
@@ -95,7 +95,7 @@ const PRODUCTS = [
         description: `<p>Our Salt Spray Test Chambers are designed to simulate real-world corrosive environments, enabling accurate evaluation of material performance under salt fog conditions. Built in compliance with ASTM B117 standards, these chambers are widely used for testing coatings, metals, and surface treatments across industries such as automotive, electronics, and manufacturing.
 With robust construction, precision control systems, and advanced automation capabilities, the system ensures consistent testing results, minimal downtime, and long operational life.</p>
         <br>
-        <p><strong>Key Features:</strong></p>
+        <p><strong>Key Features</strong></p>
             <ul style="padding-left:20px; margin-top:8px; line-height:2;">
                 <li>High-precision corrosion testing under controlled salt fog conditions</li>
                 <li>Double-walled insulated chamber for durability and stability</li>
@@ -114,7 +114,7 @@ With robust construction, precision control systems, and advanced automation cap
                 <li>Programmable test cycles with repeat functions</li>
                 <li>User activity and machine performance tracking</li>
             </ul>
-            <p><strong>Applications:</strong></p>
+            <p><strong>Applications</strong></p>
             <ul style="padding-left:20px; margin-top:8px; line-height:2;">
                 <li>Automotive & Auto Components</li>
                 <li>Electronics & Electrical Components</li>
@@ -125,14 +125,14 @@ With robust construction, precision control systems, and advanced automation cap
             </ul>
             <p><strong>Customized to Your Testing Requirements</strong></p>
             <p>Every testing requirement is unique. We offer fully customizable Salt Spray Chambers in terms of size, material, automation level, and control systems to align with your operational and compliance needs.</p>
-            <p><strong>Key Customization Options:</strong></p>
+            <p><strong>Key Customization Options</strong></p>
             <ul style="padding-left:20px; margin-top:8px; line-height:2;">
                 <li>Custom chamber sizes available</li>
                 <li>Multiple material configurations</li>
                 <li>Automation and PLC integration options</li>
                 <li>Industry-specific modifications</li>
             </ul>
-            <p><strong>Why Choose Salt Spray Test Chamber:</strong></p>
+            <p><strong>Why Choose Salt Spray Test Chamber</strong></p>
             <ul style="padding-left:20px; margin-top:8px; line-height:2;">
                 <li>Designed for accurate and consistent corrosion testing</li>
                 <li>Built with corrosion-resistant and industrial-grade materials</li>
@@ -201,7 +201,7 @@ With robust construction, precision control systems, and advanced automation cap
         description: `<p> Our UV Accelerated Weathering Test Chamber is engineered to simulate environmental aging conditions caused by UV radiation, moisture, and temperature. Built with high-grade stainless steel and precision control systems, it enables accurate evaluation of material degradation, color fading, cracking, and coating durability.
 Ideal for industries requiring long-term reliability testing, this system ensures faster product validation and compliance with global testing standards.</p>
         <br>
-        <p><strong>Key Features:</strong></p>
+        <p><strong>Key Features</strong></p>
             <ul style="padding-left:20px; margin-top:8px; line-height:2;">
                 <li>High-precision UV exposure using UVA & UVB lamps</li>
                 <li>Uniform temperature and humidity distribution</li>
@@ -212,7 +212,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
                 <li>Programmable test cycles for accelerated aging simulation</li>
                 <li>Built-in safety protections for reliable operation</li>
             </ul>
-            <p><strong>Why Choose UV Weathering Test Chamber:</strong></p>
+            <p><strong>Why Choose UV Weathering Test Chamber</strong></p>
             <ul style="padding-left:20px; margin-top:8px; line-height:2;">
                 <li>Designed for accurate accelerated weathering simulation</li>
                 <li>Supports UVA & UVB spectrum-based testing</li>
@@ -223,7 +223,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
                 <li>Fully programmable cyclic testing capabilities</li>
                 <li>Reliable performance with built-in safety systems</li>
             </ul>
-            <p><strong>Applications:</strong></p>
+            <p><strong>Applications</strong></p>
             <ul style="padding-left:20px; margin-top:8px; line-height:2;">
                 <li>Automotive coatings & components</li>
                 <li>Paints, coatings & surface treatments</li>
@@ -233,7 +233,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
                 <li>Electronics and outdoor equipment</li>
                 <li>Packaging material testing</li>
             </ul>
-            <p><strong>Smart Control & Monitoring (Advanced Features):</strong></p>
+            <p><strong>Smart Control & Monitoring (Advanced Features)</strong></p>
             <ul style="padding-left:20px; margin-top:8px; line-height:2;">
                 <li>Real-time performance graphs (Temp vs Humidity vs Time)</li>
                 <li>Automated alarm and fault detection system</li>
@@ -293,7 +293,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
 
     <br>
 
-    <p><strong>Key Features:</strong></p>
+    <p><strong>Key Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Rapid transition between high and low temperature zones</li>
         <li>Accurate and repeatable testing conditions</li>
@@ -303,7 +303,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Robust construction for long-term industrial use</li>
     </ul>
 
-    <p><strong>Advanced Thermal Shock Mechanism:</strong></p>
+    <p><strong>Advanced Thermal Shock Mechanism</strong></p>
     <p>The chamber operates using two separate temperature zones, one for high temperatures and one for low temperatures. Instead of moving the product, the system quickly switches airflow between these zones, exposing the sample to sudden temperature changes.</p>
     <p>This method ensures faster, more accurate testing while maintaining stability and consistency throughout the process.</p>
 
@@ -316,7 +316,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Strong and stable structure for long-term use</li>
     </ul>
 
-    <p><strong>Applications:</strong></p>
+    <p><strong>Applications</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Electronics and semiconductor testing</li>
         <li>Automotive component validation</li>
@@ -326,7 +326,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Product durability and stress testing</li>
     </ul>
 
-    <p><strong>Customization Options:</strong></p>
+    <p><strong>Customization Options</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Custom chamber sizes and configurations</li>
         <li>Adjustable temperature ranges and cycles</li>
@@ -399,7 +399,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
 
     <br>
 
-    <p><strong>Key Features:</strong></p>
+    <p><strong>Key Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Accurate control of humidity levels for dependable environmental testing</li>
         <li>Stable temperature conditions for consistent performance evaluation</li>
@@ -413,7 +413,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Durable industrial-grade construction for long-term use</li>
     </ul>
 
-    <p><strong>Advanced Features:</strong></p>
+    <p><strong>Advanced Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Multi-stage programmable testing cycles</li>
         <li>Continuous monitoring with real-time feedback</li>
@@ -424,7 +424,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Automated repeat cycles for long-duration testing</li>
     </ul>
 
-    <p><strong>Construction & Build:</strong></p>
+    <p><strong>Construction & Build</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Triple-layer insulated structure for thermal efficiency</li>
         <li>Corrosion-resistant SS304 stainless steel inner chamber</li>
@@ -436,7 +436,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Designed for long-term reliability and minimal maintenance</li>
     </ul>
 
-    <p><strong>Applications:</strong></p>
+    <p><strong>Applications</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Electronics and electrical component testing</li>
         <li>Pharmaceutical and healthcare product validation</li>
@@ -446,7 +446,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Product reliability and quality assurance testing</li>
     </ul>
 
-    <p><strong>Customization Options:</strong></p>
+    <p><strong>Customization Options</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Multiple chamber sizes for different applications</li>
         <li>Adjustable humidity and temperature configurations</li>
@@ -455,7 +455,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Scalable solutions for evolving testing needs</li>
     </ul>
 
-    <p><strong>Why Choose Humidity Test Chamber:</strong></p>
+    <p><strong>Why Choose Humidity Test Chamber</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Reliable and repeatable environmental testing conditions</li>
         <li>Stable performance during long-duration testing cycles</li>
@@ -518,7 +518,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     <br>
 
 
-    <p><strong>Key Features:</strong></p>
+    <p><strong>Key Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Designed as per ASTM B368 and ISO 9227 standards</li>
         <li>Double-walled construction for thermal stability</li>
@@ -532,7 +532,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Built with corrosion-resistant materials</li>
     </ul>
 
-    <p><strong>Advanced Features:</strong></p>
+    <p><strong>Advanced Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>PLC & HMI-based smart control system</li>
         <li>Real-time data logging with graphical visualization</li>
@@ -545,7 +545,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Screenshot and report generation capability</li>
     </ul>
 
-    <p><strong>Construction & Build:</strong></p>
+    <p><strong>Construction & Build</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Inner chamber made of SS316 (high corrosion resistance)</li>
         <li>Outer body options: FRP / SS304 / Mild Steel</li>
@@ -557,7 +557,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Heavy-duty industrial structure</li>
     </ul>
 
-    <p><strong>Applications:</strong></p>
+    <p><strong>Applications</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Automotive components and coatings</li>
         <li>Electroplated and painted surfaces</li>
@@ -567,7 +567,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Industrial coating validation</li>
     </ul>
 
-    <p><strong>Customization Options:</strong></p>
+    <p><strong>Customization Options</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Multiple chamber sizes (500L to 1800L and beyond)</li>
         <li>Choice of material construction (FRP / SS / Hybrid)</li>
@@ -577,7 +577,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Industry-specific configurations</li>
     </ul>
 
-    <p><strong>Why Choose CASS Test Chamber:</strong></p>
+    <p><strong>Why Choose CASS Test Chamber</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Accelerated corrosion testing for faster results</li>
         <li>High accuracy and repeatability in testing</li>
@@ -655,7 +655,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
 
     <br>
 
-    <p><strong>Key Features:</strong></p>
+    <p><strong>Key Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Wide temperature range for extreme hot and cold testing</li>
         <li>High accuracy with stable and consistent performance</li>
@@ -668,7 +668,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Industrial-grade construction for long-term durability</li>
     </ul>
 
-    <p><strong>Why Choose Hot & Cold Test Chamber:</strong></p>
+    <p><strong>Why Choose Hot & Cold Test Chamber</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Designed for extreme temperature variation testing</li>
         <li>High accuracy with stable and uniform performance</li>
@@ -680,7 +680,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Fully customizable to meet application-specific needs</li>
     </ul>
 
-    <p><strong>Smart Control & Automation:</strong></p>
+    <p><strong>Smart Control & Automation</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Fully programmable test cycles with multi-step control</li>
         <li>Remote monitoring via mobile, PC, and web interface</li>
@@ -691,7 +691,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Repeat cycles and automated testing sequences</li>
     </ul>
 
-    <p><strong>Industrial-Grade Engineering:</strong></p>
+    <p><strong>Industrial-Grade Engineering</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Inner chamber made of SUS304 stainless steel</li>
         <li>Outer body with durable coated mild steel construction</li>
@@ -702,7 +702,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Efficient heating (nichrome heaters) and cooling systems</li>
     </ul>
 
-    <p><strong>Applications:</strong></p>
+    <p><strong>Applications</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Electronics and electrical component testing</li>
         <li>Automotive and industrial validation</li>
@@ -712,7 +712,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Product reliability and quality assurance</li>
     </ul>
 
-    <p><strong>Customized to Your Testing Requirements:</strong></p>
+    <p><strong>Customized to Your Testing Requirements</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Multiple chamber sizes and capacities available</li>
         <li>Adjustable heating and cooling rates</li>
@@ -766,8 +766,8 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     {
     id: 6,
     name: "Hot Air Oven",
-   image: "/Assets/Industrial Hot Air Oven.png",
-  images: ["/Assets/Industrial Hot Air Oven.png", "/Assets/Industrial Hot Air Oven.png", "/Assets/Industrial Hot Air Oven.png"],
+   image: "/Assets/Hot Air Oven.png",
+  images: ["/Assets/Hot Air Oven.png", "/Assets/Hot Air Oven.png", "/Assets/Hot Air Oven.png"],
     shortDescription: "Create a precisely controlled heating environment to evaluate product performance, durability, and material behavior under elevated temperature conditions with uniform heat distribution and stable thermal control.",
 
     description: `<p>The Hot Air Oven is designed to create a stable and controlled thermal environment for a wide range of heating and drying applications. It enables manufacturers to evaluate product behavior, perform curing processes, and conduct thermal testing with high accuracy.</p>
@@ -778,7 +778,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
 
     
 
-    <p><strong>Key Features:</strong></p>
+    <p><strong>Key Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Uniform temperature distribution for consistent results</li>
         <li>Forced air circulation system for efficient heat transfer</li>
@@ -792,7 +792,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Low maintenance and user-friendly operation</li>
     </ul>
 
-    <p><strong>Advanced Features:</strong></p>
+    <p><strong>Advanced Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>PLC-based smart automation system</li>
         <li>Real-time data logging with graphical visualization</li>
@@ -806,7 +806,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Fully automated heating control system</li>
     </ul>
 
-    <p><strong>Construction & Build:</strong></p>
+    <p><strong>Construction & Build</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Triple-walled insulated cabinet for thermal efficiency</li>
         <li>Outer body made of powder-coated mild steel</li>
@@ -820,7 +820,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Industrial-grade construction for durability</li>
     </ul>
 
-    <p><strong>Applications:</strong></p>
+    <p><strong>Applications</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Material drying and curing processes</li>
         <li>Electronics and component testing</li>
@@ -830,7 +830,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Research and development environments</li>
     </ul>
 
-    <p><strong>Customization Options:</strong></p>
+    <p><strong>Customization Options</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Multiple chamber sizes (bench-top to walk-in)</li>
         <li>Custom temperature ranges and control systems</li>
@@ -840,7 +840,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Scalable solutions for large-scale operations</li>
     </ul>
 
-    <p><strong>Why Choose Hot Air Oven:</strong></p>
+    <p><strong>Why Choose Hot Air Oven</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Ensures uniform and consistent heating performance</li>
         <li>Accurate and repeatable thermal testing</li>
@@ -903,35 +903,131 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     ]
 },
     {
-        id: 9,
-        name: "Altitude Test Chamber",
-        image: "/Assets/product-img-1.png",
-        images: ["/Assets/product-img-1.png", "/Assets/Salt Spray Test Chamber.png", "/Assets/Environmental Test Chamber.png"],
-        shortDescription: "Simulate high-altitude low-pressure conditions to test product performance and sealing integrity for aerospace, defence, and avionics applications.",
-        description: `<p>The Altitude Test Chamber simulates the low-pressure environment experienced at high altitudes to evaluate product performance, sealing, and structural integrity. Used extensively in aerospace, defence, and avionics industries.</p>
-        <br>
-        <p><strong>Key Features:</strong></p>
-        <ul style="padding-left:20px; margin-top:8px; line-height:2;">
-            <li>Simulate altitudes up to 30,000 m (98,000 ft)</li>
-            <li>Combined temperature and altitude simulation</li>
-            <li>High-vacuum pump system</li>
-            <li>Safety interlock system</li>
-            <li>Compliant with MIL-STD-810, DO-160, IEC 60068-2-13</li>
-        </ul>`,
-        faqs: [
-            { q: "What does altitude simulation test?", a: "It validates product behavior under low-pressure, high-altitude conditions." },
-            { q: "Can temperature and altitude run in one profile?", a: "Yes, combined temperature-altitude profiles can be configured." },
-            { q: "Is this used for aerospace qualification?", a: "Yes, it is commonly used in aerospace and avionics validation workflows." }
-        ],
-        specs: [
-            { name: "Altitude Simulation", value: "Up to 30,000 m" },
-            { name: "Pressure Range", value: "1013 hPa to 1.2 hPa" },
-            { name: "Temperature Range", value: "-55°C to +85°C" },
-            { name: "Interior Volume", value: "100L to 500L" },
-            { name: "Standards", value: "MIL-STD-810, DO-160, IEC 60068-2-13" },
-            { name: "Power Supply", value: "415V / 50Hz, Three Phase" }
-        ]
-    },
+    id: 9,
+    name: "Corrosion Test Chamber",
+    image: "/Assets/Corrosion Test Chamber.png",
+    images: [
+        "/Assets/Corrosion Test Chamber.png",
+        "/Assets/Corrosion Test Chamber.png",
+        "/Assets/Corrosion Test Chamber.png"
+    ],
+    shortDescription: "Simulate real-world corrosion conditions with precision to evaluate material durability, coating performance, and product reliability. Designed for salt spray, CASS, and cyclic corrosion testing, this chamber ensures consistent and accelerated corrosion analysis.",
+    
+    description: `<p>The Corrosion Test Chamber is engineered to replicate harsh environmental conditions for evaluating corrosion resistance of materials, coatings, and components. It supports salt spray testing, CASS testing, and cyclic corrosion testing, making it a versatile solution for industrial applications.</p>
+    <br>
+    <p>The system provides precise control over temperature, humidity, and fog generation, ensuring stable and repeatable testing conditions. This allows manufacturers to assess product durability under accelerated corrosion environments and improve product quality and compliance.</p>
+
+    <p><strong>Key Features</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Supports Salt Spray, CASS, and cyclic corrosion testing</li>
+        <li>Wide temperature and humidity control range</li>
+        <li>PLC & HMI-based intelligent control system</li>
+        <li>Uniform fog distribution for consistent exposure</li>
+        <li>Automated safety systems for reliable operation</li>
+        <li>Real-time data logging and monitoring</li>
+        <li>Corrosion-resistant construction materials</li>
+        <li>Stable performance for long-duration testing</li>
+        <li>User-friendly programmable controls</li>
+    </ul>
+
+    <p><strong>Advanced Features</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>PLC automation with touchscreen interface</li>
+        <li>Graph-based real-time data visualization</li>
+        <li>Wireless / LAN connectivity for remote monitoring</li>
+        <li>Programmable cyclic corrosion testing profiles</li>
+        <li>Auto and manual operation modes</li>
+        <li>Alarm system with indicators and buzzer</li>
+        <li>USB data export functionality</li>
+        <li>System performance monitoring (Voltage & Current)</li>
+    </ul>
+
+    <p><strong>Construction & Build</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>FRP corrosion-resistant internal and external structure</li>
+        <li>Double-walled insulated chamber</li>
+        <li>Fiber door with acrylic viewing window</li>
+        <li>High-quality fog spray nozzle system</li>
+        <li>Saturation tower with pressure safety valve</li>
+        <li>Dedicated tanks for NaCl solution and DM water</li>
+        <li>Uniform heating with tape heater system</li>
+        <li>Industrial-grade components for durability</li>
+    </ul>
+
+    <p><strong>Applications</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Automotive components and coatings</li>
+        <li>Electroplated and painted surfaces</li>
+        <li>Metal finishing industries</li>
+        <li>Electronics and electrical components</li>
+        <li>Aerospace and defense applications</li>
+        <li>Industrial durability testing</li>
+    </ul>
+
+    <p><strong>Customization Options</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Multiple chamber capacities (500L and above)</li>
+        <li>PLC automation upgrades</li>
+        <li>Custom test cycle programming</li>
+        <li>Material options (FRP / SS / Hybrid)</li>
+        <li>Industry-specific configurations</li>
+        <li>Integration with monitoring systems</li>
+    </ul>
+
+    <p><strong>Why Choose Corrosion Test Chamber</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Designed for accelerated corrosion validation</li>
+        <li>Supports multiple testing methods in one system</li>
+        <li>Ensures high accuracy and repeatability</li>
+        <li>Advanced automation for efficiency</li>
+        <li>Reliable performance for continuous testing</li>
+        <li>Flexible configurations for various industries</li>
+        <li>Built with corrosion-resistant materials</li>
+        <li>Ideal for quality assurance and compliance</li>
+    </ul>`,
+
+    faqs: [
+        {
+            q: "What types of corrosion tests can be performed in this chamber?",
+            a: "The chamber supports salt spray testing, CASS testing, and cyclic corrosion testing, enabling evaluation of materials and coatings under various environmental conditions."
+        },
+        {
+            q: "What is the advantage of cyclic corrosion testing?",
+            a: "Cyclic corrosion testing simulates real-world environmental variations by alternating between humidity, temperature, and salt exposure, providing more realistic results."
+        },
+        {
+            q: "How does the chamber ensure consistent corrosion conditions?",
+            a: "It uses controlled fog spray, temperature regulation, and humidity control along with uniform fog distribution to maintain stable testing conditions."
+        },
+        {
+            q: "Can the system be monitored remotely?",
+            a: "Yes, it supports wireless and LAN connectivity for real-time monitoring and control via mobile devices and computers."
+        },
+        {
+            q: "Is the chamber suitable for continuous industrial testing?",
+            a: "Yes, it is designed for long-duration testing with stable performance and built-in safety systems."
+        },
+        {
+            q: "Can the chamber be customized?",
+            a: "Yes, it can be customized in terms of size, materials, control systems, and testing cycles to meet specific requirements."
+        }
+    ],
+
+    specs: [
+        { name: "Temperature Range", value: "10°C to 70°C" },
+        { name: "Humidity Range", value: "30% to 100% RH" },
+        { name: "Temperature Accuracy", value: "±2°C" },
+        { name: "Humidity Accuracy", value: "±3%" },
+        { name: "Capacity", value: "500 Liters (Customizable)" },
+        { name: "Chamber Size", value: "800 × 800 × 800 mm" },
+        { name: "Control System", value: "PLC with 7” Touchscreen (HMI)" },
+        { name: "Air Regulator", value: "10–20 PSI" },
+        { name: "Timer", value: "0–9999 minutes" },
+        { name: "Sensor", value: "PT-100 corrosion-resistant sensor" },
+        { name: "Power Supply", value: "220V, Single Phase, 50Hz" },
+        { name: "Safety", value: "Over-temperature, pressure valve, alarms" }
+    ]
+},
     {
         id: 10,
         name: "Rain Test Chamber",
@@ -941,7 +1037,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         description: `<p>Our Rain Test Chamber is designed to simulate controlled rain conditions to test the ingress protection and sealing performance of products. It is widely used for validating external enclosures, automotive components, lighting systems, and electronic devices exposed to rain environments.
 Built with corrosion-resistant stainless steel and equipped with advanced PLC-based automation, the system ensures precise control over spray intensity, rotation, and testing cycles. This enables reliable and repeatable testing aligned with international standards.</p>
         <br>
-        <p><strong>Key Features:</strong></p>
+        <p><strong>Key Features</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Simulates real-world rain and water exposure conditions</li>
             <li>Supports IPX1 to IPX6 testing configurations</li>
@@ -952,7 +1048,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
             <li>Durable SS304 stainless steel internal construction</li>
             <li>Uniform spray distribution for accurate testing</li>
         </ul>
-        <p><strong>Why Choose Rain Test Chamber:</strong></p>
+        <p><strong>Why Choose Rain Test Chamber</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Designed for accurate water ingress and sealing validation</li>
             <li>Supports multiple IP testing standards (IPX1 to IPX6)</li>
@@ -963,7 +1059,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
             <li>Suitable for long-duration testing cycles</li>
             <li>Fully customizable based on application requirements</li>
         </ul>
-        <p><strong>Smart Monitoring & Control:</strong></p>
+        <p><strong>Smart Monitoring & Control</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Real-time data logging with graphical visualization</li>
             <li>Remote operation via mobile and laptop</li>
@@ -973,7 +1069,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
             <li>Machine performance tracking and working hours</li>
             <li>Screenshot and report export functionality</li>
         </ul>
-        <p><strong>Applications:</strong></p>
+        <p><strong>Applications</strong></p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Automotive and two-wheeler components</li>
             <li>Electrical and electronic enclosures</li>
@@ -981,7 +1077,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
             <li>Batteries and sealed components</li>
             <li>Outdoor equipment and devices</li>
         </ul>
-        <p><strong>Customized to Your Testing Requirements:</strong></p>
+        <p><strong>Customized to Your Testing Requirements</strong></p>
         <p>Every application has unique testing needs. We offer fully customizable Rain Test Chambers in terms of size, spray configuration, automation level, and control systems to meet your operational and compliance requirements.</p>
         <ul style="padding-left:20px; margin-top:8px; line-height:2;">
             <li>Custom chamber sizes available</li>
@@ -1051,7 +1147,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
 
     <br>
 
-    <p><strong>Key Features:</strong></p>
+    <p><strong>Key Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Controlled dust circulation for realistic environmental simulation</li>
         <li>Adjustable airflow and dust agitation system</li>
@@ -1065,7 +1161,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Low-noise motor with dust protection system</li>
     </ul>
 
-    <p><strong>Advanced Features:</strong></p>
+    <p><strong>Advanced Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Fully automated PLC control with program logic system</li>
         <li>Wi-Fi enabled remote monitoring and operation</li>
@@ -1077,7 +1173,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>User-defined testing programs and automation flexibility</li>
     </ul>
 
-    <p><strong>Construction & Build:</strong></p>
+    <p><strong>Construction & Build</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Exterior built using CRCA, SS304/SS316, or galvanized sheet</li>
         <li>Stainless steel inner chamber with mirror finish</li>
@@ -1090,7 +1186,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Heavy-duty castor wheels for easy mobility</li>
     </ul>
 
-    <p><strong>Applications:</strong></p>
+    <p><strong>Applications</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Automotive components and auto parts testing</li>
         <li>Electronic components and enclosures</li>
@@ -1100,7 +1196,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Product sealing and ingress protection testing</li>
     </ul>
 
-    <p><strong>Customization Options:</strong></p>
+    <p><strong>Customization Options</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Custom chamber sizes and configurations</li>
         <li>Adjustable airflow and dust concentration settings</li>
@@ -1110,7 +1206,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Scalable solutions based on testing requirements</li>
     </ul>
 
-    <p><strong>Why Choose Dust Test Chamber:</strong></p>
+    <p><strong>Why Choose Dust Test Chamber</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Designed for accurate dust ingress and protection testing</li>
         <li>Ensures consistent and repeatable environmental conditions</li>
@@ -1178,7 +1274,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
 
     <br>
 
-    <p><strong>Key Highlights:</strong></p>
+    <p><strong>Key Highlights</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Temperature Range: -30°C to +80°C</li>
         <li>Humidity Range: 20% to 95% RH</li>
@@ -1188,7 +1284,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Industrial-grade construction</li>
     </ul>
 
-    <p><strong>Key Features:</strong></p>
+    <p><strong>Key Features</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Large capacity chambers for bulk and full-product testing</li>
         <li>Accurate temperature and humidity control</li>
@@ -1200,7 +1296,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Real-time monitoring and control</li>
     </ul>
 
-    <p><strong>Smart Control & Monitoring:</strong></p>
+    <p><strong>Smart Control & Monitoring</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>PLC-based automation with touch interface</li>
         <li>Remote monitoring via mobile & laptop</li>
@@ -1212,7 +1308,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Screenshot and report export features</li>
     </ul>
 
-    <p><strong>Robust Industrial Construction:</strong></p>
+    <p><strong>Robust Industrial Construction</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Inner Chamber: SS304 stainless steel (corrosion resistant)</li>
         <li>Outer Body: Powder-coated mild steel</li>
@@ -1224,7 +1320,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Mobility: Heavy-duty castor wheels</li>
     </ul>
 
-    <p><strong>Applications:</strong></p>
+    <p><strong>Applications</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Electronics and telecommunications equipment testing</li>
         <li>Pharmaceutical product stability testing</li>
@@ -1235,7 +1331,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Accelerated aging and conditioning</li>
     </ul>
 
-    <p><strong>Customized for Your Testing Environment:</strong></p>
+    <p><strong>Customized for Your Testing Environment</strong></p>
     <p>Every testing requirement is unique. Our Walk-In Chambers are fully customizable to match your product size, testing conditions, and operational requirements.</p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Custom chamber sizes and layouts</li>
@@ -1245,7 +1341,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Industry-specific testing setups</li>
     </ul>
 
-    <p><strong>Why Choose Walk-In Test Chamber:</strong></p>
+    <p><strong>Why Choose Walk-In Test Chamber</strong></p>
     <ul style="padding-left:20px; margin-top:8px; line-height:2;">
         <li>Designed for large-scale product and batch testing</li>
         <li>Precise control of temperature and humidity conditions</li>
