@@ -63,9 +63,9 @@ const PRODUCTS = [
             { q: "What industries use Environmental Test Chambers?", a: "Our Environmental Test Chambers are widely used across industries where product reliability is critical, including electronics, automotive, aerospace, medical devices, plastics, and research laboratories. They help validate product performance under extreme environmental conditions." },
             { q: "What temperature and humidity ranges can the chamber achieve?", a: "Our chambers are capable of operating within a temperature range of -70°C to +200°C and humidity levels from 10% to 98% RH, depending on configuration and customization requirements." },
             { q: "Can the chamber be customized based on our testing requirements?", a: "Yes, all our chambers are fully customizable. We tailor chamber size, temperature range, humidity control, automation level, and additional features based on your specific testing applications." },
-            { q: "How accurate and stable are the test conditions?", a: "The chambers are designed for high precision with temperature fluctuation as low as ±0.1°C and excellent uniformity, ensuring consistent and repeatable test results for critical applications."},
-            { q: "Do you provide remote monitoring and control?", a: "Yes, our chambers come with a PLC-based touchscreen controller that supports remote monitoring and operation via PC or mobile devices, allowing real-time tracking and control."},
-            { q: "What safety features are included in the chamber?", a: "Our chambers are equipped with multiple safety mechanisms including:<ul><li>Over-temperature protection</li><li>Water level protection </li><li>Refrigerant pressure safety </li><li>Over-current and leakage protection</li><li> Humidifier dry-run protection</li></ul>"}
+            { q: "How accurate and stable are the test conditions?", a: "The chambers are designed for high precision with temperature fluctuation as low as ±0.1°C and excellent uniformity, ensuring consistent and repeatable test results for critical applications." },
+            { q: "Do you provide remote monitoring and control?", a: "Yes, our chambers come with a PLC-based touchscreen controller that supports remote monitoring and operation via PC or mobile devices, allowing real-time tracking and control." },
+            { q: "What safety features are included in the chamber?", a: "Our chambers are equipped with multiple safety mechanisms including:<ul><li>Over-temperature protection</li><li>Water level protection </li><li>Refrigerant pressure safety </li><li>Over-current and leakage protection</li><li> Humidifier dry-run protection</li></ul>" }
         ],
         specs: [
             { name: "Temperature Range", value: "-70°C to +200°C (Customizable)" },
@@ -144,35 +144,35 @@ With robust construction, precision control systems, and advanced automation cap
                 <li>Low maintenance with high operational reliability</li>
             </ul>`,
         faqs: [
-    {
-        q: "What is the purpose of a Salt Spray Test Chamber?",
-        a: "A Salt Spray Test Chamber is used to evaluate the corrosion resistance of materials and coatings under simulated harsh environmental conditions. It helps manufacturers ensure durability and compliance with industry standards such as ASTM B117."
-    },
-    {
-        q: "What standards does your chamber comply with?",
-        a: "Our Salt Spray Chambers are designed in accordance with ASTM B117 standards, ensuring accurate and reliable corrosion testing for industrial and research applications."
-    },
-    {
-        q: "What material options are available for the chamber body?",
-        a: "We offer multiple construction options based on your application, including full FRP (Fiber Reinforced Polymer) body, full stainless steel construction (SS-316 inner, SS-304 outer), and inner stainless steel with outer mild steel. These options ensure durability, corrosion resistance, and long operational life."
-    },
-    {
-        q: "What is the temperature and humidity capability of the chamber?",
-        a: "The chamber operates within a temperature range of ambient to 38°C and humidity levels up to 98% RH. It maintains high accuracy and uniformity for consistent and repeatable testing results."
-    },
-    {
-        q: "Does the chamber support automation and data logging?",
-        a: "Yes, the system can be equipped with PLC and HMI-based smart controls, offering real-time data logging, graphical visualization, report generation, and remote monitoring via mobile and PC for complete control and traceability."
-    },
-    {
-        q: "Can the chamber be customized for specific testing needs?",
-        a: "Yes, we provide fully customizable solutions including chamber size, configuration, control systems, and automation levels tailored to your specific testing requirements."
-    },
-    {
-        q: "What safety features are included in the system?",
-        a: "Our chambers include advanced safety features such as over-temperature protection, air pressure safety valves, water level alarms, leakage and short circuit protection, and an emergency stop system to ensure safe and uninterrupted operation."
-    }
-],
+            {
+                q: "What is the purpose of a Salt Spray Test Chamber?",
+                a: "A Salt Spray Test Chamber is used to evaluate the corrosion resistance of materials and coatings under simulated harsh environmental conditions. It helps manufacturers ensure durability and compliance with industry standards such as ASTM B117."
+            },
+            {
+                q: "What standards does your chamber comply with?",
+                a: "Our Salt Spray Chambers are designed in accordance with ASTM B117 standards, ensuring accurate and reliable corrosion testing for industrial and research applications."
+            },
+            {
+                q: "What material options are available for the chamber body?",
+                a: "We offer multiple construction options based on your application, including full FRP (Fiber Reinforced Polymer) body, full stainless steel construction (SS-316 inner, SS-304 outer), and inner stainless steel with outer mild steel. These options ensure durability, corrosion resistance, and long operational life."
+            },
+            {
+                q: "What is the temperature and humidity capability of the chamber?",
+                a: "The chamber operates within a temperature range of ambient to 38°C and humidity levels up to 98% RH. It maintains high accuracy and uniformity for consistent and repeatable testing results."
+            },
+            {
+                q: "Does the chamber support automation and data logging?",
+                a: "Yes, the system can be equipped with PLC and HMI-based smart controls, offering real-time data logging, graphical visualization, report generation, and remote monitoring via mobile and PC for complete control and traceability."
+            },
+            {
+                q: "Can the chamber be customized for specific testing needs?",
+                a: "Yes, we provide fully customizable solutions including chamber size, configuration, control systems, and automation levels tailored to your specific testing requirements."
+            },
+            {
+                q: "What safety features are included in the system?",
+                a: "Our chambers include advanced safety features such as over-temperature protection, air pressure safety valves, water level alarms, leakage and short circuit protection, and an emergency stop system to ensure safe and uninterrupted operation."
+            }
+        ],
         specs: [
             { name: "Temperature Range", value: "Ambient to 38°C" },
             { name: "Humidity Range", value: "Up to 98% RH" },
@@ -242,35 +242,35 @@ Ideal for industries requiring long-term reliability testing, this system ensure
                 <li>User-friendly interface with guided controls</li>
             </ul>`,
         faqs: [
-    {
-        q: "How does your UV Weathering Test Chamber replicate real outdoor conditions?",
-        a: "Our chamber combines controlled UVA/UVB radiation (200–400 nm), condensation cycles, and temperature control up to 70°C to simulate sunlight, dew, and environmental stress. This enables accelerated testing that closely matches real outdoor exposure conditions."
-    },
-    {
-        q: "What level of control do I get over UV intensity and testing cycles?",
-        a: "The system offers adjustable irradiance (0.30–1.0 W/m²) along with fully programmable cycles through a PLC-based interface. Users can precisely control exposure duration, temperature, humidity, and condensation cycles to meet specific testing standards."
-    },
-    {
-        q: "Can this chamber simulate both dry UV exposure and moisture conditions?",
-        a: "Yes, the chamber is designed to simulate both UV exposure and moisture effects through controlled condensation and optional water spray systems, ensuring accurate replication of real-world weathering conditions."
-    },
-    {
-        q: "What makes your system more reliable than standard UV chambers?",
-        a: "Our system ensures uniform UV exposure, stable temperature control (±1°C), and consistent humidity distribution, reducing variability in test results. Combined with industrial-grade components, it delivers long-term accuracy and reliability."
-    },
-    {
-        q: "What kind of materials can be tested using this system?",
-        a: "The chamber is suitable for testing coatings, plastics, rubber, textiles, automotive components, and outdoor products. It helps evaluate fading, cracking, discoloration, and material degradation under UV exposure."
-    },
-    {
-        q: "How does the PLC system improve testing efficiency?",
-        a: "The integrated PLC with a 7” touchscreen HMI enables real-time monitoring, graphical visualization, automated test cycles, and data logging with report generation. This reduces manual intervention and ensures consistent, repeatable testing."
-    },
-    {
-        q: "Can I monitor the chamber remotely?",
-        a : "Yes, the system supports LAN-based connectivity, allowing remote monitoring and control via PC or mobile devices. You can track performance, adjust parameters, and access data without being physically present."
-    }
-],
+            {
+                q: "How does your UV Weathering Test Chamber replicate real outdoor conditions?",
+                a: "Our chamber combines controlled UVA/UVB radiation (200–400 nm), condensation cycles, and temperature control up to 70°C to simulate sunlight, dew, and environmental stress. This enables accelerated testing that closely matches real outdoor exposure conditions."
+            },
+            {
+                q: "What level of control do I get over UV intensity and testing cycles?",
+                a: "The system offers adjustable irradiance (0.30–1.0 W/m²) along with fully programmable cycles through a PLC-based interface. Users can precisely control exposure duration, temperature, humidity, and condensation cycles to meet specific testing standards."
+            },
+            {
+                q: "Can this chamber simulate both dry UV exposure and moisture conditions?",
+                a: "Yes, the chamber is designed to simulate both UV exposure and moisture effects through controlled condensation and optional water spray systems, ensuring accurate replication of real-world weathering conditions."
+            },
+            {
+                q: "What makes your system more reliable than standard UV chambers?",
+                a: "Our system ensures uniform UV exposure, stable temperature control (±1°C), and consistent humidity distribution, reducing variability in test results. Combined with industrial-grade components, it delivers long-term accuracy and reliability."
+            },
+            {
+                q: "What kind of materials can be tested using this system?",
+                a: "The chamber is suitable for testing coatings, plastics, rubber, textiles, automotive components, and outdoor products. It helps evaluate fading, cracking, discoloration, and material degradation under UV exposure."
+            },
+            {
+                q: "How does the PLC system improve testing efficiency?",
+                a: "The integrated PLC with a 7” touchscreen HMI enables real-time monitoring, graphical visualization, automated test cycles, and data logging with report generation. This reduces manual intervention and ensures consistent, repeatable testing."
+            },
+            {
+                q: "Can I monitor the chamber remotely?",
+                a: "Yes, the system supports LAN-based connectivity, allowing remote monitoring and control via PC or mobile devices. You can track performance, adjust parameters, and access data without being physically present."
+            }
+        ],
         specs: [
             { name: "UV Spectrum", value: "200nm – 400nm (UVA & UVB)" },
             { name: "Temperature Range", value: "Ambient to 60°C (Expandable)" },
@@ -281,13 +281,13 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         ]
     },
     {
-    id: 4,
-    name: "Thermal Shock Test Chamber",
-    image: "/Assets/Thermal Shock Chamber.png",
-   images: ["/Assets/Thermal Shock Chamber.png", "/Assets/Thermal Shock Chamber.png", "/Assets/Thermal Shock Chamber.png"],
-    shortDescription: "Simulate rapid temperature changes to test how your products perform under extreme hot and cold conditions. Our Thermal Shock Test Chamber helps identify weaknesses early, ensuring durability, reliability, and consistent performance in real-world environments.",
+        id: 4,
+        name: "Thermal Shock Test Chamber",
+        image: "/Assets/Thermal Shock Chamber.png",
+        images: ["/Assets/Thermal Shock Chamber.png", "/Assets/Thermal Shock Chamber.png", "/Assets/Thermal Shock Chamber.png"],
+        shortDescription: "Simulate rapid temperature changes to test how your products perform under extreme hot and cold conditions. Our Thermal Shock Test Chamber helps identify weaknesses early, ensuring durability, reliability, and consistent performance in real-world environments.",
 
-    description: `<p>Our Thermal Shock Test Chamber is designed to evaluate how products respond to sudden temperature changes between extreme hot and cold conditions. It helps identify material weaknesses, structural failures, and performance issues that may occur in real-world environments.</p>
+        description: `<p>Our Thermal Shock Test Chamber is designed to evaluate how products respond to sudden temperature changes between extreme hot and cold conditions. It helps identify material weaknesses, structural failures, and performance issues that may occur in real-world environments.</p>
 
     <p>By simulating rapid temperature transitions in a controlled setup, the chamber enables manufacturers to ensure product durability, reliability, and long-term performance before deployment.</p>
 
@@ -344,56 +344,56 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Long operational life with minimal maintenance</li>
     </ul>`,
 
-    faqs: [
-    {
-        q: "1. What is a Thermal Shock Test Chamber used for?",
-        a: "A Thermal Shock Test Chamber is used to evaluate how materials and components perform when exposed to sudden temperature changes. It helps identify potential weaknesses such as cracking, deformation, or failure, ensuring the product can withstand real-world environmental conditions."
+        faqs: [
+            {
+                q: "1. What is a Thermal Shock Test Chamber used for?",
+                a: "A Thermal Shock Test Chamber is used to evaluate how materials and components perform when exposed to sudden temperature changes. It helps identify potential weaknesses such as cracking, deformation, or failure, ensuring the product can withstand real-world environmental conditions."
+            },
+            {
+                q: "2. How does the chamber create rapid temperature changes?",
+                a: "The chamber operates using separate high-temperature and low-temperature zones. An advanced airflow system rapidly shifts between these zones, exposing the test sample to extreme temperature variations within seconds without requiring manual movement."
+            },
+            {
+                q: "3. Why is thermal shock testing important?",
+                a: "Thermal shock testing helps identify hidden material and structural issues that may not appear under normal conditions. It enables manufacturers to improve product reliability, reduce failure risks, and ensure consistent performance over time."
+            },
+            {
+                q: "4. What types of products can be tested in this chamber?",
+                a: "This chamber is suitable for testing a wide range of products, including electronic components, automotive parts, plastics, and composite materials, especially those exposed to rapidly changing temperature environments."
+            },
+            {
+                q: "5. Can the chamber perform automated testing cycles?",
+                a: "Yes, the system is equipped with a PLC-based control system that supports fully programmable test cycles. This allows automated, repeatable testing with minimal manual intervention and ensures consistent and accurate results."
+            },
+            {
+                q: "6. Is the chamber customizable based on specific requirements?",
+                a: "Yes, the chamber can be fully customized in terms of size, temperature range, control features, and configuration to meet specific testing requirements and industry standards."
+            }
+        ],
+        specs: [
+            { name: "Temperature Range", value: "Wide range for extreme hot and cold testing" },
+            { name: "Transition System", value: "Rapid switching between temperature zones" },
+            { name: "Control System", value: "PLC with advanced HMI interface" },
+            { name: "Performance", value: "High accuracy with repeatable results" },
+            { name: "Temperature Range", value: "-70°C to +200°C" },
+            { name: "Cold Zone", value: "Ambient to -70°C" },
+            { name: "Hot Zone", value: "Ambient to +200°C" },
+            { name: "Temperature Accuracy", value: "±1°C" },
+            { name: "Basket Transfer Time", value: "5 to 45 seconds" },
+            { name: "Recovery Time", value: "10 to 30 minutes" },
+            { name: "Controller", value: "PLC with HMI" },
+            { name: "Cooling Type", value: "Air / Water Cooling" },
+            { name: "Construction", value: "Stainless Steel" }
+        ]
     },
     {
-        q: "2. How does the chamber create rapid temperature changes?",
-        a: "The chamber operates using separate high-temperature and low-temperature zones. An advanced airflow system rapidly shifts between these zones, exposing the test sample to extreme temperature variations within seconds without requiring manual movement."
-    },
-    {
-        q: "3. Why is thermal shock testing important?",
-        a: "Thermal shock testing helps identify hidden material and structural issues that may not appear under normal conditions. It enables manufacturers to improve product reliability, reduce failure risks, and ensure consistent performance over time."
-    },
-    {
-        q: "4. What types of products can be tested in this chamber?",
-        a: "This chamber is suitable for testing a wide range of products, including electronic components, automotive parts, plastics, and composite materials, especially those exposed to rapidly changing temperature environments."
-    },
-    {
-        q: "5. Can the chamber perform automated testing cycles?",
-        a: "Yes, the system is equipped with a PLC-based control system that supports fully programmable test cycles. This allows automated, repeatable testing with minimal manual intervention and ensures consistent and accurate results."
-    },
-    {
-        q: "6. Is the chamber customizable based on specific requirements?",
-        a: "Yes, the chamber can be fully customized in terms of size, temperature range, control features, and configuration to meet specific testing requirements and industry standards."
-    }
-],
-    specs: [
-        { name: "Temperature Range", value: "Wide range for extreme hot and cold testing" },
-        { name: "Transition System", value: "Rapid switching between temperature zones" },
-        { name: "Control System", value: "PLC with advanced HMI interface" },
-        { name: "Performance", value: "High accuracy with repeatable results" },
-        { name: "Temperature Range", value: "-70°C to +200°C" },
-        { name: "Cold Zone", value: "Ambient to -70°C" },
-        { name: "Hot Zone", value: "Ambient to +200°C" },
-        { name: "Temperature Accuracy", value: "±1°C" },
-        { name: "Basket Transfer Time", value: "5 to 45 seconds" },
-        { name: "Recovery Time", value: "10 to 30 minutes" },
-        { name: "Controller", value: "PLC with HMI" },
-        { name: "Cooling Type", value: "Air / Water Cooling" },
-        { name: "Construction", value: "Stainless Steel" }
-    ]
-},
-    {
-    id: 5,
-    name: "Humidity Test Chamber",
-    image: "/Assets/Humidity Test Chamber.png",
-    images: ["/Assets/Humidity Test Chamber.png", "/Assets/Humidity Test Chamber.png", "/Assets/Humidity Test Chamber.png"],
-    shortDescription: "Create controlled humidity and temperature conditions to evaluate how products perform in real-world environments. Our Humidity Chambers simulate moisture exposure with precision, ensuring reliability, performance, and consistent product quality.",
+        id: 5,
+        name: "Humidity Test Chamber",
+        image: "/Assets/Humidity Test Chamber.png",
+        images: ["/Assets/Humidity Test Chamber.png", "/Assets/Humidity Test Chamber.png", "/Assets/Humidity Test Chamber.png"],
+        shortDescription: "Create controlled humidity and temperature conditions to evaluate how products perform in real-world environments. Our Humidity Chambers simulate moisture exposure with precision, ensuring reliability, performance, and consistent product quality.",
 
-    description: `<p>Our Humidity Test Chamber is designed to create controlled humidity and temperature conditions for accurate environmental testing. It enables manufacturers to evaluate how materials and components respond to varying moisture levels, helping identify performance issues and ensure long-term durability.</p>
+        description: `<p>Our Humidity Test Chamber is designed to create controlled humidity and temperature conditions for accurate environmental testing. It enables manufacturers to evaluate how materials and components respond to varying moisture levels, helping identify performance issues and ensure long-term durability.</p>
 
     <p>With a stable testing environment and uniform condition distribution, the chamber delivers consistent and repeatable results across a wide range of applications. Ideal for R&D, validation, and quality assurance, it ensures dependable and precise environmental simulation.</p>
 
@@ -467,51 +467,51 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Trusted solution for performance-driven industries</li>
     </ul>`,
 
-    faqs: [
-    {
-        q: "What is a Humidity Chamber used for?",
-        a: "A Humidity Chamber is used to simulate controlled moisture and temperature conditions to evaluate how products perform in humid environments. It helps identify potential issues such as material degradation, corrosion, and performance instability before real-world deployment."
+        faqs: [
+            {
+                q: "What is a Humidity Chamber used for?",
+                a: "A Humidity Chamber is used to simulate controlled moisture and temperature conditions to evaluate how products perform in humid environments. It helps identify potential issues such as material degradation, corrosion, and performance instability before real-world deployment."
+            },
+            {
+                q: "How stable are the testing conditions inside the chamber?",
+                a: "The chamber is designed to maintain highly stable humidity and temperature levels with precision. Uniform airflow and advanced control systems ensure consistent and repeatable conditions throughout the testing process."
+            },
+            {
+                q: "Can the chamber perform cyclic humidity testing?",
+                a: "Yes, the system supports programmable cyclic testing, allowing products to be exposed to varying humidity and temperature levels over time. This helps simulate real-world environmental changes more effectively."
+            },
+            {
+                q: "Is the system suitable for long-duration testing?",
+                a: "Yes, the chamber is built for continuous operation and long-duration testing cycles, making it ideal for durability testing and product lifecycle evaluation."
+            },
+            {
+                q: "Can the chamber be customized based on requirements?",
+                a: "Yes, the chamber can be fully customized in terms of size, configuration, control features, and automation levels to meet specific industry requirements and testing standards."
+            }
+        ],
+        specs: [
+            { name: "Humidity Range", value: "30% to 98% RH" },
+            { name: "Temperature Range", value: "10°C to 60°C" },
+            { name: "Humidity Accuracy", value: "±3% to ±5% RH" },
+            { name: "Control System", value: "PLC with Touchscreen Interface" },
+            { name: "Temperature Range", value: "10°C to 60°C" },
+            { name: "Humidity Range", value: "30% to 98% RH" },
+            { name: "Temperature Accuracy", value: "±1°C" },
+            { name: "Humidity Accuracy", value: "±3% to ±5% RH" },
+            { name: "Control System", value: "PLC with HMI interface" },
+            { name: "Humidity System", value: "Direct vapor generation" },
+            { name: "Dehumidification", value: "Refrigeration-based system" },
+            { name: "Chamber Construction", value: "SS304 Stainless Steel Interior" }
+        ]
     },
     {
-        q: "How stable are the testing conditions inside the chamber?",
-        a: "The chamber is designed to maintain highly stable humidity and temperature levels with precision. Uniform airflow and advanced control systems ensure consistent and repeatable conditions throughout the testing process."
-    },
-    {
-        q: "Can the chamber perform cyclic humidity testing?",
-        a: "Yes, the system supports programmable cyclic testing, allowing products to be exposed to varying humidity and temperature levels over time. This helps simulate real-world environmental changes more effectively."
-    },
-    {
-        q: "Is the system suitable for long-duration testing?",
-        a: "Yes, the chamber is built for continuous operation and long-duration testing cycles, making it ideal for durability testing and product lifecycle evaluation."
-    },
-    {
-        q: "Can the chamber be customized based on requirements?",
-        a: "Yes, the chamber can be fully customized in terms of size, configuration, control features, and automation levels to meet specific industry requirements and testing standards."
-    }
-],
-    specs: [
-        { name: "Humidity Range", value: "30% to 98% RH" },
-        { name: "Temperature Range", value: "10°C to 60°C" },
-        { name: "Humidity Accuracy", value: "±3% to ±5% RH" },
-        { name: "Control System", value: "PLC with Touchscreen Interface" },
-        { name: "Temperature Range", value: "10°C to 60°C" },
-        { name: "Humidity Range", value: "30% to 98% RH" },
-        { name: "Temperature Accuracy", value: "±1°C" },
-        { name: "Humidity Accuracy", value: "±3% to ±5% RH" },
-        { name: "Control System", value: "PLC with HMI interface" },
-        { name: "Humidity System", value: "Direct vapor generation" },
-        { name: "Dehumidification", value: "Refrigeration-based system" },
-        { name: "Chamber Construction", value: "SS304 Stainless Steel Interior" }
-    ]
-},
-    {
-    id: 8,
-    name: "CASS Test Chamber",
-  image: "/Assets/Cass Test Chamber.png",
-   images: ["/Assets/Cass Test Chamber.png", "/Assets/Cass Test Chamber.png", "/Assets/Cass Test Chamber.png"],
-    shortDescription: "Evaluate corrosion resistance under aggressive environments using copper-accelerated salt spray testing. Designed for precise, reliable, and accelerated validation of coatings and material durability.",
+        id: 8,
+        name: "CASS Test Chamber",
+        image: "/Assets/Cass Test Chamber.png",
+        images: ["/Assets/Cass Test Chamber.png", "/Assets/Cass Test Chamber.png", "/Assets/Cass Test Chamber.png"],
+        shortDescription: "Evaluate corrosion resistance under aggressive environments using copper-accelerated salt spray testing. Designed for precise, reliable, and accelerated validation of coatings and material durability.",
 
-    description: `<p>The CASS Test Chamber is engineered to simulate highly corrosive environments using copper-accelerated salt spray (fog) conditions. This accelerated testing method enables manufacturers to evaluate corrosion resistance of coated and plated components in a significantly reduced timeframe.</p>
+        description: `<p>The CASS Test Chamber is engineered to simulate highly corrosive environments using copper-accelerated salt spray (fog) conditions. This accelerated testing method enables manufacturers to evaluate corrosion resistance of coated and plated components in a significantly reduced timeframe.</p>
 
     <p>With advanced control over temperature, humidity, and fog generation, the chamber ensures consistent exposure conditions for accurate and repeatable testing. It is widely used in industries where corrosion resistance is critical for product performance and long-term reliability.</p>
 
@@ -589,67 +589,67 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Trusted solution for coating and material validation</li>
     </ul>`,
 
-    faqs: [
-    {
-        q: "What makes CASS testing more aggressive than standard salt spray testing?",
-        a: "CASS (Copper Accelerated Acetic Acid Salt Spray) testing uses a combination of copper chloride and acidic conditions to significantly accelerate the corrosion process. This makes it more severe than standard salt spray testing, allowing faster evaluation of coating performance and corrosion resistance."
+        faqs: [
+            {
+                q: "What makes CASS testing more aggressive than standard salt spray testing?",
+                a: "CASS (Copper Accelerated Acetic Acid Salt Spray) testing uses a combination of copper chloride and acidic conditions to significantly accelerate the corrosion process. This makes it more severe than standard salt spray testing, allowing faster evaluation of coating performance and corrosion resistance."
+            },
+            {
+                q: "When should CASS testing be preferred over NSS testing?",
+                a: "CASS testing is preferred when evaluating high-performance coatings such as electroplated parts, decorative finishes, and protective layers that must withstand harsh environments. It is ideal when faster and more stringent corrosion validation is required."
+            },
+            {
+                q: "What types of products are typically tested in a CASS chamber?",
+                a: "CASS chambers are widely used for testing automotive components, chrome-plated parts, anodized surfaces, fasteners, and coated metals that require high corrosion resistance in aggressive environmental conditions."
+            },
+            {
+                q: "How does the chamber ensure consistent corrosion conditions?",
+                a: "The chamber maintains controlled temperature, humidity, and fog generation using precision sensors and automated systems. Uniform salt fog distribution and stable environmental conditions ensure repeatable and reliable test results."
+            },
+            {
+                q: "Can different corrosion test cycles be programmed?",
+                a: "Yes, the system supports programmable test cycles, allowing users to define exposure duration, environmental conditions, and repeat cycles to accurately simulate real-world corrosion patterns."
+            },
+            {
+                q: "Does the system support monitoring and data tracking?",
+                a: "Yes, advanced PLC and HMI systems enable real-time monitoring, data logging, and performance tracking. Users can access test data, graphs, and reports for analysis and documentation."
+            },
+            {
+                q: "Is the chamber suitable for long-duration testing?",
+                a: "Yes, the chamber is designed for continuous operation with stable environmental control, making it suitable for extended corrosion testing and long-term durability evaluation."
+            }
+        ],
+        specs: [
+            { name: "Temperature Range", value: "Ambient to +60°C" },
+            { name: "Testing Standards", value: "ASTM B368, ISO 9227" },
+            { name: "Humidity Capability", value: "≥ 95% RH" },
+            { name: "Control System", value: "PLC / HMI with Data Logging" },
+            { name: "Temperature Range", value: "Ambient to 60°C" },
+            { name: "Temperature Accuracy", value: "±2°C" },
+            { name: "Temperature Uniformity", value: "±2°C" },
+            { name: "Humidity Range", value: "≥ 95% RH" },
+            { name: "Humidity Uniformity", value: "±5%" },
+            { name: "Controller", value: "PLC / HMI (Omron based)" },
+            { name: "Display", value: "7” Touchscreen Interface" },
+            { name: "Air Regulator", value: "7–13 psi" },
+            { name: "Timer", value: "0–9999 minutes adjustable" },
+            { name: "Sensor", value: "Corrosion-resistant PT-100" },
+            { name: "Power Supply", value: "220V, Single Phase, 50Hz" },
+            { name: "Safety Features", value: "Over-temperature, pressure safety valve, alarms" }
+        ]
     },
     {
-        q: "When should CASS testing be preferred over NSS testing?",
-        a: "CASS testing is preferred when evaluating high-performance coatings such as electroplated parts, decorative finishes, and protective layers that must withstand harsh environments. It is ideal when faster and more stringent corrosion validation is required."
-    },
-    {
-        q: "What types of products are typically tested in a CASS chamber?",
-        a: "CASS chambers are widely used for testing automotive components, chrome-plated parts, anodized surfaces, fasteners, and coated metals that require high corrosion resistance in aggressive environmental conditions."
-    },
-    {
-        q: "How does the chamber ensure consistent corrosion conditions?",
-        a: "The chamber maintains controlled temperature, humidity, and fog generation using precision sensors and automated systems. Uniform salt fog distribution and stable environmental conditions ensure repeatable and reliable test results."
-    },
-    {
-        q: "Can different corrosion test cycles be programmed?",
-        a: "Yes, the system supports programmable test cycles, allowing users to define exposure duration, environmental conditions, and repeat cycles to accurately simulate real-world corrosion patterns."
-    },
-    {
-        q: "Does the system support monitoring and data tracking?",
-        a: "Yes, advanced PLC and HMI systems enable real-time monitoring, data logging, and performance tracking. Users can access test data, graphs, and reports for analysis and documentation."
-    },
-    {
-        q: "Is the chamber suitable for long-duration testing?",
-        a: "Yes, the chamber is designed for continuous operation with stable environmental control, making it suitable for extended corrosion testing and long-term durability evaluation."
-    }
-],
-    specs: [
-        { name: "Temperature Range", value: "Ambient to +60°C" },
-        { name: "Testing Standards", value: "ASTM B368, ISO 9227" },
-        { name: "Humidity Capability", value: "≥ 95% RH" },
-        { name: "Control System", value: "PLC / HMI with Data Logging" },
-        { name: "Temperature Range", value: "Ambient to 60°C" },
-        { name: "Temperature Accuracy", value: "±2°C" },
-        { name: "Temperature Uniformity", value: "±2°C" },
-        { name: "Humidity Range", value: "≥ 95% RH" },
-        { name: "Humidity Uniformity", value: "±5%" },
-        { name: "Controller", value: "PLC / HMI (Omron based)" },
-        { name: "Display", value: "7” Touchscreen Interface" },
-        { name: "Air Regulator", value: "7–13 psi" },
-        { name: "Timer", value: "0–9999 minutes adjustable" },
-        { name: "Sensor", value: "Corrosion-resistant PT-100" },
-        { name: "Power Supply", value: "220V, Single Phase, 50Hz" },
-        { name: "Safety Features", value: "Over-temperature, pressure safety valve, alarms" }
-    ]
-},
-    {
-    id: 7,
-    name: "Hot & Cold Test Chamber",
-    image: "/Assets/Hot Cold Test Chamber.png",
-    images: [
-        "/Assets/Hot Cold Test Chamber.png",
-        "/Assets/Hot Cold Test Chamber.png",
-        "/Assets/Hot Cold Test Chamber.png"
-    ],
-    shortDescription: "Designed to simulate extreme temperature variations, the Hot & Cold Test Chamber enables precise evaluation of product performance, durability, and reliability across rapidly changing environmental conditions.",
+        id: 7,
+        name: "Hot & Cold Test Chamber",
+        image: "/Assets/Hot Cold Test Chamber.png",
+        images: [
+            "/Assets/Hot Cold Test Chamber.png",
+            "/Assets/Hot Cold Test Chamber.png",
+            "/Assets/Hot Cold Test Chamber.png"
+        ],
+        shortDescription: "Designed to simulate extreme temperature variations, the Hot & Cold Test Chamber enables precise evaluation of product performance, durability, and reliability across rapidly changing environmental conditions.",
 
-    description: `<p>The Hot & Cold Test Chamber is designed to evaluate how materials and products perform under rapidly changing temperature conditions. By simulating both high and low temperature environments within a controlled setup, it helps identify structural weaknesses, performance limitations, and long-term durability challenges.</p>
+        description: `<p>The Hot & Cold Test Chamber is designed to evaluate how materials and products perform under rapidly changing temperature conditions. By simulating both high and low temperature environments within a controlled setup, it helps identify structural weaknesses, performance limitations, and long-term durability challenges.</p>
 
     <p>Built with precision components and advanced control systems, the chamber ensures accurate, repeatable, and reliable testing outcomes across a wide range of industrial applications.</p>
 
@@ -721,56 +721,56 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Scalable systems for future expansion</li>
     </ul>`,
 
-    faqs: [
-    {
-        q: "What is a Hot & Cold Test Chamber used for?",
-        a: "A Hot & Cold Test Chamber is used to evaluate how materials, components, and finished products perform when exposed to both high and low temperature conditions. It helps identify potential weaknesses such as expansion, contraction, or material degradation, ensuring reliable performance under real-world environmental variations."
+        faqs: [
+            {
+                q: "What is a Hot & Cold Test Chamber used for?",
+                a: "A Hot & Cold Test Chamber is used to evaluate how materials, components, and finished products perform when exposed to both high and low temperature conditions. It helps identify potential weaknesses such as expansion, contraction, or material degradation, ensuring reliable performance under real-world environmental variations."
+            },
+            {
+                q: "What temperature range does the chamber support?",
+                a: "The chamber typically operates within a wide temperature range of -70°C to +200°C, enabling comprehensive testing under extreme hot and cold conditions for various industrial and research applications."
+            },
+            {
+                q: "How accurate and stable are the testing conditions?",
+                a: "The chamber maintains high accuracy with minimal temperature fluctuation and controlled deviation. Advanced air circulation and insulation systems ensure uniform temperature distribution for consistent and repeatable test results."
+            },
+            {
+                q: "Can the chamber perform automated testing cycles?",
+                a: "Yes, the system is equipped with a PLC-based control system that allows fully programmable testing cycles. Users can define multiple stages such as heating, cooling, and holding periods for automated and repeatable testing."
+            },
+            {
+                q: "Is remote monitoring and control available?",
+                a: "Yes, the chamber supports remote monitoring and operation via PC or mobile devices, enabling real-time tracking, parameter adjustments, and data review for improved efficiency."
+            },
+            {
+                q: "Which industries commonly use this chamber?",
+                a: "Hot & Cold Test Chambers are widely used in industries such as electronics, automotive, aerospace, medical devices, and materials testing where products must perform reliably under varying temperature conditions."
+            }
+        ],
+        specs: [
+            { name: "Temperature Range", value: "-70°C to +200°C" },
+            { name: "Uniformity", value: "±0.5°C" },
+            { name: "Control System", value: "PLC + Touchscreen HMI" },
+            { name: "Cooling System", value: "Cascade Refrigeration" },
+            { name: "Temperature Range", value: "-70°C to +200°C" },
+            { name: "Temperature Fluctuation", value: "±0.5°C" },
+            { name: "Temperature Deviation", value: "±2.0°C" },
+            { name: "Heating Rate", value: "0.5 to 15°C/min" },
+            { name: "Cooling Rate", value: "0.5 to 15°C/min" },
+            { name: "Refrigerant", value: "R404A / R23" },
+            { name: "Controller", value: "PLC with touchscreen interface" },
+            { name: "Cooling System", value: "Cascade Refrigeration" },
+            { name: "Power Supply", value: "220V / 415V, 50Hz" }
+        ]
     },
     {
-        q: "What temperature range does the chamber support?",
-        a: "The chamber typically operates within a wide temperature range of -70°C to +200°C, enabling comprehensive testing under extreme hot and cold conditions for various industrial and research applications."
-    },
-    {
-        q: "How accurate and stable are the testing conditions?",
-        a: "The chamber maintains high accuracy with minimal temperature fluctuation and controlled deviation. Advanced air circulation and insulation systems ensure uniform temperature distribution for consistent and repeatable test results."
-    },
-    {
-        q: "Can the chamber perform automated testing cycles?",
-        a: "Yes, the system is equipped with a PLC-based control system that allows fully programmable testing cycles. Users can define multiple stages such as heating, cooling, and holding periods for automated and repeatable testing."
-    },
-    {
-        q: "Is remote monitoring and control available?",
-        a: "Yes, the chamber supports remote monitoring and operation via PC or mobile devices, enabling real-time tracking, parameter adjustments, and data review for improved efficiency."
-    },
-    {
-        q: "Which industries commonly use this chamber?",
-        a: "Hot & Cold Test Chambers are widely used in industries such as electronics, automotive, aerospace, medical devices, and materials testing where products must perform reliably under varying temperature conditions."
-    }
-],
-    specs: [
-        { name: "Temperature Range", value: "-70°C to +200°C" },
-        { name: "Uniformity", value: "±0.5°C" },
-        { name: "Control System", value: "PLC + Touchscreen HMI" },
-        { name: "Cooling System", value: "Cascade Refrigeration" },
-        { name: "Temperature Range", value: "-70°C to +200°C" },
-        { name: "Temperature Fluctuation", value: "±0.5°C" },
-        { name: "Temperature Deviation", value: "±2.0°C" },
-        { name: "Heating Rate", value: "0.5 to 15°C/min" },
-        { name: "Cooling Rate", value: "0.5 to 15°C/min" },
-        { name: "Refrigerant", value: "R404A / R23" },
-        { name: "Controller", value: "PLC with touchscreen interface" },
-        { name: "Cooling System", value: "Cascade Refrigeration" },
-        { name: "Power Supply", value: "220V / 415V, 50Hz" }
-    ]
-},
-    {
-    id: 6,
-    name: "Hot Air Oven",
-   image: "/Assets/Hot Air Oven.png",
-  images: ["/Assets/Hot Air Oven.png", "/Assets/Hot Air Oven.png", "/Assets/Hot Air Oven.png"],
-    shortDescription: "Create a precisely controlled heating environment to evaluate product performance, durability, and material behavior under elevated temperature conditions with uniform heat distribution and stable thermal control.",
+        id: 6,
+        name: "Hot Air Oven",
+        image: "/Assets/Hot Air Oven.png",
+        images: ["/Assets/Hot Air Oven.png", "/Assets/Hot Air Oven.png", "/Assets/Hot Air Oven.png"],
+        shortDescription: "Create a precisely controlled heating environment to evaluate product performance, durability, and material behavior under elevated temperature conditions with uniform heat distribution and stable thermal control.",
 
-    description: `<p>The Hot Air Oven is designed to create a stable and controlled thermal environment for a wide range of heating and drying applications. It enables manufacturers to evaluate product behavior, perform curing processes, and conduct thermal testing with high accuracy.</p>
+        description: `<p>The Hot Air Oven is designed to create a stable and controlled thermal environment for a wide range of heating and drying applications. It enables manufacturers to evaluate product behavior, perform curing processes, and conduct thermal testing with high accuracy.</p>
 
     <p>With advanced airflow management and precision heating systems, the oven ensures consistent temperature distribution throughout the chamber, minimizing variations and delivering repeatable results for both laboratory and industrial-scale operations.</p>
 
@@ -852,68 +852,68 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Trusted solution for precision heating processes</li>
     </ul>`,
 
-    faqs: [
-    {
-        q: "What are the primary applications of a Hot Air Oven?",
-        a: "Hot Air Ovens are used for drying, curing, sterilization, and thermal testing across various industries. They help evaluate how materials and products behave under controlled high-temperature conditions, making them essential for quality validation and process consistency."
+        faqs: [
+            {
+                q: "What are the primary applications of a Hot Air Oven?",
+                a: "Hot Air Ovens are used for drying, curing, sterilization, and thermal testing across various industries. They help evaluate how materials and products behave under controlled high-temperature conditions, making them essential for quality validation and process consistency."
+            },
+            {
+                q: "How does the oven maintain uniform temperature throughout the chamber?",
+                a: "The system uses a forced air circulation mechanism with a centrifugal blower that continuously distributes heated air across the chamber. This ensures minimal temperature variation and consistent conditions for accurate and repeatable testing."
+            },
+            {
+                q: "Can the oven perform programmable temperature cycles?",
+                a: "Yes, the oven supports programmable temperature profiles including ramp-up, soaking, and cyclic testing. This allows users to simulate real-world thermal conditions and conduct repeatable testing with precision."
+            },
+            {
+                q: "What makes this oven suitable for industrial use?",
+                a: "The oven is built with a robust insulated structure, a high-quality stainless steel chamber, and industrial-grade heating elements. Combined with PLC-based automation, it is designed for continuous operation in demanding environments."
+            },
+            {
+                q: "Is it possible to monitor and control the oven remotely?",
+                a: "Yes, with PLC and HMI integration, the system enables remote monitoring, data logging, and control via mobile and PC interfaces, allowing efficient operation without constant manual supervision."
+            },
+            {
+                q: "How energy-efficient is the system?",
+                a: "The oven is designed with optimized insulation and efficient heating elements to minimize heat loss and reduce energy consumption, making it cost-effective for long-duration testing and industrial use."
+            },
+            {
+                q: "Can the oven be customized for specific applications?",
+                a: "Yes, the system can be customized in terms of chamber size, temperature range, control systems, and internal configurations to meet specific industrial or laboratory requirements."
+            },
+            {
+                q: "Is the oven suitable for continuous and long-duration testing?",
+                a: "Yes, it is engineered for stable long-term operation with consistent performance, making it ideal for durability testing and extended thermal processing applications."
+            }
+        ],
+        specs: [
+            { name: "Temperature Capability", value: "Up to +250°C (customizable)" },
+            { name: "Airflow System", value: "Forced Air Circulation" },
+            { name: "Chamber Options", value: "Bench-top to Walk-in Models" },
+            { name: "Control System", value: "PLC / HMI with Data Logging" },
+            { name: "Temperature Range", value: "Up to 250°C (customizable)" },
+            { name: "Temperature Control", value: "PID / PLC-based system" },
+            { name: "Air Circulation", value: "Forced convection (blower-based)" },
+            { name: "Chamber Material", value: "SS304 inner chamber" },
+            { name: "Insulation", value: "High-grade glass wool" },
+            { name: "Shelves", value: "Adjustable (SS / Aluminium)" },
+            { name: "Control Interface", value: "Touchscreen HMI" },
+            { name: "Operation Modes", value: "Auto / Manual" },
+            { name: "Power Supply", value: "220V / 415V AC" }
+        ]
     },
     {
-        q: "How does the oven maintain uniform temperature throughout the chamber?",
-        a: "The system uses a forced air circulation mechanism with a centrifugal blower that continuously distributes heated air across the chamber. This ensures minimal temperature variation and consistent conditions for accurate and repeatable testing."
-    },
-    {
-        q: "Can the oven perform programmable temperature cycles?",
-        a: "Yes, the oven supports programmable temperature profiles including ramp-up, soaking, and cyclic testing. This allows users to simulate real-world thermal conditions and conduct repeatable testing with precision."
-    },
-    {
-        q: "What makes this oven suitable for industrial use?",
-        a: "The oven is built with a robust insulated structure, a high-quality stainless steel chamber, and industrial-grade heating elements. Combined with PLC-based automation, it is designed for continuous operation in demanding environments."
-    },
-    {
-        q: "Is it possible to monitor and control the oven remotely?",
-        a: "Yes, with PLC and HMI integration, the system enables remote monitoring, data logging, and control via mobile and PC interfaces, allowing efficient operation without constant manual supervision."
-    },
-    {
-        q: "How energy-efficient is the system?",
-        a: "The oven is designed with optimized insulation and efficient heating elements to minimize heat loss and reduce energy consumption, making it cost-effective for long-duration testing and industrial use."
-    },
-    {
-        q: "Can the oven be customized for specific applications?",
-        a: "Yes, the system can be customized in terms of chamber size, temperature range, control systems, and internal configurations to meet specific industrial or laboratory requirements."
-    },
-    {
-        q: "Is the oven suitable for continuous and long-duration testing?",
-        a: "Yes, it is engineered for stable long-term operation with consistent performance, making it ideal for durability testing and extended thermal processing applications."
-    }
-],
-    specs: [
-        { name: "Temperature Capability", value: "Up to +250°C (customizable)" },
-        { name: "Airflow System", value: "Forced Air Circulation" },
-        { name: "Chamber Options", value: "Bench-top to Walk-in Models" },
-        { name: "Control System", value: "PLC / HMI with Data Logging"},
-        { name: "Temperature Range", value: "Up to 250°C (customizable)" },
-        { name: "Temperature Control", value: "PID / PLC-based system" },
-        { name: "Air Circulation", value: "Forced convection (blower-based)" },
-        { name: "Chamber Material", value: "SS304 inner chamber" },
-        { name: "Insulation", value: "High-grade glass wool" },
-        { name: "Shelves", value: "Adjustable (SS / Aluminium)" },
-        { name: "Control Interface", value: "Touchscreen HMI" },
-        { name: "Operation Modes", value: "Auto / Manual" },
-        { name: "Power Supply", value: "220V / 415V AC" }
-    ]
-},
-    {
-    id: 9,
-    name: "Corrosion Test Chamber",
-    image: "/Assets/Corrosion Test Chamber.png",
-    images: [
-        "/Assets/Corrosion Test Chamber.png",
-        "/Assets/Corrosion Test Chamber.png",
-        "/Assets/Corrosion Test Chamber.png"
-    ],
-    shortDescription: "Simulate real-world corrosion conditions with precision to evaluate material durability, coating performance, and product reliability. Designed for salt spray, CASS, and cyclic corrosion testing, this chamber ensures consistent and accelerated corrosion analysis.",
-    
-    description: `<p>The Corrosion Test Chamber is engineered to replicate harsh environmental conditions for evaluating corrosion resistance of materials, coatings, and components. It supports salt spray testing, CASS testing, and cyclic corrosion testing, making it a versatile solution for industrial applications.</p>
+        id: 9,
+        name: "Corrosion Test Chamber",
+        image: "/Assets/Corrosion Test Chamber.png",
+        images: [
+            "/Assets/Corrosion Test Chamber.png",
+            "/Assets/Corrosion Test Chamber.png",
+            "/Assets/Corrosion Test Chamber.png"
+        ],
+        shortDescription: "Simulate real-world corrosion conditions with precision to evaluate material durability, coating performance, and product reliability. Designed for salt spray, CASS, and cyclic corrosion testing, this chamber ensures consistent and accelerated corrosion analysis.",
+
+        description: `<p>The Corrosion Test Chamber is engineered to replicate harsh environmental conditions for evaluating corrosion resistance of materials, coatings, and components. It supports salt spray testing, CASS testing, and cyclic corrosion testing, making it a versatile solution for industrial applications.</p>
     <br>
     <p>The system provides precise control over temperature, humidity, and fog generation, ensuring stable and repeatable testing conditions. This allows manufacturers to assess product durability under accelerated corrosion environments and improve product quality and compliance.</p>
 
@@ -986,48 +986,48 @@ Ideal for industries requiring long-term reliability testing, this system ensure
         <li>Ideal for quality assurance and compliance</li>
     </ul>`,
 
-    faqs: [
-        {
-            q: "What types of corrosion tests can be performed in this chamber?",
-            a: "The chamber supports salt spray testing, CASS testing, and cyclic corrosion testing, enabling evaluation of materials and coatings under various environmental conditions."
-        },
-        {
-            q: "What is the advantage of cyclic corrosion testing?",
-            a: "Cyclic corrosion testing simulates real-world environmental variations by alternating between humidity, temperature, and salt exposure, providing more realistic results."
-        },
-        {
-            q: "How does the chamber ensure consistent corrosion conditions?",
-            a: "It uses controlled fog spray, temperature regulation, and humidity control along with uniform fog distribution to maintain stable testing conditions."
-        },
-        {
-            q: "Can the system be monitored remotely?",
-            a: "Yes, it supports wireless and LAN connectivity for real-time monitoring and control via mobile devices and computers."
-        },
-        {
-            q: "Is the chamber suitable for continuous industrial testing?",
-            a: "Yes, it is designed for long-duration testing with stable performance and built-in safety systems."
-        },
-        {
-            q: "Can the chamber be customized?",
-            a: "Yes, it can be customized in terms of size, materials, control systems, and testing cycles to meet specific requirements."
-        }
-    ],
+        faqs: [
+            {
+                q: "What types of corrosion tests can be performed in this chamber?",
+                a: "The chamber supports salt spray testing, CASS testing, and cyclic corrosion testing, enabling evaluation of materials and coatings under various environmental conditions."
+            },
+            {
+                q: "What is the advantage of cyclic corrosion testing?",
+                a: "Cyclic corrosion testing simulates real-world environmental variations by alternating between humidity, temperature, and salt exposure, providing more realistic results."
+            },
+            {
+                q: "How does the chamber ensure consistent corrosion conditions?",
+                a: "It uses controlled fog spray, temperature regulation, and humidity control along with uniform fog distribution to maintain stable testing conditions."
+            },
+            {
+                q: "Can the system be monitored remotely?",
+                a: "Yes, it supports wireless and LAN connectivity for real-time monitoring and control via mobile devices and computers."
+            },
+            {
+                q: "Is the chamber suitable for continuous industrial testing?",
+                a: "Yes, it is designed for long-duration testing with stable performance and built-in safety systems."
+            },
+            {
+                q: "Can the chamber be customized?",
+                a: "Yes, it can be customized in terms of size, materials, control systems, and testing cycles to meet specific requirements."
+            }
+        ],
 
-    specs: [
-        { name: "Temperature Range", value: "10°C to 70°C" },
-        { name: "Humidity Range", value: "30% to 100% RH" },
-        { name: "Temperature Accuracy", value: "±2°C" },
-        { name: "Humidity Accuracy", value: "±3%" },
-        { name: "Capacity", value: "500 Liters (Customizable)" },
-        { name: "Chamber Size", value: "800 × 800 × 800 mm" },
-        { name: "Control System", value: "PLC with 7” Touchscreen (HMI)" },
-        { name: "Air Regulator", value: "10–20 PSI" },
-        { name: "Timer", value: "0–9999 minutes" },
-        { name: "Sensor", value: "PT-100 corrosion-resistant sensor" },
-        { name: "Power Supply", value: "220V, Single Phase, 50Hz" },
-        { name: "Safety", value: "Over-temperature, pressure valve, alarms" }
-    ]
-},
+        specs: [
+            { name: "Temperature Range", value: "10°C to 70°C" },
+            { name: "Humidity Range", value: "30% to 100% RH" },
+            { name: "Temperature Accuracy", value: "±2°C" },
+            { name: "Humidity Accuracy", value: "±3%" },
+            { name: "Capacity", value: "500 Liters (Customizable)" },
+            { name: "Chamber Size", value: "800 × 800 × 800 mm" },
+            { name: "Control System", value: "PLC with 7” Touchscreen (HMI)" },
+            { name: "Air Regulator", value: "10–20 PSI" },
+            { name: "Timer", value: "0–9999 minutes" },
+            { name: "Sensor", value: "PT-100 corrosion-resistant sensor" },
+            { name: "Power Supply", value: "220V, Single Phase, 50Hz" },
+            { name: "Safety", value: "Over-temperature, pressure valve, alarms" }
+        ]
+    },
     {
         id: 10,
         name: "Rain Test Chamber",
@@ -1086,31 +1086,31 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
             <li>PLC automation and remote monitoring options</li>
         </ul>`,
         faqs: [
-    {
-        q: "What types of IP testing can this chamber perform?",
-        a: "The chamber supports IPX1 to IPX6 testing standards, enabling validation against dripping water, spray, and powerful water jets to assess ingress protection performance."
-    },
-    {
-        q: "How does the system ensure uniform water distribution?",
-        a: "The chamber uses a multi-nozzle spray system with controlled spacing and pressure to ensure consistent and uniform water exposure across the test sample."
-    },
-    {
-        q: "Can the rotation and spray settings be adjusted?",
-        a: "Yes, the system allows adjustment of turntable rotation speed (1–17 RPM) and spray angles to match specific testing requirements and standards."
-    },
-    {
-        q: "What industries typically use this chamber?",
-        a: "This chamber is widely used in automotive, electronics, lighting, battery, and manufacturing industries for testing water ingress and sealing performance."
-    },
-    {
-        q: "Is the chamber customizable for different product sizes?",
-        a: "Yes, the chamber is fully customizable in terms of size, spray configuration, and automation level to suit specific application requirements."
-    },
-    {
-        q: "Does the system support automation and remote monitoring?",
-        a: "Yes, the PLC-based control system supports automated testing cycles, real-time data logging, and remote monitoring via PC and mobile devices for efficient operation."
-    }
-],
+            {
+                q: "What types of IP testing can this chamber perform?",
+                a: "The chamber supports IPX1 to IPX6 testing standards, enabling validation against dripping water, spray, and powerful water jets to assess ingress protection performance."
+            },
+            {
+                q: "How does the system ensure uniform water distribution?",
+                a: "The chamber uses a multi-nozzle spray system with controlled spacing and pressure to ensure consistent and uniform water exposure across the test sample."
+            },
+            {
+                q: "Can the rotation and spray settings be adjusted?",
+                a: "Yes, the system allows adjustment of turntable rotation speed (1–17 RPM) and spray angles to match specific testing requirements and standards."
+            },
+            {
+                q: "What industries typically use this chamber?",
+                a: "This chamber is widely used in automotive, electronics, lighting, battery, and manufacturing industries for testing water ingress and sealing performance."
+            },
+            {
+                q: "Is the chamber customizable for different product sizes?",
+                a: "Yes, the chamber is fully customizable in terms of size, spray configuration, and automation level to suit specific application requirements."
+            },
+            {
+                q: "Does the system support automation and remote monitoring?",
+                a: "Yes, the PLC-based control system supports automated testing cycles, real-time data logging, and remote monitoring via PC and mobile devices for efficient operation."
+            }
+        ],
         specs: [
             { name: "Testing Standards", value: "IPX1 to IPX6 Supported" },
             { name: "Control System", value: "PLC + 7” Touch Screen HMI" },
@@ -1135,13 +1135,13 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         ]
     },
     {
-    id: 11,
-    name: "Dust Test Chamber",
-    image: "/Assets/Dust Test Chamber.png",
-    images: ["/Assets/Dust Test Chamber.png", "/Assets/Dust Test Chamber.png", "/Assets/Dust Test Chamber.png"],
-    shortDescription: "Simulate real-world dust and particulate environments to evaluate product durability, sealing efficiency, and resistance to dust ingress under harsh conditions.",
+        id: 11,
+        name: "Dust Test Chamber",
+        image: "/Assets/Dust Test Chamber.png",
+        images: ["/Assets/Dust Test Chamber.png", "/Assets/Dust Test Chamber.png", "/Assets/Dust Test Chamber.png"],
+        shortDescription: "Simulate real-world dust and particulate environments to evaluate product durability, sealing efficiency, and resistance to dust ingress under harsh conditions.",
 
-    description: `<p>Our Dust Test Chamber is designed to simulate real-world dust and particulate environments, enabling manufacturers to evaluate product sealing efficiency, durability, and resistance to dust ingress.</p>
+        description: `<p>Our Dust Test Chamber is designed to simulate real-world dust and particulate environments, enabling manufacturers to evaluate product sealing efficiency, durability, and resistance to dust ingress.</p>
 
     <p>With precise airflow control and automated dust circulation systems, the chamber ensures uniform dust distribution and consistent, repeatable testing conditions. It is ideal for product validation and quality assurance across industries where dust exposure is a critical factor.</p>
 
@@ -1218,57 +1218,57 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Trusted solution for critical product validation</li>
     </ul>`,
 
-    faqs: [
-    {
-        q: "What is a Dust Test Chamber used for?",
-        a: "A Dust Test Chamber is used to simulate dusty environments to evaluate how well products resist dust ingress. It helps manufacturers test sealing effectiveness and ensure product durability under harsh environmental conditions."
+        faqs: [
+            {
+                q: "What is a Dust Test Chamber used for?",
+                a: "A Dust Test Chamber is used to simulate dusty environments to evaluate how well products resist dust ingress. It helps manufacturers test sealing effectiveness and ensure product durability under harsh environmental conditions."
+            },
+            {
+                q: "Which standards does the chamber comply with?",
+                a: "The chamber is designed to meet international testing standards such as IEC 60529, IS 9000, JIS, and MIL, ensuring reliable and globally accepted testing results."
+            },
+            {
+                q: "How is dust circulation controlled inside the chamber?",
+                a: "The system uses controlled airflow, dust agitation mechanisms, and calibrated circulation to ensure uniform dust distribution throughout the chamber for accurate and repeatable testing conditions."
+            },
+            {
+                q: "Can the chamber be operated remotely?",
+                a: "Yes, the system supports remote monitoring and operation via mobile and PC, allowing users to control and track testing processes without being physically present."
+            },
+            {
+                q: "Is the chamber customizable?",
+                a: "Yes, the chamber can be customized in terms of size, configuration, airflow, and control systems to meet specific industry requirements and applications."
+            },
+            {
+                q: "What type of products can be tested?",
+                a: "The chamber is suitable for testing automotive parts, electronic devices, LED lighting systems, batteries, and other products that require dust resistance and ingress protection validation."
+            }
+        ],
+        specs: [
+            { name: "Temperature Range", value: "Ambient to +80°C" },
+            { name: "Testing Standards", value: "IEC 60529, IS 9000, JIS, MIL" },
+            { name: "Chamber Capacity", value: "170L to 2000L" },
+            { name: "Control System", value: "PLC with 7” Touchscreen HMI" },
+            { name: "Temperature Range", value: "Ambient to +80°C" },
+            { name: "Temperature Accuracy", value: "±1°C" },
+            { name: "Capacity", value: "170L to 2000L" },
+            { name: "Airflow Timer", value: "0 to 9999 minutes adjustable" },
+            { name: "Dust Agitation", value: "Controlled as per test standards" },
+            { name: "Dust Collection", value: "25 gm ±5 gm within defined time" },
+            { name: "Testing Type", value: "Dry powder, silicate cement, flue dust" },
+            { name: "Controller", value: "DELTA / OMRON PLC with 7” touchscreen" },
+            { name: "Motor", value: "Low-noise motor with dust seal" },
+            { name: "Power Supply", value: "415V / 230V AC, 50Hz" }
+        ]
     },
     {
-        q: "Which standards does the chamber comply with?",
-        a: "The chamber is designed to meet international testing standards such as IEC 60529, IS 9000, JIS, and MIL, ensuring reliable and globally accepted testing results."
-    },
-    {
-        q: "How is dust circulation controlled inside the chamber?",
-        a: "The system uses controlled airflow, dust agitation mechanisms, and calibrated circulation to ensure uniform dust distribution throughout the chamber for accurate and repeatable testing conditions."
-    },
-    {
-        q: "Can the chamber be operated remotely?",
-        a: "Yes, the system supports remote monitoring and operation via mobile and PC, allowing users to control and track testing processes without being physically present."
-    },
-    {
-        q: "Is the chamber customizable?",
-        a: "Yes, the chamber can be customized in terms of size, configuration, airflow, and control systems to meet specific industry requirements and applications."
-    },
-    {
-        q: "What type of products can be tested?",
-        a: "The chamber is suitable for testing automotive parts, electronic devices, LED lighting systems, batteries, and other products that require dust resistance and ingress protection validation."
-    }
-],
-    specs: [
-        { name: "Temperature Range", value: "Ambient to +80°C" },
-        { name: "Testing Standards", value: "IEC 60529, IS 9000, JIS, MIL" },
-        { name: "Chamber Capacity", value: "170L to 2000L" },
-        { name: "Control System", value: "PLC with 7” Touchscreen HMI" },
-        { name: "Temperature Range", value: "Ambient to +80°C" },
-        { name: "Temperature Accuracy", value: "±1°C" },
-        { name: "Capacity", value: "170L to 2000L" },
-        { name: "Airflow Timer", value: "0 to 9999 minutes adjustable" },
-        { name: "Dust Agitation", value: "Controlled as per test standards" },
-        { name: "Dust Collection", value: "25 gm ±5 gm within defined time" },
-        { name: "Testing Type", value: "Dry powder, silicate cement, flue dust" },
-        { name: "Controller", value: "DELTA / OMRON PLC with 7” touchscreen" },
-        { name: "Motor", value: "Low-noise motor with dust seal" },
-        { name: "Power Supply", value: "415V / 230V AC, 50Hz" }
-    ]
-},
-    {
-    id: 12,
-    name: "Walk-In Test Chamber",
-    image: "/Assets/Walk In Chamber.png",
-   images: ["/Assets/Walk In Chamber.png", "/Assets/Walk In Chamber.png", "/Assets/Walk In Chamber.png"],
-    shortDescription: "Designed for large-scale environmental testing, our Walk-In Test Chambers simulate controlled temperature and humidity conditions to evaluate product performance, durability, and lifecycle reliability under real-world environments.",
-    
-    description: `<p>Our Walk-In Test Chambers are engineered for high-capacity environmental testing, enabling precise simulation of temperature and humidity conditions for large products or bulk testing. These chambers replicate real-world environmental stresses such as heat, cold, and humidity to evaluate product durability, performance, and lifespan.</p>
+        id: 12,
+        name: "Walk-In Test Chamber",
+        image: "/Assets/Walk In Chamber.png",
+        images: ["/Assets/Walk In Chamber.png", "/Assets/Walk In Chamber.png", "/Assets/Walk In Chamber.png"],
+        shortDescription: "Designed for large-scale environmental testing, our Walk-In Test Chambers simulate controlled temperature and humidity conditions to evaluate product performance, durability, and lifecycle reliability under real-world environments.",
+
+        description: `<p>Our Walk-In Test Chambers are engineered for high-capacity environmental testing, enabling precise simulation of temperature and humidity conditions for large products or bulk testing. These chambers replicate real-world environmental stresses such as heat, cold, and humidity to evaluate product durability, performance, and lifespan.</p>
 
     <p>Ideal for R&D, quality control, and compliance testing, the system provides stable and uniform environmental conditions across the entire chamber. With advanced PLC-based automation and robust construction, it ensures consistent and repeatable test results even under long-duration testing cycles.</p>
 
@@ -1353,48 +1353,48 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
         <li>Fully customizable in size and configuration</li>
     </ul>`,
 
-    faqs: [
-    {
-        q: "What makes a walk-in chamber different from standard chambers?",
-        a: "Walk-in chambers are designed for large-scale testing, allowing full products or bulk samples to be tested simultaneously under controlled environmental conditions, unlike standard chambers with limited capacity."
-    },
-    {
-        q: "What industries typically use walk-in test chambers?",
-        a: "Walk-in test chambers are widely used in automotive, electronics, pharmaceuticals, solar, and manufacturing industries where large-scale or batch testing is required."
-    },
-    {
-        q: "How uniform are the temperature and humidity conditions inside the chamber?",
-        a: "The chamber maintains high uniformity using fan-forced airflow systems, ensuring consistent temperature and humidity conditions across all test samples."
-    },
-    {
-        q: "Can the chamber be customized for specific applications?",
-        a: "Yes, the system is fully customizable in terms of size, capacity, rack configuration, temperature range, and automation features to meet specific testing requirements."
-    },
-    {
-        q: "Does the chamber support long-duration testing cycles?",
-        a: "Yes, it is designed for continuous operation and long-duration testing cycles, making it ideal for lifecycle, endurance, and stability testing."
-    },
-    {
-        q: "How is humidity controlled inside the chamber?",
-        a: "Humidity is controlled using a steam-based generation system with automatic water level management, ensuring precise and stable relative humidity (RH) levels."
+        faqs: [
+            {
+                q: "What makes a walk-in chamber different from standard chambers?",
+                a: "Walk-in chambers are designed for large-scale testing, allowing full products or bulk samples to be tested simultaneously under controlled environmental conditions, unlike standard chambers with limited capacity."
+            },
+            {
+                q: "What industries typically use walk-in test chambers?",
+                a: "Walk-in test chambers are widely used in automotive, electronics, pharmaceuticals, solar, and manufacturing industries where large-scale or batch testing is required."
+            },
+            {
+                q: "How uniform are the temperature and humidity conditions inside the chamber?",
+                a: "The chamber maintains high uniformity using fan-forced airflow systems, ensuring consistent temperature and humidity conditions across all test samples."
+            },
+            {
+                q: "Can the chamber be customized for specific applications?",
+                a: "Yes, the system is fully customizable in terms of size, capacity, rack configuration, temperature range, and automation features to meet specific testing requirements."
+            },
+            {
+                q: "Does the chamber support long-duration testing cycles?",
+                a: "Yes, it is designed for continuous operation and long-duration testing cycles, making it ideal for lifecycle, endurance, and stability testing."
+            },
+            {
+                q: "How is humidity controlled inside the chamber?",
+                a: "Humidity is controlled using a steam-based generation system with automatic water level management, ensuring precise and stable relative humidity (RH) levels."
+            }
+        ],
+        specs: [
+            { name: "Temperature Range", value: "-30°C to +80°C" },
+            { name: "Humidity Range", value: "20% RH to 95% RH" },
+            { name: "Accuracy", value: "±0.5°C / ±3% RH" },
+            { name: "Uniformity", value: "±1°C / ±3% RH" },
+            { name: "Heating Rate", value: "2–3°C per minute" },
+            { name: "Cooling Rate", value: "0.4–2°C per minute" },
+            { name: "Capacity Range", value: "6000L to 18000L" },
+            { name: "Control System", value: "PLC + HMI" },
+            { name: "Construction", value: "SS304 Inner, Powder-Coated Outer Body" },
+            { name: "Insulation", value: "75mm High-Density Glass Wool" },
+            { name: "Cooling System", value: "High-performance compressor (CFC-free)" },
+            { name: "Heating System", value: "Nichrome heating elements" },
+            { name: "Humidity System", value: "Steam-based humidity generation" },
+            { name: "Power Supply", value: "3 Phase, 440V, 50Hz" },
+            { name: "Power Rating", value: "7KW to 15KW" }
+        ]
     }
-],
-    specs: [
-        { name: "Temperature Range", value: "-30°C to +80°C" },
-        { name: "Humidity Range", value: "20% RH to 95% RH" },
-        { name: "Accuracy", value: "±0.5°C / ±3% RH" },
-        { name: "Uniformity", value: "±1°C / ±3% RH" },
-        { name: "Heating Rate", value: "2–3°C per minute" },
-        { name: "Cooling Rate", value: "0.4–2°C per minute" },
-        { name: "Capacity Range", value: "6000L to 18000L" },
-        { name: "Control System", value: "PLC + HMI" },
-        { name: "Construction", value: "SS304 Inner, Powder-Coated Outer Body" },
-        { name: "Insulation", value: "75mm High-Density Glass Wool" },
-        { name: "Cooling System", value: "High-performance compressor (CFC-free)" },
-        { name: "Heating System", value: "Nichrome heating elements" },
-        { name: "Humidity System", value: "Steam-based humidity generation" },
-        { name: "Power Supply", value: "3 Phase, 440V, 50Hz" },
-        { name: "Power Rating", value: "7KW to 15KW" }
-    ]
-}
 ];

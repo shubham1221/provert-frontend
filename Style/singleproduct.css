@@ -466,6 +466,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    line-clamp: 2; /* standard property for better compatibility */
     overflow: hidden;
 }
 
@@ -604,6 +605,20 @@
     font-size: 14px;
     line-height: 1.8;
     color: rgba(255,255,255,0.9);
+}
+
+/* Fix: last FAQ may contain HTML lists (<ul><li>) injected as part of the answer.
+   Keep styling limited to the ACTIVE FAQ answer only, so other page lists aren't affected. */
+.faq-item.active .faq-answer ul,
+.faq-item.active .faq-answer li {
+    color: rgba(255, 255, 255, 0.95) !important;
+    font-size: 14px !important; /* match .faq-answer-text */
+    line-height: 1.8 !important; /* match .faq-answer-text */
+}
+
+.faq-item.active .faq-answer ul {
+    margin: 10px 0 0 0;
+    padding-left: 22px; /* keeps marker + text aligned */
 }
 
 .sp-thumbs {
