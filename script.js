@@ -128,63 +128,115 @@ if (slider) {
   };
 }
 
-// Testimonials Data
-const testimonials = [
+// Testimonials — client showcase
+const clientTestimonials = [
   {
     quote:
-      "Provert’s environmental test chambers have significantly improved our product validation process. The precision and consistency they offer are outstanding. We’ve seen a noticeable increase in product reliability since implementing their solutions.",
+      "The **UV weathering and rain chambers** from Provert have been running in our accelerated aging lab for three years without a single calibration failure. Their technical support responds faster than any other supplier in our approved vendor list — an essential quality at our operational tempo.",
+    name: "Dr. Dinesh Kaushik",
+    title: "Senior Scientist · DRDO, Hyderabad",
+    initials: "DK"
+  },
+  {
+    quote:
+      "Provert’s **environmental test chambers** have significantly improved our product validation process. The precision and consistency they offer are outstanding. We’ve seen a noticeable increase in product reliability since implementing their solutions.",
     name: "Vinod Kumar",
-    title: "Head Of Manufacturing",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=42&h=42&fit=crop",
+    title: "Head Of Manufacturing · Indian Oil Limited",
+    initials: "VK"
   },
   {
     quote:
-      "We’ve been using Provert’s thermal and humidity chambers for over two years now, and the performance has been flawless. Highly durable and easy to operate. The customer support team is also very responsive and knowledgeable.",
+      "We’ve been using Provert’s **thermal and humidity chambers** for over two years now, and the performance has been flawless. Highly durable and easy to operate. The customer support team is also very responsive and knowledgeable.",
     name: "Amit Kulkarni",
-    title: "Senior Quality Manager",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=42&h=42&fit=crop",
+    title: "Senior Quality Manager · Havells India Limited",
+    initials: "AK"
   },
   {
     quote:
-      "The quality of Provert’s equipment is excellent, but what truly stands out is their after-sales support. Quick, knowledgeable and reliable. They’ve been instrumental in helping us optimize our testing processes and resolve any issues promptly.",
+      "The quality of Provert’s equipment is excellent, but what truly stands out is their **after-sales support**. Quick, knowledgeable and reliable. They’ve been instrumental in helping us optimize our testing processes and resolve any issues promptly.",
     name: "Pooja Mehta",
-    title: "Quality Director",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=42&h=42&fit=crop",
+    title: "Quality Director · Honda",
+    initials: "PM"
   },
+  {
+    quote:
+      "From requirement gathering to commissioning, the team was professional and timelines were respected. Our **walk-in chamber** integrates cleanly with our lab workflow and documentation support was thorough.",
+    name: "Rajesh Nair",
+    title: "Plant Engineering Lead · Minda Corporation",
+    initials: "RN"
+  },
+  {
+    quote:
+      "We required **compliance-focused environmental testing equipment**. Provert delivered chambers that met our specifications with clear validation support and operator training. Strong recommendation for regulated industries.",
+    name: "Sneha Iyer",
+    title: "QA & Compliance Manager · Indian Railways",
+    initials: "SI"
+  },
+  {
+    quote:
+      "**Salt spray and corrosion testing** results are now repeatable shift-to-shift. Build quality is solid and the HMI is intuitive for our technicians. Communication during installation was excellent.",
+    name: "Karthik Desai",
+    title: "R&D Lab Manager · CIPET",
+    initials: "KD"
+  }
 ];
 
-let currentIndex = 0;
-
-function updateTestimonial() {
-  const testimonial = testimonials[currentIndex];
-  const quoteEl = document.querySelector(".client-content p.quote");
-  const nameEl = document.querySelector(".user h4");
-  const titleEl = document.querySelector(".user span");
-  const imgEl = document.querySelector(".user img");
-
-  if (quoteEl) quoteEl.textContent = `"${testimonial.quote}"`;
-  if (nameEl) nameEl.textContent = testimonial.name;
-  if (titleEl) titleEl.textContent = testimonial.title;
-  if (imgEl) imgEl.src = testimonial.image;
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text;
+  return div.innerHTML;
 }
 
-const prevBtn = document.querySelector(".prev-btn");
-const nextBtn = document.querySelector(".next-btn");
+function formatQuote(text) {
+  const safe = escapeHtml(text);
+  // Replace **text** with <strong>text</strong>
+  return safe.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+}
 
-if (prevBtn && nextBtn) {
-  prevBtn.addEventListener("click", () => {
-    currentIndex =
-      (currentIndex - 1 + testimonials.length) % testimonials.length;
-    updateTestimonial();
-  });
+function initClientShowcase() {
+  const track = document.getElementById("clientShowcaseTrack");
+  const prevBtn = document.getElementById("clientShowcasePrev");
+  const nextBtn = document.getElementById("clientShowcaseNext");
+  if (!track || !prevBtn || !nextBtn) return;
+
+  track.innerHTML = clientTestimonials
+    .map(
+      (t) => `
+      <article class="client-tcard">
+        <div class="client-tcard__quote-box">
+          <p class="client-tcard__text">${formatQuote(t.quote)}</p>
+        </div>
+        <div class="client-tcard__divider"></div>
+        <footer class="client-tcard__footer">
+          <div class="client-tcard__avatar-wrap">
+            <span class="client-tcard__avatar-initials">${t.initials}</span>
+          </div>
+          <div class="client-tcard__meta">
+            <h4 class="client-tcard__name">${t.name}</h4>
+            <p class="client-tcard__title">${t.title}</p>
+          </div>
+        </footer>
+      </article>
+    `
+    )
+    .join("");
+
+  const getScrollStep = () => {
+    const card = track.querySelector(".client-tcard");
+    if (card) {
+      // Return card width + gap (approx 24px)
+      return card.getBoundingClientRect().width + 24;
+    }
+    return 360;
+  };
+
   nextBtn.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % testimonials.length;
-    updateTestimonial();
+    track.scrollBy({ left: getScrollStep(), behavior: "smooth" });
   });
-  updateTestimonial();
+
+  prevBtn.addEventListener("click", () => {
+    track.scrollBy({ left: -getScrollStep(), behavior: "smooth" });
+  });
 }
 
 // Logo hover effects
@@ -197,7 +249,7 @@ document.querySelectorAll(".logo").forEach((logo) => {
   }
 });
 
-document.addEventListener("DOMContentLoaded", initHeader);
+// initHeader initialization moved to unified initAll function at the bottom
 
 //<!-- why-us -->
 
@@ -230,24 +282,115 @@ if (ratingBox) {
   });
 }
 
-const processSteps = document.querySelectorAll(".process-step");
+// Dynamic scroll reveal animations for text & images
+function initRevealAnimations() {
+  // Add class indicating JavaScript is active (enabling animation visibility control)
+  document.documentElement.classList.add("js-active");
 
-const style = document.createElement("style");
-style.textContent = `
-            @keyframes fadeIn {
-                from {
-                    opacity: 0;
-                    transform: translateY(10px);
-                }
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-        `;
-document.head.appendChild(style);
+  const groups = document.querySelectorAll(".reveal-group");
+  if (groups.length === 0) return;
 
-processSteps.forEach((step, index) => {
-  step.style.opacity = "0";
-  step.style.animation = `fadeIn 0.6s ease forwards ${index * 0.1}s`;
-});
+  const revealObserverOptions = {
+    threshold: 0.05,
+    rootMargin: "0px 0px -50px 0px",
+  };
+
+  const revealGroup = (group) => {
+    const items = group.querySelectorAll(".reveal-text, .reveal-image, .reveal-card");
+    let delay = 0;
+    const staggerDelay = 80;
+    const imageDelayOffset = 350;
+
+    items.forEach((item) => {
+      if (item.classList.contains("revealed")) return;
+
+      let itemDelay = delay;
+      if (item.classList.contains("reveal-image")) {
+        itemDelay = Math.max(itemDelay, imageDelayOffset);
+      }
+
+      item.style.transitionDelay = `${itemDelay}ms`;
+      
+      // Force layout recalculation
+      void item.offsetHeight;
+      
+      item.classList.add("revealed");
+      delay += staggerDelay;
+    });
+  };
+
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        revealGroup(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, revealObserverOptions);
+
+  groups.forEach((group) => {
+    revealObserver.observe(group);
+  });
+}
+
+// Featured Products Slider
+function initProductsSlider() {
+  const track = document.querySelector('.products-slider-track');
+  const prevBtn = document.querySelector('.products-btn-prev');
+  const nextBtn = document.querySelector('.products-btn-next');
+  console.log('initProductsSlider running. Track:', track, 'PrevBtn:', prevBtn, 'NextBtn:', nextBtn);
+  if (track && prevBtn && nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      console.log('Next clicked. Current scrollLeft:', track.scrollLeft, 'scrollWidth:', track.scrollWidth, 'clientWidth:', track.clientWidth);
+      track.scrollBy({ left: 314, behavior: 'smooth' });
+      setTimeout(() => {
+        console.log('After scroll Next. scrollLeft:', track.scrollLeft);
+      }, 500);
+    });
+    prevBtn.addEventListener('click', () => {
+      console.log('Prev clicked. Current scrollLeft:', track.scrollLeft);
+      track.scrollBy({ left: -314, behavior: 'smooth' });
+      setTimeout(() => {
+        console.log('After scroll Prev. scrollLeft:', track.scrollLeft);
+      }, 500);
+    });
+  }
+}
+
+// Expandable Search Box Handler
+function initSearchBox() {
+  const searchBox = document.querySelector(".search-box");
+  const searchInput = document.querySelector(".search-input");
+  const searchIcon = document.querySelector(".search-icon");
+
+  if (searchBox && searchIcon && searchInput) {
+    searchIcon.addEventListener("click", (e) => {
+      searchBox.classList.toggle("active");
+      if (searchBox.classList.contains("active")) {
+        searchInput.focus();
+        e.stopPropagation();
+      }
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!searchBox.contains(e.target)) {
+        searchBox.classList.remove("active");
+      }
+    });
+  }
+}
+
+// Unified Page Initialization
+function initAll() {
+  initHeader();
+  initClientShowcase();
+  initProductsSlider();
+  initRevealAnimations();
+  initSearchBox();
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initAll);
+} else {
+  initAll();
+}
