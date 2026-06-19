@@ -528,11 +528,13 @@ nav {
   gap: 40px;
   padding-top: 40px;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
+  justify-items: center;
 }
 
 .about-story-feature-item {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 

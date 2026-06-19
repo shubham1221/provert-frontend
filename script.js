@@ -132,49 +132,49 @@ if (slider) {
 const clientTestimonials = [
   {
     quote:
-      "The **UV weathering and rain chambers** from Provert have been running in our accelerated aging lab for three years without a single calibration failure. Their technical support responds faster than any other supplier in our approved vendor list — an essential quality at our operational tempo.",
+      "The UV weathering and rain chambers from Provert have been running in our accelerated aging lab for three years without a single calibration failure. Their technical support responds faster than any other supplier in our approved vendor list — an essential quality at our operational tempo.",
     name: "Dr. Dinesh Kaushik",
     title: "Senior Scientist · DRDO, Hyderabad",
     initials: "DK"
   },
   {
     quote:
-      "Provert’s **environmental test chambers** have significantly improved our product validation process. The precision and consistency they offer are outstanding. We’ve seen a noticeable increase in product reliability since implementing their solutions.",
+      "Provert’s environmental test chambers have significantly improved our product validation process. The precision and consistency they offer are outstanding. We’ve seen a noticeable increase in product reliability since implementing their solutions.",
     name: "Vinod Kumar",
     title: "Head Of Manufacturing · Indian Oil Limited",
     initials: "VK"
   },
   {
     quote:
-      "We’ve been using Provert’s **thermal and humidity chambers** for over two years now, and the performance has been flawless. Highly durable and easy to operate. The customer support team is also very responsive and knowledgeable.",
+      "We’ve been using Provert’s thermal and humidity chambers for over two years now, and the performance has been flawless. Highly durable and easy to operate. The customer support team is also very responsive and knowledgeable.",
     name: "Amit Kulkarni",
     title: "Senior Quality Manager · Havells India Limited",
     initials: "AK"
   },
   {
     quote:
-      "The quality of Provert’s equipment is excellent, but what truly stands out is their **after-sales support**. Quick, knowledgeable and reliable. They’ve been instrumental in helping us optimize our testing processes and resolve any issues promptly.",
+      "The quality of Provert’s equipment is excellent, but what truly stands out is their after-sales support. Quick, knowledgeable and reliable. They’ve been instrumental in helping us optimize our testing processes and resolve any issues promptly.",
     name: "Pooja Mehta",
     title: "Quality Director · Honda",
     initials: "PM"
   },
   {
     quote:
-      "From requirement gathering to commissioning, the team was professional and timelines were respected. Our **walk-in chamber** integrates cleanly with our lab workflow and documentation support was thorough.",
+      "From requirement gathering to commissioning, the team was professional and timelines were respected. Our walk-in chamber integrates cleanly with our lab workflow and documentation support was thorough.",
     name: "Rajesh Nair",
     title: "Plant Engineering Lead · Minda Corporation",
     initials: "RN"
   },
   {
     quote:
-      "We required **compliance-focused environmental testing equipment**. Provert delivered chambers that met our specifications with clear validation support and operator training. Strong recommendation for regulated industries.",
+      "We required compliance-focused environmental testing equipment. Provert delivered chambers that met our specifications with clear validation support and operator training. Strong recommendation for regulated industries.",
     name: "Sneha Iyer",
     title: "QA & Compliance Manager · Indian Railways",
     initials: "SI"
   },
   {
     quote:
-      "**Salt spray and corrosion testing** results are now repeatable shift-to-shift. Build quality is solid and the HMI is intuitive for our technicians. Communication during installation was excellent.",
+      "Salt spray and corrosion testing results are now repeatable shift-to-shift. Build quality is solid and the HMI is intuitive for our technicians. Communication during installation was excellent.",
     name: "Karthik Desai",
     title: "R&D Lab Manager · CIPET",
     initials: "KD"
@@ -189,8 +189,8 @@ function escapeHtml(text) {
 
 function formatQuote(text) {
   const safe = escapeHtml(text);
-  // Replace **text** with <strong>text</strong>
-  return safe.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  // Replace **text** with text (remove double asterisks)
+  return safe.replace(/\*\*(.*?)\*\*/g, "$1");
 }
 
 function initClientShowcase() {
