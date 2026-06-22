@@ -2265,6 +2265,10 @@ h1 span {
   z-index: 5;
 }
 
+.contact-sec + .footer {
+  margin-top: 0;
+}
+
 .contact-sec::before {
   content: "";
   position: absolute;
