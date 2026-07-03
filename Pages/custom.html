@@ -1,524 +1,526 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-    <link rel="stylesheet" href="/Style/commonheaderfooter.css?v=3">
-    <link rel="stylesheet" href="/Style/custom.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet">
-  </head>
-  <body class="inner-page">
-    <!-- Header -->
-    <header class="navbar">
-      <div class="nav-inner">
-        <a href="/index.html" class="logo-link">
-          <img
-            src="/Assets/logov1black.png"
-            alt="Provert Systems Logo"
-            class="logo-img"
-          />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="stylesheet" href="/Style/commonheaderfooter.css?v=3">
+  <link rel="stylesheet" href="/Style/custom.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="inner-page">
+  <!-- Header -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="/index.html" class="logo-link">
+        <img src="/Assets/logov1black.png" alt="Provert Systems Logo" class="logo-img" />
+      </a>
+
+      <ul class="nav-left" id="navMenu">
+        <li><a href="/index.html" class="nav-link">Home</a></li>
+        <li class="dropdown">
+          <a href="/Pages/product.html" class="nav-link dropdown-toggle">
+            Products & Services
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="nav-chevron">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dd-heading">Our Products</li>
+            <li><a href="/products/?id=1">Environmental Test Chamber</a></li>
+            <li><a href="/products/?id=2">Salt Spray Test Chamber</a></li>
+            <li><a href="/products/?id=3">UV Weathering Test Chamber</a></li>
+            <li><a href="/products/?id=4">Thermal Shock Test Chamber</a></li>
+            <li><a href="/products/?id=5">Humidity Test Chamber</a></li>
+            <li><a href="/products/?id=6">Hot Air Oven</a></li>
+            <li><a href="/products/?id=7">Hot & Cold Test Chamber</a></li>
+            <li><a href="/products/?id=8">CASS Test Chamber</a></li>
+            <li><a href="/products/?id=9">Corrosion Test Chamber</a></li>
+            <li>
+              <a href="/products/?id=10">Rain Test Chamber</a>
+            </li>
+            <li><a href="/products/?id=11">Dust Test Chamber</a></li>
+            <li><a href="/products/?id=12">Walk-in Test Chamber</a></li>
+            <li class="dd-divider"></li>
+            <li class="dd-view-all">
+              <a href="/Pages/product.html">&#x2192; All Products</a>
+              <a href="/Pages/custom.html">Custom Solutions</a>
+              <a href="/Pages/blog.html">Blog</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/Pages/about-us.html" class="nav-link">About Us</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" placeholder="Search..." class="search-input" />
+        </div>
+
+        <a href="/Pages/contact.html" style="text-decoration: none;">
+          <button class="contact-btn">
+            Contact Us
+            <svg class="contact-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M7 17L17 7M17 7H7M17 7V17" />
+            </svg>
+          </button>
         </a>
 
-        <ul class="nav-left" id="navMenu">
-          <li><a href="/index.html" class="nav-link">Home</a></li>
-          <li class="dropdown">
-            <a href="/Pages/product.html" class="nav-link dropdown-toggle">
-              Products & Services
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" class="nav-chevron">
-                <path d="m6 9 6 6 6-6" />
-              </svg>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="dd-heading">Our Products</li>
-              <li><a href="/products/?id=1">Environmental Test Chamber</a></li>
-              <li><a href="/products/?id=2">Salt Spray Test Chamber</a></li>
-              <li><a href="/products/?id=3">UV Weathering Test Chamber</a></li>
-              <li><a href="/products/?id=4">Thermal Shock Test Chamber</a></li>
-              <li><a href="/products/?id=5">Humidity Test Chamber</a></li>
-              <li><a href="/products/?id=6">Hot Air Oven</a></li>
-              <li><a href="/products/?id=7">Hot & Cold Test Chamber</a></li>
-              <li><a href="/products/?id=8">CASS Test Chamber</a></li>
-              <li><a href="/products/?id=9">Corrosion Test Chamber</a></li>
-              <li>
-                <a href="/products/?id=10">Rain Test Chamber</a>
-              </li>
-              <li><a href="/products/?id=11">Dust Test Chamber</a></li>
-              <li><a href="/products/?id=12">Walk-in Test Chamber</a></li>
-              <li class="dd-divider"></li>
-              <li class="dd-view-all">
-                <a href="/Pages/product.html">&#x2192; All Products</a>
-                <a href="/Pages/custom.html">Custom Solutions</a>
-                <a href="/Pages/blog.html">Blog</a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="/Pages/about-us.html" class="nav-link">About Us</a></li>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <!-- gradient overlay -->
+    <div class="gradient-overlay"></div>
+    <!-- Banner Content -->
+    <div class="banner-content">
+      <h1>Custom Manufacturing <span class="highlight">Solution</span></h1>
+      <p class="breadcrumb"> Home &#8226; Services &#8226; <a href="#services">Custom Manufacturing Solution</a></p>
+    </div>
+  </section>
+
+  <!-- Services Overview Section -->
+  <section class="services-overview">
+
+    <!-- Left: sidebar -->
+    <aside class="services-sidebar">
+      <!-- Service Category Box -->
+      <div class="service-category-box">
+        <div class="service-category-label">Service Category</div>
+        <ul class="service-list">
+          <li class="service-item "><a href="#">Custom Environmental Test
+              Chambers</a><span class="arrow"><img src="/Assets/upright-arrow.png" alt="upright arrow"></span></li>
+          <li class="service-item"><a href="#">Thermal Shock Testing
+              Solutions</a><span class="arrow"><img src="/Assets/upright-arrow.png" alt="upright arrow"></span></li>
+          <li class="service-item"><a href="#">Temperature & Humidity
+              Chambers</a><span class="arrow"><img src="/Assets/upright-arrow.png" alt="upright arrow"></span></li>
+          <li class="service-item"><a href="#">Industrial Testing
+              Automation</a><span class="arrow"><img src="/Assets/upright-arrow.png" alt="upright arrow"></span></li>
+          <li class="service-item"><a href="#">Maintenance & Support
+              Services</a><span class="arrow"><img src="/Assets/upright-arrow.png" alt="upright arrow"></span></li>
         </ul>
+      </div>
 
-        <div class="nav-right">
-          <div class="search-box">
-            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input type="text" placeholder="Search..." class="search-input" />
+      <!-- Need Help Box -->
+      <div class="need-help-box">
+        <!-- Overlay -->
+        <div class="need-help-overlay"></div>
+        <!-- Content -->
+        <div class="need-help-logo">
+          <img src="/Assets/logov1black.png" alt="Provert Systems Logo">
+        </div>
+        <h3>Need<span class="highlight"> Help!</span></h3>
+        <p>Got questions or need assistance with your Industry needs?</p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon"><img src="/Assets/phone.png" alt="Phone"></span>
+            <a href="tel:+91840841256">+91 840841256</a>
           </div>
-
-          <a href="/Pages/contact.html" style="text-decoration: none;">
-            <button class="contact-btn">
-              Contact Us
-              <svg class="contact-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                <path d="M7 17L17 7M17 7H7M17 7V17" />
-              </svg>
-            </button>
-          </a>
-
-          <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
+          <div class="contact-item">
+            <span class="contact-icon"><img src="/Assets/email.png " alt="Email"></span>
+            <a href="mailto:provertsystems@gmail.com">provertsystems@gmail.com</a>
           </div>
         </div>
       </div>
-    </header>
+    </aside>
 
-    <!-- Banner Section -->
-    <section class="banner">
-      <!-- gradient overlay -->
-      <div class="gradient-overlay"></div>
-      <!-- Banner Content -->
-      <div class="banner-content">
-        <h1>Custom Manufacturing <span class="highlight">Solution</span></h1>
-        <p class="breadcrumb"> Home &#8226; Services &#8226; <a
-            href="#services">Custom Manufacturing Solution</a></p>
+    <!-- Right: main content -->
+    <div class="services-main">
+      <div class="why-choose">
+        <h2>
+          Custom Environmental Test <span class="highlight">Chambers</span>
+        </h2>
       </div>
-    </section>
-
-    <!-- Services Overview Section -->
-    <section class="services-overview">
-
-      <!-- Left: sidebar -->
-      <aside class="services-sidebar">
-        <!-- Service Category Box -->
-        <div class="service-category-box">
-          <div class="service-category-label">Service Category</div>
-          <ul class="service-list">
-            <li class="service-item "><a href="#">Custom Environmental Test
-                Chambers</a><span class="arrow"><img
-                  src="/Assets/upright-arrow.png"
-                  alt="upright arrow"></span></li>
-            <li class="service-item"><a href="#">Thermal Shock Testing
-                Solutions</a><span class="arrow"><img
-                  src="/Assets/upright-arrow.png"
-                  alt="upright arrow"></span></li>
-            <li class="service-item"><a href="#">Temperature & Humidity
-                Chambers</a><span class="arrow"><img
-                  src="/Assets/upright-arrow.png"
-                  alt="upright arrow"></span></li>
-            <li class="service-item"><a href="#">Industrial Testing
-                Automation</a><span class="arrow"><img
-                  src="/Assets/upright-arrow.png"
-                  alt="upright arrow"></span></li>
-            <li class="service-item"><a href="#">Maintenance & Support
-                Services</a><span class="arrow"><img
-                  src="/Assets/upright-arrow.png"
-                  alt="upright arrow"></span></li>
-          </ul>
-        </div>
-
-        <!-- Need Help Box -->
-        <div class="need-help-box">
-          <!-- Overlay -->
-          <div class="need-help-overlay"></div>
-          <!-- Content -->
-          <div class="need-help-logo">
-            <img src="/Assets/logov1black.png" alt="Provert Systems Logo">
-          </div>
-          <h3>Need<span class="highlight"> Help!</span></h3>
-          <p>Got questions or need assistance with your Industry needs?</p>
-          <div class="contact-info">
-            <div class="contact-item">
-              <span class="contact-icon"><img src="/Assets/phone.png"
-                  alt="Phone"></span>
-              <a href="tel:+91840841256">+91 840841256</a>
-            </div>
-            <div class="contact-item">
-              <span class="contact-icon"><img src="/Assets/email.png "
-                  alt="Email"></span>
-              <a
-                href="mailto:provertsystems@gmail.com">provertsystems@gmail.com</a>
-            </div>
+      <div class="services-hero-image">
+        <img src="/Assets/Custom Manufacturing Solution.jpg" alt="Custom Manufacturing">
+      </div>
+      <div class="services-description">
+        <p>At Provert Systems & Solutions, we design and manufacture fully
+          customized environmental test chambers tailored to your specific
+          testing requirements. Whether you need precise temperature control,
+          humidity simulation, thermal shock testing, or complex environmental
+          conditions, our solutions are engineered to deliver accuracy,
+          reliability, and long-term performance.</p>
+        <p>From concept to commissioning, we work closely with your team to
+          understand your application, industry standards, and operational
+          challenges, delivering a solution that ensures product quality,
+          compliance, and efficiency.</p>
+      </div>
+      <!-- Why Choose Us -->
+      <div class="why-choose">
+        <h2>Why Choose <span class="highlight"> Provert</span> </h2>
+        <p>We don’t just manufacture equipment, we deliver
+          precision-engineered testing solutions tailored to your exact
+          requirements. Our expertise in environmental simulation, combined
+          with advanced technology and deep industry understanding, ensures
+          your products meet the highest standards of reliability and
+          performance.</p>
+      </div>
+      <!-- Services grid container -->
+      <div class="services-grid">
+        <!-- single services card -->
+        <div class="services-card">
+          <div class="services-icon">
+            <img src="/Assets/services-icon1.png" alt="services-icon1">
+            <h3>Custom-Built Engineering Solutions</h3>
+            <p>Every test chamber is designed specifically for your
+              application, ensuring optimal performance, accuracy, and
+              compliance with industry standards.</p>
           </div>
         </div>
-      </aside>
-
-      <!-- Right: main content -->
-      <div class="services-main">
-        <div class="why-choose">
-          <h2>
-            Custom Environmental Test <span class="highlight">Chambers</span>
-          </h2>
-        </div>
-        <div class="services-hero-image">
-          <img src="/Assets/Custom Manufacturing Solution.jpg"
-            alt="Custom Manufacturing">
-        </div>
-        <div class="services-description">
-          <p>At Provert Systems & Solutions, we design and manufacture fully
-            customized environmental test chambers tailored to your specific
-            testing requirements. Whether you need precise temperature control,
-            humidity simulation, thermal shock testing, or complex environmental
-            conditions, our solutions are engineered to deliver accuracy,
-            reliability, and long-term performance.</p>
-          <p>From concept to commissioning, we work closely with your team to
-            understand your application, industry standards, and operational
-            challenges, delivering a solution that ensures product quality,
-            compliance, and efficiency.</p>
-        </div>
-        <!-- Why Choose Us -->
-        <div class="why-choose">
-          <h2>Why Choose <span class="highlight"> Provert</span> </h2>
-          <p>We don’t just manufacture equipment, we deliver
-            precision-engineered testing solutions tailored to your exact
-            requirements. Our expertise in environmental simulation, combined
-            with advanced technology and deep industry understanding, ensures
-            your products meet the highest standards of reliability and
-            performance.</p>
-        </div>
-        <!-- Services grid container -->
-        <div class="services-grid">
-          <!-- single services card -->
-          <div class="services-card">
-            <div class="services-icon">
-              <img src="/Assets/services-icon1.png" alt="services-icon1">
-              <h3>Custom-Built Engineering Solutions</h3>
-              <p>Every test chamber is designed specifically for your
-                application, ensuring optimal performance, accuracy, and
-                compliance with industry standards.</p>
-            </div>
-          </div>
-          <div class="services-card">
-            <div class="services-icon">
-              <img src="/Assets/services-icon2.png" alt="services-icon2">
-              <h3>High-Precision Testing Accuracy</h3>
-              <p>Our systems deliver consistent and repeatable results across
-                temperature, humidity, and environmental conditions, ensuring
-                reliable product validation.</p>
-            </div>
-          </div>
-          <div class="services-card">
-            <div class="services-icon">
-              <img src="/Assets/services-icon3.png" alt="services-icon3">
-              <h3>Reliable Performance & Long-Term Durability</h3>
-              <p>Built using high-quality materials and robust engineering to
-                ensure consistent performance with minimal maintenance.</p>
-            </div>
-          </div>
-          <div class="services-card">
-            <div class="services-icon">
-              <img src="/Assets/services-icon4.png" alt="services-icon4">
-              <h3>Advanced Automation & Control</h3>
-              <p>Equipped with PLC & HMI-based systems for seamless operation,
-                real-time monitoring, and precise parameter control.</p>
-            </div>
+        <div class="services-card">
+          <div class="services-icon">
+            <img src="/Assets/services-icon2.png" alt="services-icon2">
+            <h3>High-Precision Testing Accuracy</h3>
+            <p>Our systems deliver consistent and repeatable results across
+              temperature, humidity, and environmental conditions, ensuring
+              reliable product validation.</p>
           </div>
         </div>
-        <!--Planning and Strategy -->
-        <div class="planning-strategy">
-          <h2>Planning &amp; <span class="highlight">Engineering
-              Approach</span></h2>
-          <p>Our approach begins with a deep understanding of your testing
-            requirements, product specifications, and industry standards. We
-            design customized environmental testing solutions that ensure
-            precision, efficiency, and long-term reliability, aligned perfectly
-            with your operational goals.</p>
-          <!-- strategy Steps -->
-          <div class="strategy-steps">
-            <div class="step-item">
-              <img src="/Assets/strategy-icon.png"
-                alt="strategy-icon"><p>Requirement Analysis</p>
+        <div class="services-card">
+          <div class="services-icon">
+            <img src="/Assets/services-icon3.png" alt="services-icon3">
+            <h3>Reliable Performance & Long-Term Durability</h3>
+            <p>Built using high-quality materials and robust engineering to
+              ensure consistent performance with minimal maintenance.</p>
+          </div>
+        </div>
+        <div class="services-card">
+          <div class="services-icon">
+            <img src="/Assets/services-icon4.png" alt="services-icon4">
+            <h3>Advanced Automation & Control</h3>
+            <p>Equipped with PLC & HMI-based systems for seamless operation,
+              real-time monitoring, and precise parameter control.</p>
+          </div>
+        </div>
+      </div>
+      <!--Planning and Strategy -->
+      <div class="planning-strategy">
+        <h2>Planning &amp; <span class="highlight">Engineering
+            Approach</span></h2>
+        <p>Our approach begins with a deep understanding of your testing
+          requirements, product specifications, and industry standards. We
+          design customized environmental testing solutions that ensure
+          precision, efficiency, and long-term reliability, aligned perfectly
+          with your operational goals.</p>
+        <!-- strategy Steps -->
+        <div class="strategy-steps">
+          <div class="step-item">
+            <img src="/Assets/strategy-icon.png" alt="strategy-icon">
+            <p>Requirement Analysis</p>
+          </div>
+          <div class="step-item">
+            <img src="/Assets/strategy-icon.png" alt="strategy-icon">
+            <p>Custom
+              Design Planning</p>
+          </div>
+          <div class="step-item">
+            <img src="/Assets/strategy-icon.png" alt="strategy-icon">
+            <p>System
+              Configuration & Controls</p>
+          </div>
+          <div class="step-item">
+            <img src="/Assets/strategy-icon.png" alt="strategy-icon">
+            <p>Performance Optimization</p>
+          </div>
+          <div class="step-item">
+            <img src="/Assets/strategy-icon.png" alt="strategy-icon">
+            <p>Compliance & Standards Alignment</p>
+          </div>
+          <div class="step-item">
+            <img src="/Assets/strategy-icon.png" alt="strategy-icon">
+            <p>Scalable & Future-Ready Solutions</p>
+          </div>
+        </div>
+        <!-- image grid -->
+        <div class="image-grid">
+          <img src="/Assets/strategy-image1.jpg" alt="Strategy Image 1">
+          <img src="/Assets/strategy-image2.jpg" alt="Strategy Image 2">
+        </div>
+        <!-- FAQ's -->
+        <section class="faq-section">
+          <!-- Header -->
+          <div class="faq-header">
+            <div class="faq-badge">
+              <img src="/Assets/gear.png" alt class="feature-svg">
+              FAQS
             </div>
-            <div class="step-item">
-              <img src="/Assets/strategy-icon.png" alt="strategy-icon"><p>Custom
-                Design Planning</p>
-            </div>
-            <div class="step-item">
-              <img src="/Assets/strategy-icon.png" alt="strategy-icon"><p>System
-                Configuration & Controls</p>
-            </div>
-            <div class="step-item">
-              <img src="/Assets/strategy-icon.png"
-                alt="strategy-icon"><p>Performance Optimization</p>
-            </div>
-            <div class="step-item">
-              <img src="/Assets/strategy-icon.png"
-                alt="strategy-icon"><p>Compliance & Standards Alignment</p>
-            </div>
-            <div class="step-item">
-              <img src="/Assets/strategy-icon.png"
-                alt="strategy-icon"><p>Scalable & Future-Ready Solutions</p>
+            <div class="faq-title">
+              <span class="faq-title-light">Frequently asked</span>
+              <span class="faq-title-bold">Questions</span>
             </div>
           </div>
-          <!-- image grid -->
-          <div class="image-grid">
-            <img src="/Assets/strategy-image1.jpg" alt="Strategy Image 1">
-            <img src="/Assets/strategy-image2.jpg" alt="Strategy Image 2">
-          </div>
-          <!-- FAQ's -->
-          <section class="faq-section">
-            <!-- Header -->
-            <div class="faq-header">
-              <div class="faq-badge">
-                <img src="/Assets/gear.png" alt class="feature-svg">
-                FAQS
-              </div>
-              <div class="faq-title">
-                <span class="faq-title-light">Frequently asked</span>
-                <span class="faq-title-bold">Questions</span>
-              </div>
-            </div>
-            <!-- Main Content -->
-            <div class="faq-container">
-              <!-- Left Image -->
-              <!-- <div class="faq-image-container">
+          <!-- Main Content -->
+          <div class="faq-container">
+            <!-- Left Image -->
+            <!-- <div class="faq-image-container">
                <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&h=500&fit=crop" alt="Industrial City" class="faq-image">
             </div> -->
-              <!-- Right Accordion -->
-              <div class="faq-accordion">
-                <!-- FAQ Item 1 -->
-                <div class="faq-item">
-                  <div class="faq-question">
-                    <span class="faq-question-text"> 1.How do I choose the right
-                      test chamber for my application?</span>
-                    <div class="faq-icon">
-                      <svg width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2.5"
-                        stroke-linecap="round" stroke-linejoin="round"><path
-                          d="m6 9 6 6 6-6" /></svg>
-                    </div>
-                  </div>
-                  <div class="faq-answer">
-                    <p class="faq-answer-text">Our engineering team works
-                      closely with you to understand your product type, testing
-                      conditions, and industry standards. Based on this, we
-                      recommend a fully customized solution that ensures
-                      accurate and reliable testing for your specific use
-                      case.</p>
+            <!-- Right Accordion -->
+            <div class="faq-accordion">
+              <!-- FAQ Item 1 -->
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text"> 1.How do I choose the right
+                    test chamber for my application?</span>
+                  <div class="faq-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
                   </div>
                 </div>
-                <!-- FAQ Item 2 -->
-                <div class="faq-item">
-                  <div class="faq-question">
-                    <span class="faq-question-text"> 2.What information do you
-                      need to design a custom solution?</span>
-                    <div class="faq-icon">
-                      <svg width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2.5"
-                        stroke-linecap="round" stroke-linejoin="round"><path
-                          d="m6 9 6 6 6-6" /></svg>
-                    </div>
-                  </div>
-                  <div class="faq-answer">
-                    <p class="faq-answer-text">We typically require details such
-                      as temperature range, humidity levels, test cycle
-                      requirements, product size, testing standards, and any
-                      specific environmental conditions. Based on these inputs,
-                      we design a tailored chamber that fits your exact
-                      needs.</p>
+                <div class="faq-answer">
+                  <p class="faq-answer-text">Our engineering team works
+                    closely with you to understand your product type, testing
+                    conditions, and industry standards. Based on this, we
+                    recommend a fully customized solution that ensures
+                    accurate and reliable testing for your specific use
+                    case.</p>
+                </div>
+              </div>
+              <!-- FAQ Item 2 -->
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text"> 2.What information do you
+                    need to design a custom solution?</span>
+                  <div class="faq-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
                   </div>
                 </div>
-                <!-- FAQ Item 3 -->
-                <div class="faq-item">
-                  <div class="faq-question">
-                    <span class="faq-question-text">3.Can the chamber be
-                      customized for future scalability?</span>
-                    <div class="faq-icon">
-                      <svg width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2.5"
-                        stroke-linecap="round" stroke-linejoin="round"><path
-                          d="m6 9 6 6 6-6" /></svg>
-                    </div>
-                  </div>
-                  <div class="faq-answer">
-                    <p class="faq-answer-text">Yes, our systems are designed
-                      with flexibility in mind. We can incorporate scalable
-                      features and modular designs that allow future upgrades
-                      based on your evolving testing requirements.</p>
+                <div class="faq-answer">
+                  <p class="faq-answer-text">We typically require details such
+                    as temperature range, humidity levels, test cycle
+                    requirements, product size, testing standards, and any
+                    specific environmental conditions. Based on these inputs,
+                    we design a tailored chamber that fits your exact
+                    needs.</p>
+                </div>
+              </div>
+              <!-- FAQ Item 3 -->
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text">3.Can the chamber be
+                    customized for future scalability?</span>
+                  <div class="faq-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
                   </div>
                 </div>
-                <!-- FAQ Item 4 -->
-                <div class="faq-item">
-                  <div class="faq-question">
-                    <span class="faq-question-text"> 4.What kind of control
-                      systems do you provide?</span>
-                    <div class="faq-icon">
-                      <svg width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2.5"
-                        stroke-linecap="round" stroke-linejoin="round"><path
-                          d="m6 9 6 6 6-6" /></svg>
-                    </div>
-                  </div>
-                  <div class="faq-answer">
-                    <p class="faq-answer-text">Our chambers are equipped with
-                      advanced PLC & HMI-based control systems that offer
-                      precise monitoring, easy operation, data logging, and
-                      automation capabilities for efficient testing
-                      processes.</p>
+                <div class="faq-answer">
+                  <p class="faq-answer-text">Yes, our systems are designed
+                    with flexibility in mind. We can incorporate scalable
+                    features and modular designs that allow future upgrades
+                    based on your evolving testing requirements.</p>
+                </div>
+              </div>
+              <!-- FAQ Item 4 -->
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text"> 4.What kind of control
+                    systems do you provide?</span>
+                  <div class="faq-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
                   </div>
                 </div>
-                <!-- FAQ Item 5 -->
-                <div class="faq-item">
-                  <div class="faq-question">
-                    <span class="faq-question-text">5.How do you ensure the
-                      chamber meets industry standards?</span>
-                    <div class="faq-icon">
-                      <svg width="16" height="16" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2.5"
-                        stroke-linecap="round" stroke-linejoin="round"><path
-                          d="m6 9 6 6 6-6" /></svg>
-                    </div>
+                <div class="faq-answer">
+                  <p class="faq-answer-text">Our chambers are equipped with
+                    advanced PLC & HMI-based control systems that offer
+                    precise monitoring, easy operation, data logging, and
+                    automation capabilities for efficient testing
+                    processes.</p>
+                </div>
+              </div>
+              <!-- FAQ Item 5 -->
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="faq-question-text">5.How do you ensure the
+                    chamber meets industry standards?</span>
+                  <div class="faq-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
                   </div>
-                  <div class="faq-answer">
-                    <p class="faq-answer-text">We design and manufacture our
-                      systems in accordance with relevant industry standards and
-                      testing protocols. Each chamber undergoes thorough quality
-                      checks and performance testing before delivery.</p>
-                  </div>
+                </div>
+                <div class="faq-answer">
+                  <p class="faq-answer-text">We design and manufacture our
+                    systems in accordance with relevant industry standards and
+                    testing protocols. Each chamber undergoes thorough quality
+                    checks and performance testing before delivery.</p>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- COLUMN 1: Brand Info -->
+      <div class="footer-column footer-brand">
+        <img src="/Assets/logov1white.png" alt="Provert Systems Logo" class="footer-logo" />
+        <p class="footer-description">
+          Provert Systems & Solutions, established in 2012, specializes in environmental simulation test chambers and
+          laboratory equipment. Our range includes environmental test chambers, salt spray, UV weathering, thermal
+          shock, humidity, hot air ovens, deep cold, altitude, rain, dust, and walk-in chambers.
+        </p>
+        <div class="social-icons">
+          <a href="mailto:provertsystems@gmail.com" class="social-link" title="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+          </a>
+          <a href="https://wa.me/918810331899" class="social-link" title="WhatsApp" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 21l1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z" />
+              <path
+                d="M13.7 13.8c-.5-.5-1.2-.5-1.7 0l-.8.8c-.2-.2-.5-.4-.7-.6-.2-.2-.4-.5-.6-.7l.8-.8c.5-.5.5-1.2 0-1.7L9.4 9.5c-.5-.5-1.2-.5-1.7 0l-.8.8c-.8.8-.8 2 0 2.8.9.9 2.1 2.1 3 3 .8.8 2 .8 2.8 0l.8-.8c.5-.5.5-1.2 0-1.7l-1.3-1.3z" />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/provertsystems/" class="social-link" title="Instagram" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/company/provert-systems/" class="social-link" title="LinkedIn"
+            target="_blank" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect width="4" height="12" x="2" y="9" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/@provertsystems" class="social-link" title="YouTube" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 58.38 58.38 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 58.38 58.38 0 0 1-15 0 2 2 0 0 1-2-2z" />
+              <path d="m9.75 15.02 5.75-3.02-5.75-3z" />
+            </svg>
+          </a>
         </div>
       </div>
 
-    </section>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="footer-container">
-        <!-- COLUMN 1: Brand Info -->
-        <div class="footer-column footer-brand">
-          <img src="/Assets/logov1white.png" alt="Provert Systems Logo" class="footer-logo" />
-          <p class="footer-description">
-            Provert Systems & Solutions, established in 2012, specializes in environmental simulation test chambers and laboratory equipment. Our range includes environmental test chambers, salt spray, UV weathering, thermal shock, humidity, hot air ovens, deep cold, altitude, rain, dust, and walk-in chambers.
-          </p>
-          <div class="social-icons">
-            <a href="#" class="social-link" title="Email">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect width="20" height="16" x="2" y="4" rx="2" />
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-              </svg>
-            </a>
-            <a href="#" class="social-link" title="WhatsApp">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M3 21l1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z" />
-                <path d="M13.7 13.8c-.5-.5-1.2-.5-1.7 0l-.8.8c-.2-.2-.5-.4-.7-.6-.2-.2-.4-.5-.6-.7l.8-.8c.5-.5.5-1.2 0-1.7L9.4 9.5c-.5-.5-1.2-.5-1.7 0l-.8.8c-.8.8-.8 2 0 2.8.9.9 2.1 2.1 3 3 .8.8 2 .8 2.8 0l.8-.8c.5-.5.5-1.2 0-1.7l-1.3-1.3z" />
-              </svg>
-            </a>
-            <a href="#" class="social-link" title="Instagram">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-              </svg>
-            </a>
-            <a href="#" class="social-link" title="LinkedIn">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                <rect width="4" height="12" x="2" y="9" />
-                <circle cx="4" cy="4" r="2" />
-              </svg>
-            </a>
-            <a href="#" class="social-link" title="YouTube">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 58.38 58.38 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 58.38 58.38 0 0 1-15 0 2 2 0 0 1-2-2z" />
-                <path d="m9.75 15.02 5.75-3.02-5.75-3z" />
-              </svg>
-            </a>
+      <!-- COLUMN 2: Products -->
+      <div class="footer-column">
+        <h4 class="footer-heading">Products</h4>
+        <ul class="footer-links">
+          <li><a href="/products/?id=7" class="footer-link">Hot & Cold Chamber</a></li>
+          <li><a href="/products/?id=1" class="footer-link">Environmental Test Chambers</a></li>
+          <li><a href="/products/?id=4" class="footer-link">Thermal Shock Chamber</a></li>
+          <li><a href="/products/?id=10" class="footer-link">Rain Test Chamber</a></li>
+        </ul>
+      </div>
+
+      <!-- COLUMN 3: Industries -->
+      <div class="footer-column">
+        <h4 class="footer-heading">Industries</h4>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-link">Automotive</a></li>
+          <li><a href="#" class="footer-link">Defence</a></li>
+          <li><a href="#" class="footer-link">Pharma</a></li>
+          <li><a href="#" class="footer-link">Textile</a></li>
+          <li><a href="#" class="footer-link">Energy</a></li>
+        </ul>
+      </div>
+
+      <!-- COLUMN 4: Our Company -->
+      <div class="footer-column">
+        <h4 class="footer-heading">Our Company</h4>
+        <ul class="footer-links">
+          <li><a href="/Pages/about-us.html" class="footer-link">About us</a></li>
+          <li><a href="/Pages/product.html" class="footer-link">Products</a></li>
+          <li><a href="/Pages/contact.html" class="footer-link">Contact Us</a></li>
+          <li><a href="#" class="footer-link">Download Brochure</a></li>
+        </ul>
+      </div>
+
+      <!-- COLUMN 5: Reach Us -->
+      <div class="footer-column footer-reach-us">
+        <h4 class="footer-heading">Reach Us</h4>
+        <div class="contact-list">
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span class="contact-text">Kh.no. 48/68 Village Khayala Khayala Industrial Area, New Delhi-110018, Delhi,
+              India</span>
           </div>
-        </div>
-
-        <!-- COLUMN 2: Products -->
-        <div class="footer-column">
-          <h4 class="footer-heading">Products</h4>
-          <ul class="footer-links">
-            <li><a href="/products/?id=7" class="footer-link">Hot & Cold Chamber</a></li>
-            <li><a href="/products/?id=1" class="footer-link">Environmental Test Chambers</a></li>
-            <li><a href="/products/?id=4" class="footer-link">Thermal Shock Chamber</a></li>
-            <li><a href="/products/?id=10" class="footer-link">Rain Test Chamber</a></li>
-          </ul>
-        </div>
-
-        <!-- COLUMN 3: Industries -->
-        <div class="footer-column">
-          <h4 class="footer-heading">Industries</h4>
-          <ul class="footer-links">
-            <li><a href="#" class="footer-link">Automotive</a></li>
-            <li><a href="#" class="footer-link">Defence</a></li>
-            <li><a href="#" class="footer-link">Pharma</a></li>
-            <li><a href="#" class="footer-link">Textile</a></li>
-            <li><a href="#" class="footer-link">Energy</a></li>
-          </ul>
-        </div>
-
-        <!-- COLUMN 4: Our Company -->
-        <div class="footer-column">
-          <h4 class="footer-heading">Our Company</h4>
-          <ul class="footer-links">
-            <li><a href="/Pages/about-us.html" class="footer-link">About us</a></li>
-            <li><a href="/Pages/product.html" class="footer-link">Products</a></li>
-            <li><a href="/Pages/contact.html" class="footer-link">Contact Us</a></li>
-            <li><a href="#" class="footer-link">Download Brochure</a></li>
-          </ul>
-        </div>
-
-        <!-- COLUMN 5: Reach Us -->
-        <div class="footer-column footer-reach-us">
-          <h4 class="footer-heading">Reach Us</h4>
-          <div class="contact-list">
-            <div class="contact-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              <span class="contact-text">Kh.no. 48/68 Village Khayala Khayala Industrial Area, New Delhi-110018, Delhi, India</span>
-            </div>
-            <div class="contact-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-              </svg>
-              <span class="contact-text">+91 88103 31899</span>
-            </div>
-            <div class="contact-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
-                <rect width="20" height="16" x="2" y="4" rx="2" />
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-              </svg>
-              <span class="contact-text">provertsystems@gmail.com</span>
-            </div>
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <span class="contact-text">+91 88103 31899</span>
+          </div>
+          <div class="contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+              <rect width="20" height="16" x="2" y="4" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            <span class="contact-text">provertsystems@gmail.com</span>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- FOOTER BOTTOM -->
-      <div class="footer-bottom">
-        <div class="footer-bottom-inner">
-          <p class="copyright-text">
-            &copy; Copyright 2025. All Rights Reserved by <strong>Provert Systems Pvt. Ltd.</strong>
-          </p>
-          <div class="footer-policies">
-            <a href="#" class="policy-link">Privacy Policy</a>
-            <a href="#" class="policy-link">Refund &amp; Return Policy</a>
-            <a href="#" class="policy-link">Cookie Settings</a>
-            <a href="#" class="policy-link">Terms &amp; Conditions</a>
-          </div>
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <p class="copyright-text">
+          &copy; Copyright 2025. All Rights Reserved by <strong>Provert Systems & Solutions.</strong>
+        </p>
+        <div class="footer-policies">
+          <a href="#" class="policy-link">Privacy Policy</a>
+          <a href="#" class="policy-link">Refund &amp; Return Policy</a>
+          <a href="#" class="policy-link">Cookie Settings</a>
+          <a href="#" class="policy-link">Terms &amp; Conditions</a>
         </div>
       </div>
-    </footer>
-    <script src="/script.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+
 </html>

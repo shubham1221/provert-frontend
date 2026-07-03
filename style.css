@@ -525,7 +525,6 @@ nav {
 .about-story-features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
   padding-top: 40px;
   border-top: 1px solid rgba(0, 0, 0, 0.06);
   justify-items: center;
@@ -2265,7 +2264,7 @@ h1 span {
   z-index: 5;
 }
 
-.contact-sec + .footer {
+.contact-sec+.footer {
   margin-top: 0;
 }
 
@@ -3201,7 +3200,7 @@ h1 span {
 
 .product-slide-img {
   width: 100%;
-  height: 180px;
+  height: 275px;
   background-color: #f2f4f3;
   display: flex;
   align-items: center;
@@ -3486,7 +3485,7 @@ h1 span {
   transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease;
   flex-shrink: 0;
   /* Premium theme background & texture */
-  background: 
+  background:
     radial-gradient(rgba(17, 110, 74, 0.06) 1.5px, transparent 1.5px) 0 0 / 8px 8px,
     linear-gradient(135deg, #eef7f3 0%, #ffffff 100%);
   border: 1px solid #eef2f0;
@@ -3525,7 +3524,9 @@ h1 span {
   z-index: 3;
   color: #1a1a1a;
   pointer-events: none;
-  max-width: calc(100% - 28px);
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
 }
 
 .trusted-card-title {
@@ -3549,28 +3550,6 @@ h1 span {
   letter-spacing: 0.02em;
 }
 
-.trusted-card-arrow {
-  position: absolute;
-  bottom: 12px;
-  right: 12px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background-color: rgba(17, 110, 74, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgba(17, 110, 74, 1);
-  z-index: 3;
-  transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
-}
-
-.trusted-card-arrow svg {
-  width: 10px;
-  height: 10px;
-  stroke-width: 2.5;
-}
-
 /* Hover Effects */
 .trusted-card:hover {
   transform: translateY(-5px);
@@ -3586,12 +3565,6 @@ h1 span {
   background: linear-gradient(180deg,
       rgba(255, 255, 255, 0) 25%,
       rgba(255, 255, 255, 0.98) 70%);
-}
-
-.trusted-card:hover .trusted-card-arrow {
-  background-color: rgba(17, 110, 74, 1);
-  color: #ffffff;
-  transform: scale(1.1);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -3645,17 +3618,7 @@ h1 span {
     font-size: 8px;
   }
 
-  .trusted-card-arrow {
-    width: 22px;
-    height: 22px;
-    bottom: 10px;
-    right: 10px;
-  }
 
-  .trusted-card-arrow svg {
-    width: 9px;
-    height: 9px;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -3687,17 +3650,7 @@ h1 span {
     font-size: 7.5px;
   }
 
-  .trusted-card-arrow {
-    width: 18px;
-    height: 18px;
-    bottom: 8px;
-    right: 8px;
-  }
 
-  .trusted-card-arrow svg {
-    width: 8px;
-    height: 8px;
-  }
 }
 
 /* Force compact header sizing on home page mobile */

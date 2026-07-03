@@ -1,160 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/Style/commonheaderfooter.css?v=3">
-    <link rel="stylesheet" href="/Style/product.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/Style/commonheaderfooter.css?v=3">
+  <link rel="stylesheet" href="/Style/product.css">
+
 </head>
+
 <body class="inner-page">
   <!-- ================= Header ================= -->
-   <header class="navbar">
-  <div class="nav-inner">
-    <a href="/index.html" class="logo-link">
-      <img
-        src="/Assets/logov1black.png"
-        alt="Provert Systems Logo"
-        class="logo-img"
-      />
-    </a>
-
-    <ul class="nav-left" id="navMenu">
-      <li><a href="/index.html" class="nav-link">Home</a></li>
-      <li class="dropdown">
-        <a href="/Pages/product.html" class="nav-link dropdown-toggle">
-          Products & Services
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="nav-chevron">
-            <path d="m6 9 6 6 6-6"/>
-          </svg>
-        </a>
-        <ul class="dropdown-menu">
-          <li class="dd-heading">Our Products</li>
-          <li><a href="/products/?id=1">Environmental Test Chamber</a></li>
-              <li><a href="/products/?id=2">Salt Spray Test Chamber</a></li>
-              <li><a href="/products/?id=3">UV Weathering Test Chamber</a></li>
-              <li><a href="/products/?id=4">Thermal Shock Test Chamber</a></li>
-              <li><a href="/products/?id=5">Humidity Test Chamber</a></li>
-              <li><a href="/products/?id=6">Hot Air Oven</a></li>
-              <li><a href="/products/?id=7">Hot & Cold Test Chamber</a></li>
-              <li><a href="/products/?id=8">CASS Test Chamber</a></li>
-              <li><a href="/products/?id=9">Corrosion Test Chamber</a></li>
-              <li>
-                <a href="/products/?id=10">Rain Test Chamber</a>
-              </li>
-              <li><a href="/products/?id=11">Dust Test Chamber</a></li>
-              <li><a href="/products/?id=12">Walk-in Test Chamber</a></li>
-          <li class="dd-divider"></li>
-          <li class="dd-view-all">
-            <a href="/Pages/product.html">&#x2192; All Products</a>
-            <a href="/Pages/custom.html">Custom Solutions</a>
-            <a href="/Pages/blog.html">Blog</a>
-          </li>
-        </ul>
-      </li>
-      <li><a href="/Pages/about-us.html" class="nav-link">About Us</a></li>
-    </ul>
- 
-    <div class="nav-right">
-      <div class="search-box">
-        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-        <input type="text" placeholder="Search..." class="search-input" />
-      </div>
-
-      <a href="/Pages/contact.html" style="text-decoration: none;">
-        <button class="contact-btn">
-          Contact Us
-          <svg class="contact-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <path d="M7 17L17 7M17 7H7M17 7V17" />
-          </svg>
-        </button>
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="/index.html" class="logo-link">
+        <img src="/Assets/logov1black.png" alt="Provert Systems Logo" class="logo-img" />
       </a>
- 
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-</header>
-     <!-- Banner  -->
-    <section class="Banner">
-        <div class="Banner-Txt">
-            <div class="Banner-inner-Txt">
-            <h1>Our Products & Services</h1> 
-            </div>
-            <span class="inner-Txt"><ul>
-                <p>Home</p>
-                <li>Product</li>
-            </ul></span>
-        </div>
-    </section>
-<section class="hero_section">
-    <div class="products_container">
-        <!-- Search bar -->
-        <div class="product-search-bar">
-            <div class="product-search-wrap">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="product-search-icon"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                <input type="text" id="productSearch" class="product-search-input" placeholder="Search products — e.g. Salt Spray, UV Chamber, Oven…">
-                <button class="product-search-clear" id="searchClear" style="display:none;" aria-label="Clear search">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
-                </button>
-            </div>
-            <p class="product-search-count" id="searchCount"></p>
+
+      <ul class="nav-left" id="navMenu">
+        <li><a href="/index.html" class="nav-link">Home</a></li>
+        <li class="dropdown">
+          <a href="/Pages/product.html" class="nav-link dropdown-toggle">
+            Products & Services
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="nav-chevron">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dd-heading">Our Products</li>
+            <li><a href="/products/?id=1">Environmental Test Chamber</a></li>
+            <li><a href="/products/?id=2">Salt Spray Test Chamber</a></li>
+            <li><a href="/products/?id=3">UV Weathering Test Chamber</a></li>
+            <li><a href="/products/?id=4">Thermal Shock Test Chamber</a></li>
+            <li><a href="/products/?id=5">Humidity Test Chamber</a></li>
+            <li><a href="/products/?id=6">Hot Air Oven</a></li>
+            <li><a href="/products/?id=7">Hot & Cold Test Chamber</a></li>
+            <li><a href="/products/?id=8">CASS Test Chamber</a></li>
+            <li><a href="/products/?id=9">Corrosion Test Chamber</a></li>
+            <li>
+              <a href="/products/?id=10">Rain Test Chamber</a>
+            </li>
+            <li><a href="/products/?id=11">Dust Test Chamber</a></li>
+            <li><a href="/products/?id=12">Walk-in Test Chamber</a></li>
+            <li class="dd-divider"></li>
+            <li class="dd-view-all">
+              <a href="/Pages/product.html">&#x2192; All Products</a>
+              <a href="/Pages/custom.html">Custom Solutions</a>
+              <a href="/Pages/blog.html">Blog</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/Pages/about-us.html" class="nav-link">About Us</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" placeholder="Search..." class="search-input" />
         </div>
 
-        <div id="products-container">
-            <!-- Products injected by products-data.js -->
+        <a href="/Pages/contact.html" style="text-decoration: none;">
+          <button class="contact-btn">
+            Contact Us
+            <svg class="contact-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M7 17L17 7M17 7H7M17 7V17" />
+            </svg>
+          </button>
+        </a>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <p class="product-no-results" id="noResults" style="display:none;">No products match your search. <button onclick="document.getElementById('productSearch').value='';filterProducts()">Clear search</button></p>
+      </div>
     </div>
-</section>
+  </header>
+  <!-- Banner  -->
+  <section class="Banner">
+    <div class="Banner-Txt">
+      <div class="Banner-inner-Txt">
+        <h1>Our Products & Services</h1>
+      </div>
+      <span class="inner-Txt">
+        <ul>
+          <p>Home</p>
+          <li>Product</li>
+        </ul>
+      </span>
+    </div>
+  </section>
+  <section class="hero_section">
+    <div class="products_container">
+      <!-- Search bar -->
+      <div class="product-search-bar">
+        <div class="product-search-wrap">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="product-search-icon">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+          <input type="text" id="productSearch" class="product-search-input"
+            placeholder="Search products — e.g. Salt Spray, UV Chamber, Oven…">
+          <button class="product-search-clear" id="searchClear" style="display:none;" aria-label="Clear search">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <p class="product-search-count" id="searchCount"></p>
+      </div>
+
+      <div id="products-container">
+        <!-- Products injected by products-data.js -->
+      </div>
+      <p class="product-no-results" id="noResults" style="display:none;">No products match your search. <button
+          onclick="document.getElementById('productSearch').value='';filterProducts()">Clear search</button></p>
+    </div>
+  </section>
   <footer class="footer">
     <div class="footer-container">
       <!-- COLUMN 1: Brand Info -->
       <div class="footer-column footer-brand">
         <img src="/Assets/logov1white.png" alt="Provert Systems Logo" class="footer-logo" />
         <p class="footer-description">
-          Provert Systems & Solutions, established in 2012, specializes in environmental simulation test chambers and laboratory equipment. Our range includes environmental test chambers, salt spray, UV weathering, thermal shock, humidity, hot air ovens, deep cold, altitude, rain, dust, and walk-in chambers.
+          Provert Systems & Solutions, established in 2012, specializes in environmental simulation test chambers and
+          laboratory equipment. Our range includes environmental test chambers, salt spray, UV weathering, thermal
+          shock, humidity, hot air ovens, deep cold, altitude, rain, dust, and walk-in chambers.
         </p>
         <div class="social-icons">
-          <a href="#" class="social-link" title="Email">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <a href="mailto:provertsystems@gmail.com" class="social-link" title="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <rect width="20" height="16" x="2" y="4" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
             </svg>
           </a>
-          <a href="#" class="social-link" title="WhatsApp">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <a href="https://wa.me/918810331899" class="social-link" title="WhatsApp" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <path d="M3 21l1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z" />
-              <path d="M13.7 13.8c-.5-.5-1.2-.5-1.7 0l-.8.8c-.2-.2-.5-.4-.7-.6-.2-.2-.4-.5-.6-.7l.8-.8c.5-.5.5-1.2 0-1.7L9.4 9.5c-.5-.5-1.2-.5-1.7 0l-.8.8c-.8.8-.8 2 0 2.8.9.9 2.1 2.1 3 3 .8.8 2 .8 2.8 0l.8-.8c.5-.5.5-1.2 0-1.7l-1.3-1.3z" />
+              <path
+                d="M13.7 13.8c-.5-.5-1.2-.5-1.7 0l-.8.8c-.2-.2-.5-.4-.7-.6-.2-.2-.4-.5-.6-.7l.8-.8c.5-.5.5-1.2 0-1.7L9.4 9.5c-.5-.5-1.2-.5-1.7 0l-.8.8c-.8.8-.8 2 0 2.8.9.9 2.1 2.1 3 3 .8.8 2 .8 2.8 0l.8-.8c.5-.5.5-1.2 0-1.7l-1.3-1.3z" />
             </svg>
           </a>
-          <a href="#" class="social-link" title="Instagram">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <a href="https://www.instagram.com/provertsystems/" class="social-link" title="Instagram" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
               <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
             </svg>
           </a>
-          <a href="#" class="social-link" title="LinkedIn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <a href="https://www.linkedin.com/company/provert-systems/" class="social-link" title="LinkedIn"
+            target="_blank" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
               <rect width="4" height="12" x="2" y="9" />
               <circle cx="4" cy="4" r="2" />
             </svg>
           </a>
-          <a href="#" class="social-link" title="YouTube">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 58.38 58.38 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 58.38 58.38 0 0 1-15 0 2 2 0 0 1-2-2z" />
+          <a href="https://www.youtube.com/@provertsystems" class="social-link" title="YouTube" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 2-2 58.38 58.38 0 0 1 15 0 2 2 0 0 1 2 2 24.12 24.12 0 0 1 0 10 2 2 0 0 1-2 2 58.38 58.38 0 0 1-15 0 2 2 0 0 1-2-2z" />
               <path d="m9.75 15.02 5.75-3.02-5.75-3z" />
             </svg>
           </a>
@@ -200,20 +226,25 @@
         <h4 class="footer-heading">Reach Us</h4>
         <div class="contact-list">
           <div class="contact-item">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
               <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
               <circle cx="12" cy="10" r="3" />
             </svg>
-            <span class="contact-text">Kh.no. 48/68 Village Khayala Khayala Industrial Area, New Delhi-110018, Delhi, India</span>
+            <span class="contact-text">Kh.no. 48/68 Village Khayala Khayala Industrial Area, New Delhi-110018, Delhi,
+              India</span>
           </div>
           <div class="contact-item">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
             </svg>
             <span class="contact-text">+91 88103 31899</span>
           </div>
           <div class="contact-item">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" class="contact-icon">
               <rect width="20" height="16" x="2" y="4" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
             </svg>
@@ -227,7 +258,7 @@
     <div class="footer-bottom">
       <div class="footer-bottom-inner">
         <p class="copyright-text">
-          &copy; Copyright 2025. All Rights Reserved by <strong>Provert Systems Pvt. Ltd.</strong>
+          &copy; Copyright 2025. All Rights Reserved by <strong>Provert Systems & Solutions.</strong>
         </p>
         <div class="footer-policies">
           <a href="#" class="policy-link">Privacy Policy</a>
@@ -238,55 +269,56 @@
       </div>
     </div>
   </footer>
-<script src="/script.js"></script>
-<script src="/products-data.js"></script>
-<script>
-function filterProducts() {
-    var query   = (document.getElementById('productSearch').value || '').toLowerCase().trim();
-    var clearBtn = document.getElementById('searchClear');
-    var countEl  = document.getElementById('searchCount');
-    var noRes    = document.getElementById('noResults');
-    var container = document.getElementById('products-container');
+  <script src="/script.js"></script>
+  <script src="/products-data.js"></script>
+  <script>
+    function filterProducts() {
+      var query = (document.getElementById('productSearch').value || '').toLowerCase().trim();
+      var clearBtn = document.getElementById('searchClear');
+      var countEl = document.getElementById('searchCount');
+      var noRes = document.getElementById('noResults');
+      var container = document.getElementById('products-container');
 
-    clearBtn.style.display = query ? 'flex' : 'none';
+      clearBtn.style.display = query ? 'flex' : 'none';
 
-    var filtered = query
-        ? PRODUCTS.filter(function(p) {
-            return p.name.toLowerCase().includes(query) || p.shortDescription.toLowerCase().includes(query);
-          })
+      var filtered = query
+        ? PRODUCTS.filter(function (p) {
+          return p.name.toLowerCase().includes(query) || p.shortDescription.toLowerCase().includes(query);
+        })
         : PRODUCTS;
 
-    if (filtered.length === 0) {
+      if (filtered.length === 0) {
         container.innerHTML = '';
         noRes.style.display = 'block';
         countEl.textContent = '';
-    } else {
+      } else {
         noRes.style.display = 'none';
         countEl.textContent = query ? ('Showing ' + filtered.length + ' of ' + PRODUCTS.length + ' products') : '';
-        container.innerHTML = filtered.map(function(product) {
-            return '<div class="product">' +
-                '<div class="img"><img src="' + product.image + '" alt="' + product.name + '"></div>' +
-                '<div class="product-details"><h3>' + product.name + '</h3><p>' + product.shortDescription + '</p></div>' +
-                '<a href="/products/?id=' + product.id + '" class="Learn_more">Learn more</a>' +
+        container.innerHTML = filtered.map(function (product) {
+          return '<div class="product">' +
+            '<div class="img"><img src="' + product.image + '" alt="' + product.name + '"></div>' +
+            '<div class="product-details"><h3>' + product.name + '</h3><p>' + product.shortDescription + '</p></div>' +
+            '<a href="/products/?id=' + product.id + '" class="Learn_more">Learn more</a>' +
             '</div>';
         }).join('');
+      }
     }
-}
 
-document.addEventListener('DOMContentLoaded', function () {
-    filterProducts();
+    document.addEventListener('DOMContentLoaded', function () {
+      filterProducts();
 
-    var searchInput = document.getElementById('productSearch');
-    var clearBtn    = document.getElementById('searchClear');
+      var searchInput = document.getElementById('productSearch');
+      var clearBtn = document.getElementById('searchClear');
 
-    searchInput.addEventListener('input', filterProducts);
+      searchInput.addEventListener('input', filterProducts);
 
-    clearBtn.addEventListener('click', function() {
+      clearBtn.addEventListener('click', function () {
         searchInput.value = '';
         filterProducts();
         searchInput.focus();
+      });
     });
-});
-</script>
+  </script>
 </body>
+
 </html>
