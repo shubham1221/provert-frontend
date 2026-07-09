@@ -1396,5 +1396,132 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
             { name: "Power Supply", value: "3 Phase, 440V, 50Hz" },
             { name: "Power Rating", value: "7KW to 15KW" }
         ]
+    },
+     {
+        id: 13,
+        name: "Stability Chamber",
+        image: "/Assets/Stability Chamber.png",
+        images: ["/Assets/Stability Chamber.png", "/Assets/Stability Chamber.png", "/Assets/Stability Chamber.png"],
+        shortDescription: "Designed for precise, long-term environmental testing of pharmaceutical drugs, healthcare products, and packaging. Our Stability Chambers offer exceptional control over temperature and humidity to meet ICH guidelines and regulatory standards.",
+
+        description: `<p>Our Stability Chambers are engineered for high-precision, long-duration testing of pharmaceutical, cosmetic, and food products. Fully compliant with ICH guidelines (Q1A), these chambers provide stable, uniform, and repeatable temperature and relative humidity conditions to determine shelf life, product efficacy, and packaging durability.</p>
+
+    <p>Equipped with state-of-the-art PLC automation and 21 CFR Part 11 compliant data acquisition systems, our stability chambers ensure complete validation, security, and traceability for regulatory inspections. With robust insulation and high-efficiency circulation, they offer the industry-leading stability required for critical research and quality control laboratories.</p>
+
+    <br>
+
+    <p><strong>Key Highlights</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Temperature Range: 10°C to 70°C (Accuracy: ±0.2°C)</li>
+        <li>Humidity Range: 40% to 90% RH (Accuracy: ±2% RH)</li>
+        <li>Control System: PLC with touchscreen interface (21 CFR Part 11 compliant)</li>
+        <li>ICH Compliance: Meets Q1A guidelines for stability testing</li>
+        <li>Uniformity: ±1°C / ±3% RH</li>
+        <li>Construction: Premium SS304 Inner and Outer body option</li>
+    </ul>
+
+    <p><strong>Key Features</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Precise temperature & humidity control for long-term study validation</li>
+        <li>21 CFR Part 11 compliant control system for electronic records & signatures</li>
+        <li>Forced air circulation ensuring excellent temperature/humidity uniformity</li>
+        <li>Automated standby cooling & heating switchover for safety</li>
+        <li>Intelligent PLC automation with touch HMI</li>
+        <li>Real-time graphs and multi-level user access control</li>
+        <li>Comprehensive data logging, audit trails, and PDF report exports</li>
+        <li>High-quality PT-100 temperature sensors and Rotronic humidity sensors</li>
+    </ul>
+
+    <p><strong>Smart Control & Monitoring</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>PLC-based automation with intuitive touchscreen interface</li>
+        <li>Ethernet connectivity for remote PC monitoring & control</li>
+        <li>SMS/Email alert systems for out-of-spec notifications</li>
+        <li>Audit trail tracking for user actions and machine parameters</li>
+        <li>Automatic power failure recovery with data protection</li>
+        <li>Password-protected Calibration mode for sensors</li>
+        <li>Multi-level password security to prevent unauthorized changes</li>
+    </ul>
+
+    <p><strong>Robust Industrial Construction</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Inner Chamber: SS304 stainless steel with mirror finish</li>
+        <li>Outer Body: Powder-coated GI or SS304 (optional)</li>
+        <li>Insulation: 80mm thick high-density PUF insulation</li>
+        <li>Glass Door: Double-paned tempered glass for viewing without opening</li>
+        <li>Air Circulation: Statically balanced blower motors</li>
+        <li>Cooling System: Hermetic compressor with environment-friendly refrigerant</li>
+        <li>Heating System: U-shaped stainless steel heaters</li>
+        <li>Humidity System: Steam-generator with auto water intake</li>
+    </ul>
+
+    <p><strong>Applications</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>ICH stability testing for pharmaceuticals and APIs</li>
+        <li>Accelerated aging studies on cosmetics and drugs</li>
+        <li>Shelf-life evaluation of food and beverages</li>
+        <li>Conditioning and storage of electronic components</li>
+        <li>Packaging material stress testing</li>
+        <li>Culture growth and sample conditioning</li>
+    </ul>
+
+    <p><strong>Customized for Your Requirements</strong></p>
+    <p>Our Stability Chambers are customizable to meet specific laboratory space and workflow requirements, ensuring complete compliance and optimal utility.</p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Custom volume capacities from 100L to 3000L</li>
+        <li>Additional validation ports and entry holes</li>
+        <li>Ultra-low humidity control configurations</li>
+        <li>Multi-chamber or double-door designs</li>
+        <li>Customizable rack arrangements and shelving options</li>
+    </ul>
+
+    <p><strong>Why Choose Stability Chamber</strong></p>
+    <ul style="padding-left:20px; margin-top:8px; line-height:2;">
+        <li>Fully compliant with global ICH guidelines and FDA requirements</li>
+        <li>21 CFR Part 11 compliant data management</li>
+        <li>Unmatched temperature and humidity stability</li>
+        <li>Excellent uniformity for reliable multi-shelf testing</li>
+        <li>Energy-efficient cooling and heating systems</li>
+        <li>Robust construction ensures decades of continuous operation</li>
+        <li>Full IQ/OQ/PQ validation documentation support</li>
+    </ul>`,
+
+        faqs: [
+            {
+                q: "Are your stability chambers compliant with ICH guidelines?",
+                a: "Yes, our stability chambers are fully compliant with ICH Q1A guidelines for stability testing of new drug substances and products, maintaining precise temperature and humidity conditions over extended periods."
+            },
+            {
+                q: "Does the chamber support 21 CFR Part 11 compliance?",
+                a: "Yes, our control system offers full 21 CFR Part 11 compliance, including audit trails, electronic signatures, multi-level user permissions, and secure data logging that cannot be altered."
+            },
+            {
+                q: "What sensors are used for temperature and humidity measurements?",
+                a: "We use high-accuracy PT-100 platinum sensors for temperature and premium Rotronic capacitive humidity sensors from Switzerland to ensure the highest reliability and precision."
+            },
+            {
+                q: "What happens during a power failure?",
+                a: "The chamber features automatic power failure recovery. Once power is restored, the chamber resumes operation at the set parameters, and the data logging system records the power event and recovers the logged data without loss."
+            },
+            {
+                q: "Is validation documentation provided?",
+                a: "Yes, we provide complete Installation Qualification (IQ), Operational Qualification (OQ), and Performance Qualification (PQ) documentation and protocols to support your regulatory validation requirements."
+            }
+        ],
+        specs: [
+            { name: "Temperature Range", value: "10°C to 70°C (Customizable)" },
+            { name: "Humidity Range", value: "40% to 90% RH" },
+            { name: "Chamber Volume", value: "100L to 2000L" },
+            { name: "ICH Guidelines", value: "ICH Q1A Compliant" },
+            { name: "Compliance", value: "21 CFR Part 11 Compliant Software" },
+            { name: "Sensor Type", value: "PT-100 & Rotronic Humidity Sensor" },
+            { name: "Controller", value: "PLC with 7-inch Touchscreen HMI" },
+            { name: "Temperature Accuracy", value: "±0.2°C" },
+            { name: "Temperature Uniformity", value: "±1.0°C" },
+            { name: "Humidity Fluctuation", value: "±2% RH" },
+            { name: "Construction", value: "SS304 Inner, SS304/GI Outer with PUF Insulation" },
+            { name: "Validation", value: "IQ / OQ / PQ Protocol Provided" },
+            { name: "Power Supply", value: "230V AC, Single Phase, 50Hz" }
+        ]
     }
 ];
