@@ -422,13 +422,21 @@ body {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr 1.3fr;
   gap: 48px;
+  align-items: start;
 }
 
 /* ================= BRAND COLUMN ================= */
 .footer-brand {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 16px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .footer-logo {
@@ -437,8 +445,8 @@ body {
   object-fit: contain;
   object-position: left center;
   filter: brightness(0) invert(1);
-  margin-top: -35px;
-  margin-bottom: -60px;
+  margin-top: -60px;
+  margin-bottom: -56px;
   margin-left: -20px;
 }
 
@@ -886,4 +894,59 @@ body {
     justify-content: center;
     gap: 16px;
   }
+}
+
+/* ==========================================================================
+   Global Scroll & Load Animations (Same as Home Page)
+   ========================================================================== */
+
+/* Only hide elements if JS is active and they haven't been revealed yet */
+.js-active .reveal-text:not(.revealed),
+.js-active .reveal-image:not(.revealed),
+.js-active .reveal-card:not(.revealed) {
+  opacity: 0;
+}
+
+.js-active .reveal-text:not(.revealed) {
+  transform: translateY(24px);
+}
+
+.js-active .reveal-image:not(.revealed) {
+  transform: translateY(30px) scale(0.97);
+}
+
+.js-active .reveal-card:not(.revealed) {
+  transform: translateY(30px);
+}
+
+/* Base transition rules with premium cubic-bezier easing */
+.reveal-text {
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.reveal-image {
+  transition: opacity 1.4s cubic-bezier(0.16, 1, 0.3, 1), transform 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.reveal-card {
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+/* Revealed active states */
+.reveal-text.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-image.revealed {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.reveal-card.revealed {
+  opacity: 1;
+  transform: translateY(0);
 }
