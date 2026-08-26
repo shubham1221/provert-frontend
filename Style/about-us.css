@@ -36,9 +36,8 @@ body.about-page {
   position: relative;
   width: 100%;
   height: 520px;
-  background-image: url('/Assets/about-us-banner.jpg');
-  background-size: cover;
-  background-position: center 82%;
+  background-image: url('/Assets/about-us-banner-new.jpg');
+  background-position: center 30%;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -49,17 +48,17 @@ body.about-page {
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.94) 0%,
-    rgba(0, 0, 0, 0.82) 28%,
-    rgba(0, 0, 0, 0.55) 55%,
-    rgba(0, 0, 0, 0.10) 85%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.88) 28%,
+    rgba(0, 0, 0, 0.65) 55%,
+    rgba(0, 0, 0, 0.30) 80%,
+    rgba(0, 0, 0, 0.15) 100%
   ),
   linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.65) 0%,
-    rgba(0, 0, 0, 0.15) 30%,
-    rgba(0, 0, 0, 0) 60%
+    rgba(0, 0, 0, 0.70) 0%,
+    rgba(0, 0, 0, 0.20) 40%,
+    rgba(0, 0, 0, 0.10) 100%
   );
   pointer-events: none;
 }
@@ -114,7 +113,7 @@ body.about-page {
 }
 
 .breadcrumb .active-crumb {
-  color: #116e4a;
+  color: #16a34a;
   font-weight: 500;
 }
 
@@ -883,11 +882,17 @@ body.about-page {
   }
 
   .banner {
-    height: 360px;
+    height: 400px;
+    background-position: center 25%;
   }
 
   .banner-content {
-    padding: 80px 16px 0 16px;
+    padding: 90px 20px 0 20px;
+  }
+
+  .banner-content h1 {
+    font-size: 26px;
+    line-height: 1.2;
   }
 
   .stats-items-row {

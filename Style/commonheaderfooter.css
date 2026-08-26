@@ -613,7 +613,10 @@ body {
 /* MOBILE & TABLET NAVIGATION */
 @media (max-width: 768px) {
   .navbar {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   }
 
   .navbar.scrolled {
@@ -623,12 +626,30 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
   }
 
+  .navbar .nav-inner,
   .nav-inner {
-    padding: 16px 20px;
+    max-width: 100%;
+    margin: 0 auto !important;
+    padding: 10px 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 16px;
+    box-sizing: border-box;
+  }
+
+  .navbar .logo-link,
+  .logo-link {
     display: flex;
-    /* Removed justify-content: space-between to allow flex-grow on nav-center */
     align-items: center;
-    gap: 0;
+  }
+
+  .navbar .logo-img,
+  .logo-img,
+  .inner-page .logo-img {
+    height: 80px !important;
+    width: auto !important;
+    object-fit: contain;
   }
 
   .hamburger {
@@ -779,51 +800,37 @@ body {
   }
 
   .nav-right {
-    flex: 0 0 auto;
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
     flex-shrink: 0;
     gap: 16px;
-    /* spacing between elements on mobile */
-  }
-
-  .nav-center {
-    position: static;
-    transform: none;
-    margin: 0;
-    max-width: 60%;
-  }
-
-  .logo-img {
-    height: 48px;
-    width: auto;
-  }
-
-  /* Keep inner page logo consistent on mobile without changing structure */
-  .inner-page .logo-img {
-    height: 48px;
-  }
-
-  /* Fix for very small devices (320px - 425px) */
-  @media (max-width: 480px) {
-
-    .nav-inner {
-      padding: 12px 16px;
-    }
-
-    .logo-img {
-      height: 40px;
-    }
-
-    .inner-page .logo-img {
-      height: 40px;
-    }
+    margin-left: auto;
   }
 
   .contact-btn {
     display: none !important;
   }
+}
 
+/* Fix for small devices (<= 480px) */
+@media (max-width: 480px) {
+  .navbar .nav-inner,
+  .nav-inner {
+    padding: 10px 0px !important;
+    margin: 0 auto !important;
+  }
+
+  .navbar .logo-img,
+  .logo-img,
+  .inner-page .logo-img {
+    height: 70px !important;
+    width: auto !important;
+    object-fit: contain;
+  }
+}
+
+/* TABLET FOOTER */
+@media (max-width: 768px) {
   .footer {
     padding-top: 56px;
   }
@@ -860,6 +867,7 @@ body {
     padding: 24px 24px;
   }
 }
+
 
 /* SMALL MOBILE */
 @media (max-width: 480px) {

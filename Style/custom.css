@@ -35,9 +35,9 @@ body.custom-page {
   position: relative;
   width: 100%;
   height: 520px;
-  background-image: url('/Assets/Custom\ Manufacturing\ Solution.jpg');
+  background-image: url('/Assets/custom-banner-new.jpg');
   background-size: cover;
-  background-position: center 65%;
+  background-position: center 40%;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -48,17 +48,17 @@ body.custom-page {
   inset: 0;
   background: linear-gradient(
     to right,
-    rgba(0, 0, 0, 0.94) 0%,
-    rgba(0, 0, 0, 0.82) 30%,
-    rgba(0, 0, 0, 0.55) 58%,
-    rgba(0, 0, 0, 0.10) 88%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.88) 30%,
+    rgba(0, 0, 0, 0.65) 58%,
+    rgba(0, 0, 0, 0.30) 80%,
+    rgba(0, 0, 0, 0.15) 100%
   ),
   linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.65) 0%,
-    rgba(0, 0, 0, 0.15) 30%,
-    rgba(0, 0, 0, 0) 60%
+    rgba(0, 0, 0, 0.70) 0%,
+    rgba(0, 0, 0, 0.20) 40%,
+    rgba(0, 0, 0, 0.10) 100%
   );
   pointer-events: none;
 }
@@ -898,11 +898,17 @@ body.custom-page {
   }
 
   .banner {
-    height: 360px;
+    height: 400px;
+    background-position: center 25%;
   }
 
   .banner-content {
-    padding: 80px 16px 0 16px;
+    padding: 90px 20px 0 20px;
+  }
+
+  .banner-content h1 {
+    font-size: 26px;
+    line-height: 1.2;
   }
 
   .custom-stats-bar {

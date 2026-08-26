@@ -10,24 +10,24 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="/Style/commonheaderfooter.css?v=3">
-  <link rel="stylesheet" href="/Style/product.css">
+  <link rel="stylesheet" href="/Style/commonheaderfooter.css?v=17">
+  <link rel="stylesheet" href="/Style/product.css?v=18">
 
 </head>
 
-<body class="inner-page">
+<body class="product-page">
   <!-- ================= Header ================= -->
   <header class="navbar">
     <div class="nav-inner">
       <a href="/index.html" class="logo-link">
-        <img src="/Assets/logov1black.png" alt="Provert Systems Logo" class="logo-img" />
+        <img src="/Assets/logov1white.png" alt="Provert Systems Logo" class="logo-img" />
       </a>
 
       <ul class="nav-left" id="navMenu">
         <li><a href="/index.html" class="nav-link">Home</a></li>
         <li class="dropdown">
           <a href="/Pages/product.html" class="nav-link dropdown-toggle">
-            Products & Services
+            Products
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round" class="nav-chevron">
               <path d="m6 9 6 6 6-6" />
@@ -58,6 +58,7 @@
             </li>
           </ul>
         </li>
+        <li><a href="/Pages/service.html" class="nav-link">Services</a></li>
         <li><a href="/Pages/about-us.html" class="nav-link">About Us</a></li>
       </ul>
 
@@ -88,42 +89,44 @@
       </div>
     </div>
   </header>
-  <!-- Banner  -->
-  <section class="Banner">
-    <div class="Banner-Txt">
-      <div class="Banner-inner-Txt">
-        <h1>Our Products & Services</h1>
+  <!-- Banner -->
+  <section class="product-banner">
+    <div class="product-banner-overlay"></div>
+    <div class="product-banner-content">
+      <h1>Our <span class="product-banner-highlight">Products</span> &amp; Services</h1>
+      <div class="product-breadcrumb">
+        <a href="/index.html">Home</a>
+        <span class="product-crumb-sep">•</span>
+        <span class="product-crumb-active">Products</span>
       </div>
-      <span class="inner-Txt">
-        <ul>
-          <p>Home</p>
-          <li>Product</li>
-        </ul>
-      </span>
     </div>
   </section>
+  <!-- Product Search Section -->
+  <section class="product-search-section">
+    <p class="product-search-heading">Browse Our Range</p>
+    <h2 class="product-search-subheading">Find the Right <span>Chamber</span> for Your Needs</h2>
+    <div class="product-search-bar">
+      <div class="product-search-wrap">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" class="product-search-icon">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+        <input type="text" id="productSearch" class="product-search-input"
+          placeholder="Search products — e.g. Salt Spray, UV Chamber, Oven…">
+        <button class="product-search-clear" id="searchClear" style="display:none;" aria-label="Clear search">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <p class="product-search-count" id="searchCount"></p>
+    </div>
+  </section>
+
   <section class="hero_section">
     <div class="products_container">
-      <!-- Search bar -->
-      <div class="product-search-bar">
-        <div class="product-search-wrap">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" class="product-search-icon">
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
-          </svg>
-          <input type="text" id="productSearch" class="product-search-input"
-            placeholder="Search products — e.g. Salt Spray, UV Chamber, Oven…">
-          <button class="product-search-clear" id="searchClear" style="display:none;" aria-label="Clear search">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-              stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 6 6 18M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-        <p class="product-search-count" id="searchCount"></p>
-      </div>
-
       <div id="products-container">
         <!-- Products injected by products-data.js -->
       </div>
