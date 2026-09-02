@@ -1,6 +1,7 @@
 const PRODUCTS = [
     {
         id: 1,
+        slug: "environmental-test-chamber",
         name: "Environmental Test Chamber",
         image: "/Assets/Environmental Test Chamber.png",
         images: ["/Assets/Environmental Test Chamber.png", "/Assets/Environmental Test Chamber.png", "/Assets/Environmental Test Chamber.png"],
@@ -88,6 +89,7 @@ const PRODUCTS = [
     },
     {
         id: 2,
+        slug: "salt-spray-test-chamber",
         name: "Salt Spray Test Chamber",
         image: "/Assets/Salt Spray Test Chamber.png",
         images: ["/Assets/Salt Spray Test Chamber.png", "/Assets/Salt Spray Test Chamber.png", "/Assets/Salt Spray Test Chamber.png"],
@@ -194,6 +196,7 @@ With robust construction, precision control systems, and advanced automation cap
     },
     {
         id: 3,
+        slug: "uv-accelerated-weathering-test-chamber",
         name: "UV Accelerated Weathering Test Chamber",
         image: "/Assets/UV Weathering Test Chamber.png",
         images: ["/Assets/UV Weathering Test Chamber.png", "/Assets/UV Weathering Test Chamber.png", "/Assets/UV Weathering Test Chamber.png"],
@@ -282,6 +285,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     },
     {
         id: 4,
+        slug: "thermal-shock-test-chamber",
         name: "Thermal Shock Test Chamber",
         image: "/Assets/Thermal Shock Chamber.png",
         images: ["/Assets/Thermal Shock Chamber.png", "/Assets/Thermal Shock Chamber.png", "/Assets/Thermal Shock Chamber.png"],
@@ -388,6 +392,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     },
     {
         id: 5,
+        slug: "humidity-test-chamber",
         name: "Humidity Test Chamber",
         image: "/Assets/Humidity Test Chamber.png",
         images: ["/Assets/Humidity Test Chamber.png", "/Assets/Humidity Test Chamber.png", "/Assets/Humidity Test Chamber.png"],
@@ -506,6 +511,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     },
     {
         id: 8,
+        slug: "cass-test-chamber",
         name: "CASS Test Chamber",
         image: "/Assets/Cass Test Chamber.png",
         images: ["/Assets/Cass Test Chamber.png", "/Assets/Cass Test Chamber.png", "/Assets/Cass Test Chamber.png"],
@@ -640,6 +646,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     },
     {
         id: 7,
+        slug: "hot-cold-test-chamber",
         name: "Hot & Cold Test Chamber",
         image: "/Assets/Hot Cold Test Chamber.png",
         images: [
@@ -765,6 +772,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     },
     {
         id: 6,
+        slug: "hot-air-oven",
         name: "Hot Air Oven",
         image: "/Assets/Hot Air Oven.png",
         images: ["/Assets/Hot Air Oven.png", "/Assets/Hot Air Oven.png", "/Assets/Hot Air Oven.png"],
@@ -904,6 +912,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     },
     {
         id: 9,
+        slug: "corrosion-test-chamber",
         name: "Corrosion Test Chamber",
         image: "/Assets/Corrosion Test Chamber.png",
         images: [
@@ -1030,6 +1039,7 @@ Ideal for industries requiring long-term reliability testing, this system ensure
     },
     {
         id: 10,
+        slug: "rain-test-chamber",
         name: "Rain Test Chamber",
         image: "/Assets/Rain Test Chamber.png",
         images: ["/Assets/Rain Test Chamber.png", "/Assets/Rain Test Chamber.png", "/Assets/Rain Test Chamber.png"],
@@ -1136,6 +1146,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
     },
     {
         id: 11,
+        slug: "dust-test-chamber",
         name: "Dust Test Chamber",
         image: "/Assets/Dust Test Chamber.png",
         images: ["/Assets/Dust Test Chamber.png", "/Assets/Dust Test Chamber.png", "/Assets/Dust Test Chamber.png"],
@@ -1263,6 +1274,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
     },
     {
         id: 12,
+        slug: "walk-in-test-chamber",
         name: "Walk-In Test Chamber",
         image: "/Assets/Walk In Chamber.png",
         images: ["/Assets/Walk In Chamber.png", "/Assets/Walk In Chamber.png", "/Assets/Walk In Chamber.png"],
@@ -1399,6 +1411,7 @@ Built with corrosion-resistant stainless steel and equipped with advanced PLC-ba
     },
      {
         id: 13,
+        slug: "stability-chamber",
         name: "Stability Chamber",
         image: "/Assets/Stability Chamber.png",
         images: ["/Assets/Stability Chamber.png", "/Assets/Stability Chamber.png", "/Assets/Stability Chamber.png"],

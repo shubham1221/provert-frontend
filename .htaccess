@@ -3,18 +3,44 @@ DirectoryIndex index.html index.php
 
 RewriteEngine On
 
-# Redirect old singleproduct URL to new /products/ URL
-# e.g. /Pages/singleproduct.html?id=2  →  /products/?id=2
-RewriteCond %{QUERY_STRING} ^id=([0-9]+)$
-RewriteRule ^Pages/singleproduct\.html$ /products/?id=%1 [R=301,L]
+# Redirect legacy ?id=N product URLs (singleproduct.html and /products/) to the new slug URLs
+RewriteCond %{QUERY_STRING} ^id=1$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/environmental-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=2$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/salt-spray-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=3$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/uv-accelerated-weathering-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=4$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/thermal-shock-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=5$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/humidity-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=6$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/hot-air-oven? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=7$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/hot-cold-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=8$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/cass-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=9$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/corrosion-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=10$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/rain-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=11$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/dust-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=12$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/walk-in-test-chamber? [R=301,L]
+RewriteCond %{QUERY_STRING} ^id=13$
+RewriteRule ^(Pages/singleproduct\.html|products/?)$ /products/stability-chamber? [R=301,L]
 
 # Redirect /Pages/singleproduct.html (no query) to /products/
 RewriteRule ^Pages/singleproduct\.html$ /products/ [R=301,L]
 
-# Serve products/index.html for /products/ requests
+# Serve products/index.html for /products/ and /products/<slug> requests
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^products/?$ /products/index.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^products/[a-z0-9-]+/?$ /products/index.html [L]
 
 # Force HTTPS (uncomment when SSL is ready)
 # RewriteCond %{HTTPS} off
