@@ -97,17 +97,17 @@ body.service-page {
 }
 
 .breadcrumb a:hover {
-  color: #16a34a;
+  color: var(--service-primary);
 }
 
 .breadcrumb .crumb-separator {
-  color: #116e4a;
+  color: var(--service-primary);
   font-size: 16px;
   line-height: 1;
 }
 
 .breadcrumb .active-crumb {
-  color: #16a34a;
+  color: var(--service-primary);
   font-weight: 500;
 }
 
@@ -615,7 +615,7 @@ body.service-page {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 .faq-left-title {
@@ -984,7 +984,15 @@ body.service-page {
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.6px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+
+.cta-desc {
+  font-family: var(--service-font);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--service-body-text);
+  margin-bottom: 28px;
 }
 
 .cta-contact-btn {

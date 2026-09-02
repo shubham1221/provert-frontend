@@ -103,17 +103,17 @@ body.custom-page {
 }
 
 .breadcrumb a:hover {
-  color: #16a34a;
+  color: var(--custom-primary);
 }
 
 .breadcrumb .crumb-separator {
-  color: #116e4a;
+  color: var(--custom-primary);
   font-size: 16px;
   line-height: 1;
 }
 
 .breadcrumb .active-crumb {
-  color: #116e4a;
+  color: var(--custom-primary);
   font-weight: 500;
 }
 
@@ -737,7 +737,15 @@ body.custom-page {
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.6px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+
+.cta-desc {
+  font-family: var(--custom-font);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--custom-body-text);
+  margin-bottom: 28px;
 }
 
 .cta-contact-btn {

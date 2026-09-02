@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --service-primary: #16a34a;
+  --primary-green: #16a34a;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   background-color: #fff;
@@ -521,6 +526,20 @@ body {
   opacity: 1;
 }
 
+.footer-link.footer-view-all {
+  color: #ffffff;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.footer-link.footer-view-all:hover {
+  color: #4ade80;
+  transform: translateX(4px);
+}
+
 /* ================= REACH US COLUMN ================= */
 .contact-list {
   display: flex;
@@ -600,15 +619,7 @@ body {
 
 /* ================= RESPONSIVE ================= */
 
-@media (max-width: 320px) {
-  .nav-left.active {
-    padding-bottom: 400px;
-  }
 
-  .dropdown-menu {
-    margin-top: 1em;
-  }
-}
 
 /* MOBILE & TABLET NAVIGATION */
 @media (max-width: 768px) {
@@ -630,7 +641,7 @@ body {
   .nav-inner {
     max-width: 100%;
     margin: 0 auto !important;
-    padding: 10px 0px !important;
+    padding: 6px 16px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
@@ -647,8 +658,9 @@ body {
   .navbar .logo-img,
   .logo-img,
   .inner-page .logo-img {
-    height: 80px !important;
+    height: 140px !important;
     width: auto !important;
+    margin: -32px 0 !important;
     object-fit: contain;
   }
 
@@ -665,25 +677,49 @@ body {
     height: 100vh;
     background: #1a6a41;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 85px 24px 40px 24px;
+    gap: 22px;
     transition: 0.4s ease-in-out;
     z-index: 10000;
     box-shadow: -10px 0 30px rgba(0, 0, 0, 0.3);
     margin: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
   }
 
   .nav-left.active {
     right: 0;
   }
 
+  .nav-left li {
+    width: 100%;
+    text-align: left;
+  }
+
   .nav-link {
-    font-size: 1.2em;
+    font-size: 1.15em;
+    width: 100%;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: #ffffff !important;
+    opacity: 0.95;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active {
+    color: #ffffff !important;
+    opacity: 1 !important;
   }
 
   .dropdown {
     flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
     height: auto;
   }
 
@@ -694,14 +730,16 @@ body {
     transform: none;
     background: rgba(0, 0, 0, 0.25);
     min-width: 100%;
-    width: 260px;
+    width: 100%;
     display: none;
     grid-template-columns: 1fr;
     box-shadow: none;
     border: none;
     border-radius: 8px;
     padding: 8px;
-    margin-top: 4px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    text-align: left;
   }
 
   .dropdown:hover .dropdown-menu {
@@ -712,6 +750,7 @@ body {
     color: rgba(255, 255, 255, 0.5);
     font-size: 10px;
     padding: 6px 8px 2px;
+    text-align: left;
   }
 
   .dd-divider {
@@ -727,6 +766,7 @@ body {
     background: rgba(255, 255, 255, 0.08) !important;
     color: #fff !important;
     font-size: 12px !important;
+    text-align: left;
   }
 
   .dropdown-menu li a {
@@ -735,6 +775,8 @@ body {
     color: #ffffff;
     opacity: 0.85;
     border-radius: 6px;
+    text-align: left;
+    display: block;
   }
 
   .dropdown-menu li a:hover {
@@ -816,15 +858,16 @@ body {
 @media (max-width: 480px) {
   .navbar .nav-inner,
   .nav-inner {
-    padding: 10px 0px !important;
+    padding: 4px 14px !important;
     margin: 0 auto !important;
   }
 
   .navbar .logo-img,
   .logo-img,
   .inner-page .logo-img {
-    height: 70px !important;
+    height: 130px !important;
     width: auto !important;
+    margin: -28px 0 !important;
     object-fit: contain;
   }
 }
@@ -879,27 +922,36 @@ body {
 
   .footer-brand {
     grid-column: span 1;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .footer-logo {
-    margin: -25px auto;
+    height: 100px;
+    margin: -25px 0 -25px -18px;
+    object-position: left center;
+  }
+
+  .footer-description {
+    text-align: left;
+    max-width: 100%;
+    margin: 0;
   }
 
   .social-icons {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .footer-bottom-inner {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+    align-items: flex-start;
     gap: 16px;
     padding: 24px 20px;
   }
 
   .footer-policies {
-    justify-content: center;
+    justify-content: flex-start;
     gap: 16px;
   }
 }

@@ -107,7 +107,7 @@ body.about-page {
 }
 
 .breadcrumb .crumb-separator {
-  color: #116e4a;
+  color: var(--about-primary);
   font-size: 16px;
   line-height: 1;
 }
@@ -725,7 +725,15 @@ body.about-page {
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.6px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+
+.cta-desc {
+  font-family: var(--about-font);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--about-body-text);
+  margin-bottom: 28px;
 }
 
 .cta-contact-btn {

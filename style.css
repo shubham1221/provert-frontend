@@ -8,8 +8,9 @@
 }
 
 :root {
+  --service-primary: #16a34a;
   --primary-color: #1a3a52;
-  --secondary-color: #00a651;
+  --secondary-color: #16a34a;
   --accent-color: #ff9800;
   --text-dark: #1a1a1a;
   --text-light: #666666;
@@ -135,7 +136,7 @@ nav {
 }
 
 .hero-title-accent {
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   font-weight: 800;
 }
 
@@ -477,7 +478,7 @@ nav {
 }
 
 .about-story-eyebrow {
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   /* Primary brand green */
   font-family: "Manrope", sans-serif;
   font-size: 0.85rem;
@@ -647,7 +648,7 @@ h1 span {
 }
 
 .stats h2 {
-  color: #0a8f5c;
+  color: var(--service-primary);
   font-size: 2.6em;
   font-weight: 800;
 }
@@ -808,7 +809,7 @@ h1 span {
 
 .icon {
   font-size: 26px;
-  color: #0a8f5c;
+  color: var(--service-primary);
   margin-bottom: 10px;
   display: flex;
   justify-content: flex-start;
@@ -818,7 +819,7 @@ h1 span {
 .icon svg {
   width: 28px;
   height: 28px;
-  color: #0a8f5c;
+  color: var(--service-primary);
   stroke-width: 1.3;
 }
 
@@ -963,7 +964,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   font-family: "Manrope", sans-serif;
 }
 
@@ -977,7 +978,7 @@ h1 span {
 }
 
 .why-choose-green {
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 .why-choose-row {
@@ -1042,7 +1043,7 @@ h1 span {
 }
 
 .why-choose-card:hover .why-choose-num {
-  color: #116e4a;
+  color: var(--service-primary);
   transform: translateY(-4px) scale(1.05);
 }
 
@@ -1057,7 +1058,7 @@ h1 span {
 }
 
 .why-choose-card:hover .why-choose-card-title {
-  color: #116e4a;
+  color: var(--service-primary);
   transform: translateX(2px);
 }
 
@@ -1079,12 +1080,12 @@ h1 span {
 }
 
 .why-choose-card:hover .why-choose-card-desc span {
-  color: #116e4a;
+  color: var(--service-primary);
   font-weight: 600;
 }
 
 .why-choose-highlight {
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   font-weight: 600;
 }
 
@@ -1134,7 +1135,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   font-family: "Manrope", sans-serif;
 }
 
@@ -1421,7 +1422,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   font-family: "Manrope", sans-serif;
 }
 
@@ -1447,7 +1448,7 @@ h1 span {
   font-family: "Manrope", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   text-decoration: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
   margin-bottom: 8px;
@@ -1484,18 +1485,21 @@ h1 span {
 
 .blog-card__image-wrap {
   width: 100%;
-  aspect-ratio: 1.6;
+  aspect-ratio: 16 / 10;
   border-radius: 20px;
   overflow: hidden;
   margin-bottom: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  position: relative;
+  background-color: #f1f5f9;
 }
 
 .blog-card__image-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.4s ease;
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .blog-card:hover .blog-card__image-wrap img {
@@ -1519,7 +1523,7 @@ h1 span {
 }
 
 .blog-card__title a:hover {
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 .blog-card__link {
@@ -1529,7 +1533,7 @@ h1 span {
   font-family: "Manrope", sans-serif;
   font-size: 13.5px;
   font-weight: 700;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   text-decoration: none;
   transition: opacity 0.2s ease;
 }
@@ -1782,7 +1786,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   font-family: "Manrope", sans-serif;
 }
 
@@ -1861,7 +1865,7 @@ h1 span {
   font-family: "Manrope", sans-serif;
   font-size: 36px;
   font-weight: 700;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   line-height: 1;
   min-width: 50px;
   flex-shrink: 0;
@@ -1949,7 +1953,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 .faq-left-title {
@@ -2061,7 +2065,7 @@ h1 span {
   height: 42px;
   border-radius: 50%;
   background-color: rgba(17, 110, 74, 0.1);
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2402,7 +2406,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 .contact-sec-title {
@@ -2416,7 +2420,7 @@ h1 span {
 
 .contact-sec-title span {
   font-weight: 700;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 .contact-sec-desc {
@@ -2445,7 +2449,7 @@ h1 span {
 }
 
 .contact-sec-info-item svg {
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   flex-shrink: 0;
 }
 
@@ -3816,28 +3820,7 @@ h1 span {
 
 }
 
-/* Force compact header sizing on home page mobile */
-@media (max-width: 768px) {
-  .navbar .nav-inner {
-    padding: 10px 0px !important;
-  }
 
-  .navbar .logo-img {
-    height: 80px !important;
-    width: auto;
-  }
-}
-
-@media (max-width: 480px) {
-  .navbar .nav-inner {
-    padding: 10px 0px !important;
-  }
-
-  .navbar .logo-img {
-    height: 70px !important;
-    width: auto;
-  }
-}
 
 /* ===== INDUSTRIES WE SERVE SECTION ===== */
 .industries-serve-section {
@@ -3865,7 +3848,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
   font-family: "Manrope", sans-serif;
 }
 
@@ -3879,7 +3862,7 @@ h1 span {
 }
 
 .industries-serve-green {
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 .industries-grid {
@@ -3932,7 +3915,7 @@ h1 span {
 }
 
 .industry-card:hover .industry-card-title {
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 /* Responsive Media Queries */

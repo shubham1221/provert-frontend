@@ -61,7 +61,7 @@ body {
 }
 
 .breadcrumb a {
-  color: #116E4A;
+  color: #16a34a;
   font-weight: 500;
   font-style: normal;
   font-size: clamp(13px, 1.5vw, 16px);
@@ -121,7 +121,7 @@ body {
   gap: 6px;
   background-color: transparent;
   border: none;
-  color: #116E4A;
+  color: #16a34a;
   font-family: 'Manrope', sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -134,7 +134,7 @@ body {
 .blog-post .read-more::after {
   content: '↗';               /* arrow icon matching design */
   font-size: 14px;
-  color: #116E4A;
+  color: #16a34a;
 }
 
 .blog-post .read-more:hover {
