@@ -80,16 +80,16 @@
 }
 
 .product-breadcrumb a:hover {
-    color: #16a34a;
+    color: #116E4A;
 }
 
 .product-crumb-sep {
-    color: #16a34a;
+    color: #116E4A;
     font-size: 16px;
 }
 
 .product-crumb-active {
-    color: #16a34a;
+    color: #116E4A;
     font-weight: 500;
 }
 
@@ -115,7 +115,7 @@
     font-weight: 700;
     letter-spacing: 1.8px;
     text-transform: uppercase;
-    color: #16a34a;
+    color: #116E4A;
 }
 
 .product-search-subheading {
@@ -128,7 +128,7 @@
 }
 
 .product-search-subheading span {
-    color: #16a34a;
+    color: #116E4A;
 }
 
 /* ===== PRODUCT SEARCH BAR ===== */

@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --about-primary: #16a34a;
+  --about-primary: #116E4A;
   --about-primary-dark: #116e4a;
   --about-primary-light: #ecfdf5;
   --about-primary-glow: rgba(22, 163, 74, 0.15);
@@ -103,7 +103,7 @@ body.about-page {
 }
 
 .breadcrumb a:hover {
-  color: #16a34a;
+  color: #116E4A;
 }
 
 .breadcrumb .crumb-separator {
@@ -113,7 +113,7 @@ body.about-page {
 }
 
 .breadcrumb .active-crumb {
-  color: #16a34a;
+  color: #116E4A;
   font-weight: 500;
 }
 
@@ -550,7 +550,7 @@ body.about-page {
 
 .cert-feature-item:hover .feature-num {
   transform: translateX(2px);
-  color: #15803d;
+  color: #116E4A;
 }
 
 .feature-title {

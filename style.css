@@ -8,9 +8,9 @@
 }
 
 :root {
-  --service-primary: #16a34a;
+  --service-primary: #116E4A;
   --primary-color: #1a3a52;
-  --secondary-color: #16a34a;
+  --secondary-color: #116E4A;
   --accent-color: #ff9800;
   --text-dark: #1a1a1a;
   --text-light: #666666;
@@ -171,7 +171,7 @@ nav {
 .hero-btn--primary {
   background: rgba(17, 110, 74, 1);
   color: #fff;
-  border-color: rgba(17, 110, 74, 1);
+  border-color: #116E4A;
   box-shadow: 0 4px 18px rgba(0, 166, 81, 0.35);
 }
 
@@ -403,7 +403,7 @@ nav {
   flex-shrink: 0;
   background: rgba(34, 197, 94, 0.18);
   border: 1px solid rgba(74, 222, 128, 0.55);
-  color: #4ade80;
+  color: #116E4A;
 }
 
 .hero-feature-icon svg {
@@ -490,7 +490,7 @@ nav {
 }
 
 .about-story-heading {
-  font-family: "Outfit", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 2.8rem;
   font-weight: 600;
   line-height: 1.25;
@@ -894,7 +894,7 @@ h1 span {
   transform: translateY(-5px);
   transition: 0.3s;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-  border-color: #0a8f5c;
+  border-color: #116E4A;
 }
 
 .card img {
@@ -927,7 +927,7 @@ h1 span {
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  color: #0a8f5c;
+  color: #116E4A;
   margin-top: auto;
   transition: all 0.3s ease;
 }
@@ -1234,7 +1234,7 @@ h1 span {
 }
 
 .client-tcard:hover .client-tcard__quote-box {
-  border-left-color: rgba(17, 110, 74, 1);
+  border-left-color: #116E4A;
 }
 
 .client-tcard__text {
@@ -1270,7 +1270,7 @@ h1 span {
   height: 48px;
   border-radius: 50%;
   background-color: rgba(17, 110, 74, 0.1);
-  color: rgba(17, 110, 74, 1);
+  color: #116E4A;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1279,7 +1279,7 @@ h1 span {
 }
 
 .client-tcard:hover .client-tcard__avatar-wrap {
-  background-color: rgba(17, 110, 74, 1);
+  background-color: #116E4A;
   color: #ffffff;
   transform: scale(1.05);
 }
@@ -1855,8 +1855,8 @@ h1 span {
 /* Hover & Active Card */
 .process-step.active,
 .process-step:hover {
-  background-color: rgba(17, 110, 74, 1);
-  border-color: rgba(17, 110, 74, 1);
+  background-color: #116E4A;
+  border-color: #116E4A;
   box-shadow: 0 12px 30px rgba(17, 110, 74, 0.15);
 }
 
@@ -1983,7 +1983,7 @@ h1 span {
 .faq-callout-card {
   position: relative;
   overflow: hidden;
-  background-color: rgba(17, 110, 74, 1);
+  background-color: #116E4A;
   border-radius: 20px;
   padding: 36px 32px;
   color: #ffffff;
@@ -2139,8 +2139,8 @@ h1 span {
 }
 
 .faq-item.active {
-  background-color: rgba(17, 110, 74, 1);
-  border-color: rgba(17, 110, 74, 1);
+  background-color: #116E4A;
+  border-color: #116E4A;
   box-shadow: 0 10px 30px rgba(17, 110, 74, 0.12);
 }
 
@@ -2545,7 +2545,7 @@ h1 span {
 .hf-field input:focus,
 .hf-field textarea:focus,
 .hf-field select:focus {
-  border-color: rgba(17, 110, 74, 1);
+  border-color: #116E4A;
   background: #ffffff;
   box-shadow: 0 0 0 3px rgba(17, 110, 74, 0.08);
 }
@@ -3307,7 +3307,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: #116E4A;
   font-family: "Manrope", sans-serif;
 }
 
@@ -3418,7 +3418,7 @@ h1 span {
   font-family: "Manrope", sans-serif;
   font-size: 13px;
   font-weight: 600;
-  color: rgba(17, 110, 74, 1);
+  color: #116E4A;
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -3470,7 +3470,7 @@ h1 span {
   width: 44px;
   height: 44px;
   border-radius: 8px;
-  background-color: rgba(17, 110, 74, 1);
+  background-color: #116E4A;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -3582,7 +3582,7 @@ h1 span {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: #116E4A;
   font-family: "Manrope", sans-serif;
 }
 

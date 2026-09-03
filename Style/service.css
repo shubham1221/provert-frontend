@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --service-primary: #16a34a;
+  --service-primary: #116E4A;
   --service-primary-dark: #116e4a;
   --service-primary-light: #ecfdf5;
   --service-primary-glow: rgba(22, 163, 74, 0.15);
@@ -467,7 +467,7 @@ body.service-page {
 }
 
 .quote-tag {
-  color: #16a34a;
+  color: #116E4A;
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 1.5px;
@@ -543,7 +543,7 @@ body.service-page {
   height: 44px;
   border-radius: 10px;
   background-color: #ecfdf5;
-  color: #16a34a;
+  color: #116E4A;
   display: flex;
   align-items: center;
   justify-content: center;

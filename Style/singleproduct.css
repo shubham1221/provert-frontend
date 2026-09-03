@@ -32,10 +32,10 @@
     transition: color 0.2s;
 }
 
-.sp-breadcrumb a:hover { color: #16a34a; }
+.sp-breadcrumb a:hover { color: #116E4A; }
 
 .sp-breadcrumb span {
-    color: #16a34a;
+    color: #116E4A;
     font-weight: 600;
 }
 
@@ -177,7 +177,7 @@
 .sp-key-spec-value {
     font-size: 14px;
     font-weight: 700;
-    color: #16a34a;
+    color: #116E4A;
 }
 
 /* ===== ACTION BUTTONS ===== */

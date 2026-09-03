@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --custom-primary: #16a34a;
+  --custom-primary: #116E4A;
   --custom-primary-dark: #116e4a;
   --custom-primary-light: #ecfdf5;
   --custom-primary-glow: rgba(22, 163, 74, 0.15);
@@ -219,7 +219,7 @@ body.custom-page {
   align-items: center;
   gap: 8px;
   background-color: transparent;
-  color: var(--custom-primary-dark);
+  color: #116E4A;
   border: 1.5px solid #d1d5db;
   padding: 12px 24px;
   border-radius: 8px;
@@ -319,7 +319,7 @@ body.custom-page {
 }
 
 .custom-stat-number {
-  color: var(--custom-primary-dark);
+  color: #116E4A;
   font-size: clamp(20px, 1.8vw, 26px);
   font-weight: 700;
   line-height: 1.2;
