@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --about-primary: #16a34a;
+  --about-primary: #116E4A;
   --about-primary-dark: #116e4a;
   --about-primary-light: #ecfdf5;
   --about-primary-glow: rgba(22, 163, 74, 0.15);
@@ -103,17 +103,17 @@ body.about-page {
 }
 
 .breadcrumb a:hover {
-  color: #16a34a;
+  color: #116E4A;
 }
 
 .breadcrumb .crumb-separator {
-  color: #116e4a;
+  color: var(--about-primary);
   font-size: 16px;
   line-height: 1;
 }
 
 .breadcrumb .active-crumb {
-  color: #16a34a;
+  color: #116E4A;
   font-weight: 500;
 }
 
@@ -538,9 +538,6 @@ body.about-page {
   border-right: 1px solid #eef2f6;
 }
 
-.cert-feature-item:nth-child(4) {
-}
-
 .feature-num {
   color: var(--about-primary);
   font-size: 15px;
@@ -553,7 +550,7 @@ body.about-page {
 
 .cert-feature-item:hover .feature-num {
   transform: translateX(2px);
-  color: #15803d;
+  color: #116E4A;
 }
 
 .feature-title {
@@ -728,7 +725,15 @@ body.about-page {
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.6px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+
+.cta-desc {
+  font-family: var(--about-font);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--about-body-text);
+  margin-bottom: 28px;
 }
 
 .cta-contact-btn {

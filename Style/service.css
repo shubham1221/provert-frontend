@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-  --service-primary: #16a34a;
+  --service-primary: #116E4A;
   --service-primary-dark: #116e4a;
   --service-primary-light: #ecfdf5;
   --service-primary-glow: rgba(22, 163, 74, 0.15);
@@ -97,17 +97,17 @@ body.service-page {
 }
 
 .breadcrumb a:hover {
-  color: #16a34a;
+  color: var(--service-primary);
 }
 
 .breadcrumb .crumb-separator {
-  color: #116e4a;
+  color: var(--service-primary);
   font-size: 16px;
   line-height: 1;
 }
 
 .breadcrumb .active-crumb {
-  color: #16a34a;
+  color: var(--service-primary);
   font-weight: 500;
 }
 
@@ -467,7 +467,7 @@ body.service-page {
 }
 
 .quote-tag {
-  color: #16a34a;
+  color: #116E4A;
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 1.5px;
@@ -543,7 +543,7 @@ body.service-page {
   height: 44px;
   border-radius: 10px;
   background-color: #ecfdf5;
-  color: #16a34a;
+  color: #116E4A;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -615,7 +615,7 @@ body.service-page {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 110, 74, 1);
+  color: var(--service-primary);
 }
 
 .faq-left-title {
@@ -984,7 +984,15 @@ body.service-page {
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.6px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+
+.cta-desc {
+  font-family: var(--service-font);
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--service-body-text);
+  margin-bottom: 28px;
 }
 
 .cta-contact-btn {
