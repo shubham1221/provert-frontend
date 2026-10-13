@@ -32,10 +32,13 @@ if (faqItems.length > 0) {
     const question = item.querySelector(".faq-question");
     if (question) {
       question.addEventListener("click", () => {
+        const isActive = item.classList.contains("active");
         faqItems.forEach((otherItem) => {
-          if (otherItem !== item) otherItem.classList.remove("active");
+          otherItem.classList.remove("active");
         });
-        item.classList.toggle("active");
+        if (!isActive) {
+          item.classList.add("active");
+        }
       });
     }
   });
@@ -315,6 +318,12 @@ function initRevealAnimations() {
       void item.offsetHeight;
       
       item.classList.add("revealed");
+
+      // Clear inline transitionDelay once entrance animation finishes
+      setTimeout(() => {
+        item.style.transitionDelay = "";
+      }, itemDelay + 600);
+
       delay += staggerDelay;
     });
   };
